@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "vite preview --port 3015 --host 0.0.0.0"
+    "start": "serve ./dist/index.html"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
