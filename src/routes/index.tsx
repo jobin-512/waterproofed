@@ -1,8 +1,8 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
-import Hero from './components/hero'
-import TrustedPartners from './components/trusted-partners'
-import Testimonial from './components/testimonial'
+import Hero from '../components/hero'
+import TrustedPartners from '../components/trusted-partners'
+import Testimonial from '../components/testimonial'
 
 export const Route = createFileRoute('/')({
   component: Index,

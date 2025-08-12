@@ -1,6 +1,6 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
-import Testimonial from '../components/testimonial'
+import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/services/deck-waterproofing-coating-repair')({
   component: DeckWaterproofingCoatingRepair,

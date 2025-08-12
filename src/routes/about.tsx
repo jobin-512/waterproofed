@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import Testimonial from './components/testimonial'
+import Testimonial from '../components/testimonial'
 
 export const Route = createFileRoute('/about')({
   component: About,
