@@ -17,26 +17,26 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as ServicesPlanterWaterproofingCoatingRepairRouteImport } from './routes/services/planter-waterproofing-coating-repair'
 import { Route as ServicesDeckWaterproofingCoatingRepairRouteImport } from './routes/services/deck-waterproofing-coating-repair'
 import { Route as ServicesBalconyWaterproofingCoatingRepairRouteImport } from './routes/services/balcony-waterproofing-coating-repair'
-import { Route as BlogsBlog9RouteImport } from './routes/blogs/blog-9'
-import { Route as BlogsBlog8RouteImport } from './routes/blogs/blog-8'
-import { Route as BlogsBlog7RouteImport } from './routes/blogs/blog-7'
-import { Route as BlogsBlog6RouteImport } from './routes/blogs/blog-6'
-import { Route as BlogsBlog5RouteImport } from './routes/blogs/blog-5'
-import { Route as BlogsBlog4RouteImport } from './routes/blogs/blog-4'
-import { Route as BlogsBlog3RouteImport } from './routes/blogs/blog-3'
-import { Route as BlogsBlog20RouteImport } from './routes/blogs/blog-20'
-import { Route as BlogsBlog2RouteImport } from './routes/blogs/blog-2'
-import { Route as BlogsBlog19RouteImport } from './routes/blogs/blog-19'
-import { Route as BlogsBlog18RouteImport } from './routes/blogs/blog-18'
-import { Route as BlogsBlog17RouteImport } from './routes/blogs/blog-17'
-import { Route as BlogsBlog16RouteImport } from './routes/blogs/blog-16'
-import { Route as BlogsBlog15RouteImport } from './routes/blogs/blog-15'
-import { Route as BlogsBlog14RouteImport } from './routes/blogs/blog-14'
-import { Route as BlogsBlog13RouteImport } from './routes/blogs/blog-13'
-import { Route as BlogsBlog12RouteImport } from './routes/blogs/blog-12'
-import { Route as BlogsBlog11RouteImport } from './routes/blogs/blog-11'
-import { Route as BlogsBlog10RouteImport } from './routes/blogs/blog-10'
-import { Route as BlogsBlog1RouteImport } from './routes/blogs/blog-1'
+import { Route as blogBlog9RouteImport } from './routes/(blog)/blog-9'
+import { Route as blogBlog8RouteImport } from './routes/(blog)/blog-8'
+import { Route as blogBlog7RouteImport } from './routes/(blog)/blog-7'
+import { Route as blogBlog6RouteImport } from './routes/(blog)/blog-6'
+import { Route as blogBlog5RouteImport } from './routes/(blog)/blog-5'
+import { Route as blogBlog4RouteImport } from './routes/(blog)/blog-4'
+import { Route as blogBlog3RouteImport } from './routes/(blog)/blog-3'
+import { Route as blogBlog20RouteImport } from './routes/(blog)/blog-20'
+import { Route as blogBlog2RouteImport } from './routes/(blog)/blog-2'
+import { Route as blogBlog19RouteImport } from './routes/(blog)/blog-19'
+import { Route as blogBlog18RouteImport } from './routes/(blog)/blog-18'
+import { Route as blogBlog17RouteImport } from './routes/(blog)/blog-17'
+import { Route as blogBlog16RouteImport } from './routes/(blog)/blog-16'
+import { Route as blogBlog15RouteImport } from './routes/(blog)/blog-15'
+import { Route as blogBlog14RouteImport } from './routes/(blog)/blog-14'
+import { Route as blogBlog13RouteImport } from './routes/(blog)/blog-13'
+import { Route as blogBlog12RouteImport } from './routes/(blog)/blog-12'
+import { Route as blogBlog11RouteImport } from './routes/(blog)/blog-11'
+import { Route as blogBlog10RouteImport } from './routes/(blog)/blog-10'
+import { Route as blogBlog1RouteImport } from './routes/(blog)/blog-1'
 
 const ServiceRoute = ServiceRouteImport.update({
   id: '/service',
@@ -81,104 +81,104 @@ const ServicesBalconyWaterproofingCoatingRepairRoute =
     path: '/services/balcony-waterproofing-coating-repair',
     getParentRoute: () => rootRouteImport,
   } as any)
-const BlogsBlog9Route = BlogsBlog9RouteImport.update({
-  id: '/blogs/blog-9',
-  path: '/blogs/blog-9',
+const blogBlog9Route = blogBlog9RouteImport.update({
+  id: '/(blog)/blog-9',
+  path: '/blog-9',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog8Route = BlogsBlog8RouteImport.update({
-  id: '/blogs/blog-8',
-  path: '/blogs/blog-8',
+const blogBlog8Route = blogBlog8RouteImport.update({
+  id: '/(blog)/blog-8',
+  path: '/blog-8',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog7Route = BlogsBlog7RouteImport.update({
-  id: '/blogs/blog-7',
-  path: '/blogs/blog-7',
+const blogBlog7Route = blogBlog7RouteImport.update({
+  id: '/(blog)/blog-7',
+  path: '/blog-7',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog6Route = BlogsBlog6RouteImport.update({
-  id: '/blogs/blog-6',
-  path: '/blogs/blog-6',
+const blogBlog6Route = blogBlog6RouteImport.update({
+  id: '/(blog)/blog-6',
+  path: '/blog-6',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog5Route = BlogsBlog5RouteImport.update({
-  id: '/blogs/blog-5',
-  path: '/blogs/blog-5',
+const blogBlog5Route = blogBlog5RouteImport.update({
+  id: '/(blog)/blog-5',
+  path: '/blog-5',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog4Route = BlogsBlog4RouteImport.update({
-  id: '/blogs/blog-4',
-  path: '/blogs/blog-4',
+const blogBlog4Route = blogBlog4RouteImport.update({
+  id: '/(blog)/blog-4',
+  path: '/blog-4',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog3Route = BlogsBlog3RouteImport.update({
-  id: '/blogs/blog-3',
-  path: '/blogs/blog-3',
+const blogBlog3Route = blogBlog3RouteImport.update({
+  id: '/(blog)/blog-3',
+  path: '/blog-3',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog20Route = BlogsBlog20RouteImport.update({
-  id: '/blogs/blog-20',
-  path: '/blogs/blog-20',
+const blogBlog20Route = blogBlog20RouteImport.update({
+  id: '/(blog)/blog-20',
+  path: '/blog-20',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog2Route = BlogsBlog2RouteImport.update({
-  id: '/blogs/blog-2',
-  path: '/blogs/blog-2',
+const blogBlog2Route = blogBlog2RouteImport.update({
+  id: '/(blog)/blog-2',
+  path: '/blog-2',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog19Route = BlogsBlog19RouteImport.update({
-  id: '/blogs/blog-19',
-  path: '/blogs/blog-19',
+const blogBlog19Route = blogBlog19RouteImport.update({
+  id: '/(blog)/blog-19',
+  path: '/blog-19',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog18Route = BlogsBlog18RouteImport.update({
-  id: '/blogs/blog-18',
-  path: '/blogs/blog-18',
+const blogBlog18Route = blogBlog18RouteImport.update({
+  id: '/(blog)/blog-18',
+  path: '/blog-18',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog17Route = BlogsBlog17RouteImport.update({
-  id: '/blogs/blog-17',
-  path: '/blogs/blog-17',
+const blogBlog17Route = blogBlog17RouteImport.update({
+  id: '/(blog)/blog-17',
+  path: '/blog-17',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog16Route = BlogsBlog16RouteImport.update({
-  id: '/blogs/blog-16',
-  path: '/blogs/blog-16',
+const blogBlog16Route = blogBlog16RouteImport.update({
+  id: '/(blog)/blog-16',
+  path: '/blog-16',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog15Route = BlogsBlog15RouteImport.update({
-  id: '/blogs/blog-15',
-  path: '/blogs/blog-15',
+const blogBlog15Route = blogBlog15RouteImport.update({
+  id: '/(blog)/blog-15',
+  path: '/blog-15',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog14Route = BlogsBlog14RouteImport.update({
-  id: '/blogs/blog-14',
-  path: '/blogs/blog-14',
+const blogBlog14Route = blogBlog14RouteImport.update({
+  id: '/(blog)/blog-14',
+  path: '/blog-14',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog13Route = BlogsBlog13RouteImport.update({
-  id: '/blogs/blog-13',
-  path: '/blogs/blog-13',
+const blogBlog13Route = blogBlog13RouteImport.update({
+  id: '/(blog)/blog-13',
+  path: '/blog-13',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog12Route = BlogsBlog12RouteImport.update({
-  id: '/blogs/blog-12',
-  path: '/blogs/blog-12',
+const blogBlog12Route = blogBlog12RouteImport.update({
+  id: '/(blog)/blog-12',
+  path: '/blog-12',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog11Route = BlogsBlog11RouteImport.update({
-  id: '/blogs/blog-11',
-  path: '/blogs/blog-11',
+const blogBlog11Route = blogBlog11RouteImport.update({
+  id: '/(blog)/blog-11',
+  path: '/blog-11',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog10Route = BlogsBlog10RouteImport.update({
-  id: '/blogs/blog-10',
-  path: '/blogs/blog-10',
+const blogBlog10Route = blogBlog10RouteImport.update({
+  id: '/(blog)/blog-10',
+  path: '/blog-10',
   getParentRoute: () => rootRouteImport,
 } as any)
-const BlogsBlog1Route = BlogsBlog1RouteImport.update({
-  id: '/blogs/blog-1',
-  path: '/blogs/blog-1',
+const blogBlog1Route = blogBlog1RouteImport.update({
+  id: '/(blog)/blog-1',
+  path: '/blog-1',
   getParentRoute: () => rootRouteImport,
 } as any)
 
@@ -188,26 +188,26 @@ export interface FileRoutesByFullPath {
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/service': typeof ServiceRoute
-  '/blogs/blog-1': typeof BlogsBlog1Route
-  '/blogs/blog-10': typeof BlogsBlog10Route
-  '/blogs/blog-11': typeof BlogsBlog11Route
-  '/blogs/blog-12': typeof BlogsBlog12Route
-  '/blogs/blog-13': typeof BlogsBlog13Route
-  '/blogs/blog-14': typeof BlogsBlog14Route
-  '/blogs/blog-15': typeof BlogsBlog15Route
-  '/blogs/blog-16': typeof BlogsBlog16Route
-  '/blogs/blog-17': typeof BlogsBlog17Route
-  '/blogs/blog-18': typeof BlogsBlog18Route
-  '/blogs/blog-19': typeof BlogsBlog19Route
-  '/blogs/blog-2': typeof BlogsBlog2Route
-  '/blogs/blog-20': typeof BlogsBlog20Route
-  '/blogs/blog-3': typeof BlogsBlog3Route
-  '/blogs/blog-4': typeof BlogsBlog4Route
-  '/blogs/blog-5': typeof BlogsBlog5Route
-  '/blogs/blog-6': typeof BlogsBlog6Route
-  '/blogs/blog-7': typeof BlogsBlog7Route
-  '/blogs/blog-8': typeof BlogsBlog8Route
-  '/blogs/blog-9': typeof BlogsBlog9Route
+  '/blog-1': typeof blogBlog1Route
+  '/blog-10': typeof blogBlog10Route
+  '/blog-11': typeof blogBlog11Route
+  '/blog-12': typeof blogBlog12Route
+  '/blog-13': typeof blogBlog13Route
+  '/blog-14': typeof blogBlog14Route
+  '/blog-15': typeof blogBlog15Route
+  '/blog-16': typeof blogBlog16Route
+  '/blog-17': typeof blogBlog17Route
+  '/blog-18': typeof blogBlog18Route
+  '/blog-19': typeof blogBlog19Route
+  '/blog-2': typeof blogBlog2Route
+  '/blog-20': typeof blogBlog20Route
+  '/blog-3': typeof blogBlog3Route
+  '/blog-4': typeof blogBlog4Route
+  '/blog-5': typeof blogBlog5Route
+  '/blog-6': typeof blogBlog6Route
+  '/blog-7': typeof blogBlog7Route
+  '/blog-8': typeof blogBlog8Route
+  '/blog-9': typeof blogBlog9Route
   '/services/balcony-waterproofing-coating-repair': typeof ServicesBalconyWaterproofingCoatingRepairRoute
   '/services/deck-waterproofing-coating-repair': typeof ServicesDeckWaterproofingCoatingRepairRoute
   '/services/planter-waterproofing-coating-repair': typeof ServicesPlanterWaterproofingCoatingRepairRoute
@@ -218,26 +218,26 @@ export interface FileRoutesByTo {
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/service': typeof ServiceRoute
-  '/blogs/blog-1': typeof BlogsBlog1Route
-  '/blogs/blog-10': typeof BlogsBlog10Route
-  '/blogs/blog-11': typeof BlogsBlog11Route
-  '/blogs/blog-12': typeof BlogsBlog12Route
-  '/blogs/blog-13': typeof BlogsBlog13Route
-  '/blogs/blog-14': typeof BlogsBlog14Route
-  '/blogs/blog-15': typeof BlogsBlog15Route
-  '/blogs/blog-16': typeof BlogsBlog16Route
-  '/blogs/blog-17': typeof BlogsBlog17Route
-  '/blogs/blog-18': typeof BlogsBlog18Route
-  '/blogs/blog-19': typeof BlogsBlog19Route
-  '/blogs/blog-2': typeof BlogsBlog2Route
-  '/blogs/blog-20': typeof BlogsBlog20Route
-  '/blogs/blog-3': typeof BlogsBlog3Route
-  '/blogs/blog-4': typeof BlogsBlog4Route
-  '/blogs/blog-5': typeof BlogsBlog5Route
-  '/blogs/blog-6': typeof BlogsBlog6Route
-  '/blogs/blog-7': typeof BlogsBlog7Route
-  '/blogs/blog-8': typeof BlogsBlog8Route
-  '/blogs/blog-9': typeof BlogsBlog9Route
+  '/blog-1': typeof blogBlog1Route
+  '/blog-10': typeof blogBlog10Route
+  '/blog-11': typeof blogBlog11Route
+  '/blog-12': typeof blogBlog12Route
+  '/blog-13': typeof blogBlog13Route
+  '/blog-14': typeof blogBlog14Route
+  '/blog-15': typeof blogBlog15Route
+  '/blog-16': typeof blogBlog16Route
+  '/blog-17': typeof blogBlog17Route
+  '/blog-18': typeof blogBlog18Route
+  '/blog-19': typeof blogBlog19Route
+  '/blog-2': typeof blogBlog2Route
+  '/blog-20': typeof blogBlog20Route
+  '/blog-3': typeof blogBlog3Route
+  '/blog-4': typeof blogBlog4Route
+  '/blog-5': typeof blogBlog5Route
+  '/blog-6': typeof blogBlog6Route
+  '/blog-7': typeof blogBlog7Route
+  '/blog-8': typeof blogBlog8Route
+  '/blog-9': typeof blogBlog9Route
   '/services/balcony-waterproofing-coating-repair': typeof ServicesBalconyWaterproofingCoatingRepairRoute
   '/services/deck-waterproofing-coating-repair': typeof ServicesDeckWaterproofingCoatingRepairRoute
   '/services/planter-waterproofing-coating-repair': typeof ServicesPlanterWaterproofingCoatingRepairRoute
@@ -249,26 +249,26 @@ export interface FileRoutesById {
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/service': typeof ServiceRoute
-  '/blogs/blog-1': typeof BlogsBlog1Route
-  '/blogs/blog-10': typeof BlogsBlog10Route
-  '/blogs/blog-11': typeof BlogsBlog11Route
-  '/blogs/blog-12': typeof BlogsBlog12Route
-  '/blogs/blog-13': typeof BlogsBlog13Route
-  '/blogs/blog-14': typeof BlogsBlog14Route
-  '/blogs/blog-15': typeof BlogsBlog15Route
-  '/blogs/blog-16': typeof BlogsBlog16Route
-  '/blogs/blog-17': typeof BlogsBlog17Route
-  '/blogs/blog-18': typeof BlogsBlog18Route
-  '/blogs/blog-19': typeof BlogsBlog19Route
-  '/blogs/blog-2': typeof BlogsBlog2Route
-  '/blogs/blog-20': typeof BlogsBlog20Route
-  '/blogs/blog-3': typeof BlogsBlog3Route
-  '/blogs/blog-4': typeof BlogsBlog4Route
-  '/blogs/blog-5': typeof BlogsBlog5Route
-  '/blogs/blog-6': typeof BlogsBlog6Route
-  '/blogs/blog-7': typeof BlogsBlog7Route
-  '/blogs/blog-8': typeof BlogsBlog8Route
-  '/blogs/blog-9': typeof BlogsBlog9Route
+  '/(blog)/blog-1': typeof blogBlog1Route
+  '/(blog)/blog-10': typeof blogBlog10Route
+  '/(blog)/blog-11': typeof blogBlog11Route
+  '/(blog)/blog-12': typeof blogBlog12Route
+  '/(blog)/blog-13': typeof blogBlog13Route
+  '/(blog)/blog-14': typeof blogBlog14Route
+  '/(blog)/blog-15': typeof blogBlog15Route
+  '/(blog)/blog-16': typeof blogBlog16Route
+  '/(blog)/blog-17': typeof blogBlog17Route
+  '/(blog)/blog-18': typeof blogBlog18Route
+  '/(blog)/blog-19': typeof blogBlog19Route
+  '/(blog)/blog-2': typeof blogBlog2Route
+  '/(blog)/blog-20': typeof blogBlog20Route
+  '/(blog)/blog-3': typeof blogBlog3Route
+  '/(blog)/blog-4': typeof blogBlog4Route
+  '/(blog)/blog-5': typeof blogBlog5Route
+  '/(blog)/blog-6': typeof blogBlog6Route
+  '/(blog)/blog-7': typeof blogBlog7Route
+  '/(blog)/blog-8': typeof blogBlog8Route
+  '/(blog)/blog-9': typeof blogBlog9Route
   '/services/balcony-waterproofing-coating-repair': typeof ServicesBalconyWaterproofingCoatingRepairRoute
   '/services/deck-waterproofing-coating-repair': typeof ServicesDeckWaterproofingCoatingRepairRoute
   '/services/planter-waterproofing-coating-repair': typeof ServicesPlanterWaterproofingCoatingRepairRoute
@@ -281,26 +281,26 @@ export interface FileRouteTypes {
     | '/blog'
     | '/contact'
     | '/service'
-    | '/blogs/blog-1'
-    | '/blogs/blog-10'
-    | '/blogs/blog-11'
-    | '/blogs/blog-12'
-    | '/blogs/blog-13'
-    | '/blogs/blog-14'
-    | '/blogs/blog-15'
-    | '/blogs/blog-16'
-    | '/blogs/blog-17'
-    | '/blogs/blog-18'
-    | '/blogs/blog-19'
-    | '/blogs/blog-2'
-    | '/blogs/blog-20'
-    | '/blogs/blog-3'
-    | '/blogs/blog-4'
-    | '/blogs/blog-5'
-    | '/blogs/blog-6'
-    | '/blogs/blog-7'
-    | '/blogs/blog-8'
-    | '/blogs/blog-9'
+    | '/blog-1'
+    | '/blog-10'
+    | '/blog-11'
+    | '/blog-12'
+    | '/blog-13'
+    | '/blog-14'
+    | '/blog-15'
+    | '/blog-16'
+    | '/blog-17'
+    | '/blog-18'
+    | '/blog-19'
+    | '/blog-2'
+    | '/blog-20'
+    | '/blog-3'
+    | '/blog-4'
+    | '/blog-5'
+    | '/blog-6'
+    | '/blog-7'
+    | '/blog-8'
+    | '/blog-9'
     | '/services/balcony-waterproofing-coating-repair'
     | '/services/deck-waterproofing-coating-repair'
     | '/services/planter-waterproofing-coating-repair'
@@ -311,26 +311,26 @@ export interface FileRouteTypes {
     | '/blog'
     | '/contact'
     | '/service'
-    | '/blogs/blog-1'
-    | '/blogs/blog-10'
-    | '/blogs/blog-11'
-    | '/blogs/blog-12'
-    | '/blogs/blog-13'
-    | '/blogs/blog-14'
-    | '/blogs/blog-15'
-    | '/blogs/blog-16'
-    | '/blogs/blog-17'
-    | '/blogs/blog-18'
-    | '/blogs/blog-19'
-    | '/blogs/blog-2'
-    | '/blogs/blog-20'
-    | '/blogs/blog-3'
-    | '/blogs/blog-4'
-    | '/blogs/blog-5'
-    | '/blogs/blog-6'
-    | '/blogs/blog-7'
-    | '/blogs/blog-8'
-    | '/blogs/blog-9'
+    | '/blog-1'
+    | '/blog-10'
+    | '/blog-11'
+    | '/blog-12'
+    | '/blog-13'
+    | '/blog-14'
+    | '/blog-15'
+    | '/blog-16'
+    | '/blog-17'
+    | '/blog-18'
+    | '/blog-19'
+    | '/blog-2'
+    | '/blog-20'
+    | '/blog-3'
+    | '/blog-4'
+    | '/blog-5'
+    | '/blog-6'
+    | '/blog-7'
+    | '/blog-8'
+    | '/blog-9'
     | '/services/balcony-waterproofing-coating-repair'
     | '/services/deck-waterproofing-coating-repair'
     | '/services/planter-waterproofing-coating-repair'
@@ -341,26 +341,26 @@ export interface FileRouteTypes {
     | '/blog'
     | '/contact'
     | '/service'
-    | '/blogs/blog-1'
-    | '/blogs/blog-10'
-    | '/blogs/blog-11'
-    | '/blogs/blog-12'
-    | '/blogs/blog-13'
-    | '/blogs/blog-14'
-    | '/blogs/blog-15'
-    | '/blogs/blog-16'
-    | '/blogs/blog-17'
-    | '/blogs/blog-18'
-    | '/blogs/blog-19'
-    | '/blogs/blog-2'
-    | '/blogs/blog-20'
-    | '/blogs/blog-3'
-    | '/blogs/blog-4'
-    | '/blogs/blog-5'
-    | '/blogs/blog-6'
-    | '/blogs/blog-7'
-    | '/blogs/blog-8'
-    | '/blogs/blog-9'
+    | '/(blog)/blog-1'
+    | '/(blog)/blog-10'
+    | '/(blog)/blog-11'
+    | '/(blog)/blog-12'
+    | '/(blog)/blog-13'
+    | '/(blog)/blog-14'
+    | '/(blog)/blog-15'
+    | '/(blog)/blog-16'
+    | '/(blog)/blog-17'
+    | '/(blog)/blog-18'
+    | '/(blog)/blog-19'
+    | '/(blog)/blog-2'
+    | '/(blog)/blog-20'
+    | '/(blog)/blog-3'
+    | '/(blog)/blog-4'
+    | '/(blog)/blog-5'
+    | '/(blog)/blog-6'
+    | '/(blog)/blog-7'
+    | '/(blog)/blog-8'
+    | '/(blog)/blog-9'
     | '/services/balcony-waterproofing-coating-repair'
     | '/services/deck-waterproofing-coating-repair'
     | '/services/planter-waterproofing-coating-repair'
@@ -372,26 +372,26 @@ export interface RootRouteChildren {
   BlogRoute: typeof BlogRoute
   ContactRoute: typeof ContactRoute
   ServiceRoute: typeof ServiceRoute
-  BlogsBlog1Route: typeof BlogsBlog1Route
-  BlogsBlog10Route: typeof BlogsBlog10Route
-  BlogsBlog11Route: typeof BlogsBlog11Route
-  BlogsBlog12Route: typeof BlogsBlog12Route
-  BlogsBlog13Route: typeof BlogsBlog13Route
-  BlogsBlog14Route: typeof BlogsBlog14Route
-  BlogsBlog15Route: typeof BlogsBlog15Route
-  BlogsBlog16Route: typeof BlogsBlog16Route
-  BlogsBlog17Route: typeof BlogsBlog17Route
-  BlogsBlog18Route: typeof BlogsBlog18Route
-  BlogsBlog19Route: typeof BlogsBlog19Route
-  BlogsBlog2Route: typeof BlogsBlog2Route
-  BlogsBlog20Route: typeof BlogsBlog20Route
-  BlogsBlog3Route: typeof BlogsBlog3Route
-  BlogsBlog4Route: typeof BlogsBlog4Route
-  BlogsBlog5Route: typeof BlogsBlog5Route
-  BlogsBlog6Route: typeof BlogsBlog6Route
-  BlogsBlog7Route: typeof BlogsBlog7Route
-  BlogsBlog8Route: typeof BlogsBlog8Route
-  BlogsBlog9Route: typeof BlogsBlog9Route
+  blogBlog1Route: typeof blogBlog1Route
+  blogBlog10Route: typeof blogBlog10Route
+  blogBlog11Route: typeof blogBlog11Route
+  blogBlog12Route: typeof blogBlog12Route
+  blogBlog13Route: typeof blogBlog13Route
+  blogBlog14Route: typeof blogBlog14Route
+  blogBlog15Route: typeof blogBlog15Route
+  blogBlog16Route: typeof blogBlog16Route
+  blogBlog17Route: typeof blogBlog17Route
+  blogBlog18Route: typeof blogBlog18Route
+  blogBlog19Route: typeof blogBlog19Route
+  blogBlog2Route: typeof blogBlog2Route
+  blogBlog20Route: typeof blogBlog20Route
+  blogBlog3Route: typeof blogBlog3Route
+  blogBlog4Route: typeof blogBlog4Route
+  blogBlog5Route: typeof blogBlog5Route
+  blogBlog6Route: typeof blogBlog6Route
+  blogBlog7Route: typeof blogBlog7Route
+  blogBlog8Route: typeof blogBlog8Route
+  blogBlog9Route: typeof blogBlog9Route
   ServicesBalconyWaterproofingCoatingRepairRoute: typeof ServicesBalconyWaterproofingCoatingRepairRoute
   ServicesDeckWaterproofingCoatingRepairRoute: typeof ServicesDeckWaterproofingCoatingRepairRoute
   ServicesPlanterWaterproofingCoatingRepairRoute: typeof ServicesPlanterWaterproofingCoatingRepairRoute
@@ -455,144 +455,144 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesBalconyWaterproofingCoatingRepairRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-9': {
-      id: '/blogs/blog-9'
-      path: '/blogs/blog-9'
-      fullPath: '/blogs/blog-9'
-      preLoaderRoute: typeof BlogsBlog9RouteImport
+    '/(blog)/blog-9': {
+      id: '/(blog)/blog-9'
+      path: '/blog-9'
+      fullPath: '/blog-9'
+      preLoaderRoute: typeof blogBlog9RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-8': {
-      id: '/blogs/blog-8'
-      path: '/blogs/blog-8'
-      fullPath: '/blogs/blog-8'
-      preLoaderRoute: typeof BlogsBlog8RouteImport
+    '/(blog)/blog-8': {
+      id: '/(blog)/blog-8'
+      path: '/blog-8'
+      fullPath: '/blog-8'
+      preLoaderRoute: typeof blogBlog8RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-7': {
-      id: '/blogs/blog-7'
-      path: '/blogs/blog-7'
-      fullPath: '/blogs/blog-7'
-      preLoaderRoute: typeof BlogsBlog7RouteImport
+    '/(blog)/blog-7': {
+      id: '/(blog)/blog-7'
+      path: '/blog-7'
+      fullPath: '/blog-7'
+      preLoaderRoute: typeof blogBlog7RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-6': {
-      id: '/blogs/blog-6'
-      path: '/blogs/blog-6'
-      fullPath: '/blogs/blog-6'
-      preLoaderRoute: typeof BlogsBlog6RouteImport
+    '/(blog)/blog-6': {
+      id: '/(blog)/blog-6'
+      path: '/blog-6'
+      fullPath: '/blog-6'
+      preLoaderRoute: typeof blogBlog6RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-5': {
-      id: '/blogs/blog-5'
-      path: '/blogs/blog-5'
-      fullPath: '/blogs/blog-5'
-      preLoaderRoute: typeof BlogsBlog5RouteImport
+    '/(blog)/blog-5': {
+      id: '/(blog)/blog-5'
+      path: '/blog-5'
+      fullPath: '/blog-5'
+      preLoaderRoute: typeof blogBlog5RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-4': {
-      id: '/blogs/blog-4'
-      path: '/blogs/blog-4'
-      fullPath: '/blogs/blog-4'
-      preLoaderRoute: typeof BlogsBlog4RouteImport
+    '/(blog)/blog-4': {
+      id: '/(blog)/blog-4'
+      path: '/blog-4'
+      fullPath: '/blog-4'
+      preLoaderRoute: typeof blogBlog4RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-3': {
-      id: '/blogs/blog-3'
-      path: '/blogs/blog-3'
-      fullPath: '/blogs/blog-3'
-      preLoaderRoute: typeof BlogsBlog3RouteImport
+    '/(blog)/blog-3': {
+      id: '/(blog)/blog-3'
+      path: '/blog-3'
+      fullPath: '/blog-3'
+      preLoaderRoute: typeof blogBlog3RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-20': {
-      id: '/blogs/blog-20'
-      path: '/blogs/blog-20'
-      fullPath: '/blogs/blog-20'
-      preLoaderRoute: typeof BlogsBlog20RouteImport
+    '/(blog)/blog-20': {
+      id: '/(blog)/blog-20'
+      path: '/blog-20'
+      fullPath: '/blog-20'
+      preLoaderRoute: typeof blogBlog20RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-2': {
-      id: '/blogs/blog-2'
-      path: '/blogs/blog-2'
-      fullPath: '/blogs/blog-2'
-      preLoaderRoute: typeof BlogsBlog2RouteImport
+    '/(blog)/blog-2': {
+      id: '/(blog)/blog-2'
+      path: '/blog-2'
+      fullPath: '/blog-2'
+      preLoaderRoute: typeof blogBlog2RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-19': {
-      id: '/blogs/blog-19'
-      path: '/blogs/blog-19'
-      fullPath: '/blogs/blog-19'
-      preLoaderRoute: typeof BlogsBlog19RouteImport
+    '/(blog)/blog-19': {
+      id: '/(blog)/blog-19'
+      path: '/blog-19'
+      fullPath: '/blog-19'
+      preLoaderRoute: typeof blogBlog19RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-18': {
-      id: '/blogs/blog-18'
-      path: '/blogs/blog-18'
-      fullPath: '/blogs/blog-18'
-      preLoaderRoute: typeof BlogsBlog18RouteImport
+    '/(blog)/blog-18': {
+      id: '/(blog)/blog-18'
+      path: '/blog-18'
+      fullPath: '/blog-18'
+      preLoaderRoute: typeof blogBlog18RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-17': {
-      id: '/blogs/blog-17'
-      path: '/blogs/blog-17'
-      fullPath: '/blogs/blog-17'
-      preLoaderRoute: typeof BlogsBlog17RouteImport
+    '/(blog)/blog-17': {
+      id: '/(blog)/blog-17'
+      path: '/blog-17'
+      fullPath: '/blog-17'
+      preLoaderRoute: typeof blogBlog17RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-16': {
-      id: '/blogs/blog-16'
-      path: '/blogs/blog-16'
-      fullPath: '/blogs/blog-16'
-      preLoaderRoute: typeof BlogsBlog16RouteImport
+    '/(blog)/blog-16': {
+      id: '/(blog)/blog-16'
+      path: '/blog-16'
+      fullPath: '/blog-16'
+      preLoaderRoute: typeof blogBlog16RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-15': {
-      id: '/blogs/blog-15'
-      path: '/blogs/blog-15'
-      fullPath: '/blogs/blog-15'
-      preLoaderRoute: typeof BlogsBlog15RouteImport
+    '/(blog)/blog-15': {
+      id: '/(blog)/blog-15'
+      path: '/blog-15'
+      fullPath: '/blog-15'
+      preLoaderRoute: typeof blogBlog15RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-14': {
-      id: '/blogs/blog-14'
-      path: '/blogs/blog-14'
-      fullPath: '/blogs/blog-14'
-      preLoaderRoute: typeof BlogsBlog14RouteImport
+    '/(blog)/blog-14': {
+      id: '/(blog)/blog-14'
+      path: '/blog-14'
+      fullPath: '/blog-14'
+      preLoaderRoute: typeof blogBlog14RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-13': {
-      id: '/blogs/blog-13'
-      path: '/blogs/blog-13'
-      fullPath: '/blogs/blog-13'
-      preLoaderRoute: typeof BlogsBlog13RouteImport
+    '/(blog)/blog-13': {
+      id: '/(blog)/blog-13'
+      path: '/blog-13'
+      fullPath: '/blog-13'
+      preLoaderRoute: typeof blogBlog13RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-12': {
-      id: '/blogs/blog-12'
-      path: '/blogs/blog-12'
-      fullPath: '/blogs/blog-12'
-      preLoaderRoute: typeof BlogsBlog12RouteImport
+    '/(blog)/blog-12': {
+      id: '/(blog)/blog-12'
+      path: '/blog-12'
+      fullPath: '/blog-12'
+      preLoaderRoute: typeof blogBlog12RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-11': {
-      id: '/blogs/blog-11'
-      path: '/blogs/blog-11'
-      fullPath: '/blogs/blog-11'
-      preLoaderRoute: typeof BlogsBlog11RouteImport
+    '/(blog)/blog-11': {
+      id: '/(blog)/blog-11'
+      path: '/blog-11'
+      fullPath: '/blog-11'
+      preLoaderRoute: typeof blogBlog11RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-10': {
-      id: '/blogs/blog-10'
-      path: '/blogs/blog-10'
-      fullPath: '/blogs/blog-10'
-      preLoaderRoute: typeof BlogsBlog10RouteImport
+    '/(blog)/blog-10': {
+      id: '/(blog)/blog-10'
+      path: '/blog-10'
+      fullPath: '/blog-10'
+      preLoaderRoute: typeof blogBlog10RouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/blogs/blog-1': {
-      id: '/blogs/blog-1'
-      path: '/blogs/blog-1'
-      fullPath: '/blogs/blog-1'
-      preLoaderRoute: typeof BlogsBlog1RouteImport
+    '/(blog)/blog-1': {
+      id: '/(blog)/blog-1'
+      path: '/blog-1'
+      fullPath: '/blog-1'
+      preLoaderRoute: typeof blogBlog1RouteImport
       parentRoute: typeof rootRouteImport
     }
   }
@@ -604,26 +604,26 @@ const rootRouteChildren: RootRouteChildren = {
   BlogRoute: BlogRoute,
   ContactRoute: ContactRoute,
   ServiceRoute: ServiceRoute,
-  BlogsBlog1Route: BlogsBlog1Route,
-  BlogsBlog10Route: BlogsBlog10Route,
-  BlogsBlog11Route: BlogsBlog11Route,
-  BlogsBlog12Route: BlogsBlog12Route,
-  BlogsBlog13Route: BlogsBlog13Route,
-  BlogsBlog14Route: BlogsBlog14Route,
-  BlogsBlog15Route: BlogsBlog15Route,
-  BlogsBlog16Route: BlogsBlog16Route,
-  BlogsBlog17Route: BlogsBlog17Route,
-  BlogsBlog18Route: BlogsBlog18Route,
-  BlogsBlog19Route: BlogsBlog19Route,
-  BlogsBlog2Route: BlogsBlog2Route,
-  BlogsBlog20Route: BlogsBlog20Route,
-  BlogsBlog3Route: BlogsBlog3Route,
-  BlogsBlog4Route: BlogsBlog4Route,
-  BlogsBlog5Route: BlogsBlog5Route,
-  BlogsBlog6Route: BlogsBlog6Route,
-  BlogsBlog7Route: BlogsBlog7Route,
-  BlogsBlog8Route: BlogsBlog8Route,
-  BlogsBlog9Route: BlogsBlog9Route,
+  blogBlog1Route: blogBlog1Route,
+  blogBlog10Route: blogBlog10Route,
+  blogBlog11Route: blogBlog11Route,
+  blogBlog12Route: blogBlog12Route,
+  blogBlog13Route: blogBlog13Route,
+  blogBlog14Route: blogBlog14Route,
+  blogBlog15Route: blogBlog15Route,
+  blogBlog16Route: blogBlog16Route,
+  blogBlog17Route: blogBlog17Route,
+  blogBlog18Route: blogBlog18Route,
+  blogBlog19Route: blogBlog19Route,
+  blogBlog2Route: blogBlog2Route,
+  blogBlog20Route: blogBlog20Route,
+  blogBlog3Route: blogBlog3Route,
+  blogBlog4Route: blogBlog4Route,
+  blogBlog5Route: blogBlog5Route,
+  blogBlog6Route: blogBlog6Route,
+  blogBlog7Route: blogBlog7Route,
+  blogBlog8Route: blogBlog8Route,
+  blogBlog9Route: blogBlog9Route,
   ServicesBalconyWaterproofingCoatingRepairRoute:
     ServicesBalconyWaterproofingCoatingRepairRoute,
   ServicesDeckWaterproofingCoatingRepairRoute:

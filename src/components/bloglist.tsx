@@ -76,7 +76,7 @@ const BlogList = () => {
             <div className="p-4">
               <h3 className="text-lg font-semibold">{blog.title}</h3>
               <a
-                href={`/blogs/${blog.slug}`}
+                href={`/${blog.slug}`}
                 className="inline-block mt-2 text-blue-600 hover:underline"
               >
                 Read More →

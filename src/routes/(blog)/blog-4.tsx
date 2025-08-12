@@ -1,0 +1,98 @@
+import { createFileRoute } from '@tanstack/react-router'
+import Testimonial from '../../components/testimonial'
+
+export const Route = createFileRoute('/(blog)/blog-4')({
+  component: BlogPage,
+})
+
+function BlogPage() {
+  return (
+    <>
+      <div className="mx-auto max-w-6xl px-4 py-10">
+        <header className="mb-8">
+          <h1 className="text-3xl font-bold leading-tight">
+            Why Waterproofing Balcony Decks Saves You Big Repairs
+          </h1>
+          <p className="mt-2 text-sm text-gray-600">July 15, 2025</p>
+          <nav className="mt-1 text-xs text-gray-500">
+            Home » Blogs » Why Waterproofing Balcony Decks Saves You Big Repairs
+          </nav>
+        </header>
+
+        <article className="prose max-w-none">
+          <p>
+            That line has stuck with me ever since a neighbor in Los Angeles shared his experience: one winter morning, he stepped out for coffee on his balcony only to feel his socks squish against soaked wood. His morning routine was replaced by emergency balcony repair.
+          </p>
+          <p>
+            If you have ever walked onto your balcony after a storm and noticed soft spots, peeling paint, or worse, stains on the ceiling below, it might already be too late. That is why waterproofing balcony decks is not just a nice-to-have—especially in cities like Los Angeles where rainy seasons can catch you off guard.
+          </p>
+          <p>
+            This guide explains why waterproofing matters, what signs to watch for, and how to act before small issues become major repairs.
+          </p>
+
+          <h2 className="mt-10 text-3xl md:text-4xl font-bold">Why Waterproof Decking for Balconies Should Be on Your Radar</h2>
+          <p>
+            Think of your balcony like a mini roof. You would never leave a roof unprotected. Southern California’s mix of sun, rain, and the occasional chilly storm makes waterproofing essential for both appearance and structural safety.
+          </p>
+          <ul className="list-disc pl-6">
+            <li><span className="font-semibold">Sun/UV:</span> dries materials and causes cracks.</li>
+            <li><span className="font-semibold">Rain/moisture:</span> seeps into tiny gaps and lingers.</li>
+            <li><span className="font-semibold">Wind/dust:</span> abrasive grit slowly wears surfaces.</li>
+          </ul>
+
+          <figure className="my-8">
+            <img src="/blogs/b7.webp" alt="Balcony waterproofing protection" className="w-full rounded object-cover" />
+          </figure>
+
+          <h2 className="mt-10 text-3xl md:text-4xl font-bold">What Proper Balcony Waterproofing Actually Looks Like</h2>
+          <p>Real, professional waterproofing is a layered system—not just a coat of paint:</p>
+          <ul className="list-disc pl-6">
+            <li><span className="font-semibold">Surface prep:</span> sanding, repairs, and crack filling for a smooth base.</li>
+            <li><span className="font-semibold">Sealant & membrane:</span> flexible membranes that move with temperature changes.</li>
+            <li><span className="font-semibold">Protective coatings:</span> UV‑resistant, slip‑resistant, and color/texture options.</li>
+            <li><span className="font-semibold">Drainage planning:</span> proper slope and paths so water does not pool.</li>
+          </ul>
+          <p>
+            It is a craft, not a quick fix. Local know‑how matters—Los Angeles weather needs the right materials and details.
+          </p>
+
+          <h2 className="mt-10 text-3xl md:text-4xl font-bold">5 Signs Your Balcony Needs Waterproofing</h2>
+          <ul className="list-disc pl-6">
+            <li>Peeling or bubbling paint on the balcony surface</li>
+            <li>Soft, spongy feeling underfoot</li>
+            <li>Water stains or patches on the ceiling below</li>
+            <li>Moldy smells near the balcony area</li>
+            <li>Visible cracks or gaps at edges or seams</li>
+          </ul>
+          <p>If you notice even one of these, you are on borrowed time—act early to save big later.</p>
+
+          <h2 className="mt-10 text-3xl md:text-4xl font-bold">Does Waterproofing Ruin Style? Not Anymore.</h2>
+          <p>
+            Modern systems seal and enhance the look: stone‑style textures, muted tones, and slip‑resistant patterns can complement your home nicely.
+          </p>
+
+          <figure className="my-8">
+            <img src="/blogs/b2.webp" alt="Decorative waterproof balcony finish" className="w-full rounded object-cover" />
+          </figure>
+
+          <h2 className="mt-10 text-3xl md:text-4xl font-bold">Why People Wait—and Why You Should Not</h2>
+          <p>
+            Waterproofing sounds like a hassle, but it costs far less than structural repairs. Waiting until stains appear often means paying for tear‑outs, carpentry, and possibly mold remediation.
+          </p>
+
+          <h2 className="mt-10 text-3xl md:text-4xl font-bold">Real Help from Local Experts</h2>
+          <p>
+            With 25+ years focused on balcony and deck waterproofing in Los Angeles, Southern California Decking is the team homeowners trust for inspections, membranes, coatings, and drainage details—done right.
+          </p>
+
+          <h2 className="mt-10 text-3xl md:text-4xl font-bold">Final Thoughts: Protect Your Balcony Before the Storm</h2>
+          <p className="italic">“Most people think about their balcony when it’s sunny. The smart ones think about it before it rains.”</p>
+          <p>
+            Your balcony is part of your home’s structure. Waterproofing keeps it safe, strong, and ready for whatever the season brings. Do not wait—protect your space before the first drop falls.
+          </p>
+        </article>
+      </div>
+      <Testimonial />
+    </>
+  )
+}
