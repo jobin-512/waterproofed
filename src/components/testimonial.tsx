@@ -32,6 +32,7 @@ export default function Testimonial() {
                     src="/t4.webp" 
                     alt="Ethan David" 
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                 </div>
                 <div>
@@ -72,6 +73,7 @@ export default function Testimonial() {
                     src="/t5.webp" 
                     alt="Mason Robert" 
                     className="w-full h-full object-cover"
+                    loading="lazy"
                   />
                 </div>
                 <div>
@@ -110,6 +112,7 @@ export default function Testimonial() {
             src="/banner.webp" 
             alt="Construction workers on roof" 
             className="w-full h-full object-cover"
+            loading="lazy"
           />
           {/* Dark Blue Overlay */}
           <div className="absolute inset-0  bg-opacity-70"></div>
@@ -172,6 +175,7 @@ export default function Testimonial() {
                   src="/blogs/b1.webp" 
                   alt="Paint roller and tray on textured wall" 
                   className="w-full h-48 object-cover"
+                  loading="lazy"
                 />
               </div>
               
@@ -201,6 +205,7 @@ export default function Testimonial() {
                   src="/blogs/b2.webp" 
                   alt="Construction workers applying coating to roof" 
                   className="w-full h-48 object-cover"
+                  loading="lazy"
                 />
               </div>
               
@@ -230,6 +235,7 @@ export default function Testimonial() {
                   src="/blogs/b3.webp" 
                   alt="Person using trowel to spread self-leveling compound" 
                   className="w-full h-48 object-cover"
+                  loading="lazy"
                 />
               </div>
               

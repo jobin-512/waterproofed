@@ -1,6 +1,7 @@
 import { createFileRoute} from '@tanstack/react-router'
+import { lazy, Suspense } from 'react'
 
-import BlogList from '../components/bloglist'
+const BlogList = lazy(() => import('../components/bloglist'))
 
 export const Route = createFileRoute('/blog')({
   component: Blog,
@@ -20,7 +21,9 @@ function Blog() {
             Stay updated with the latest insights, tips, and news about waterproofing, deck coatings, and construction solutions.
           </p>
         </div>
-        <BlogList />
+        <Suspense fallback={<div className="min-h-[200px]"/>}>
+          <BlogList />
+        </Suspense>
       </div>
     </div>
     </>

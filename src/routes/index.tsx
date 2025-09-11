@@ -1,8 +1,8 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { useState } from 'react'
-import Hero from '../components/hero'
-import TrustedPartners from '../components/trusted-partners'
-import Testimonial from '../components/testimonial'
+import { useState, lazy, Suspense } from 'react'
+const Hero = lazy(() => import('../components/hero'))
+const TrustedPartners = lazy(() => import('../components/trusted-partners'))
+const Testimonial = lazy(() => import('../components/testimonial'))
 
 export const Route = createFileRoute('/')({
   component: Index,
@@ -40,8 +40,12 @@ function Index() {
   return (
     <>
       
-      <Hero />
-      <TrustedPartners />
+      <Suspense fallback={<div className="min-h-[300px]"/>}>
+        <Hero />
+      </Suspense>
+      <Suspense fallback={null}>
+        <TrustedPartners />
+      </Suspense>
       
       {/* About Us Section */}
       <section className="w-full bg-white py-16">
@@ -55,6 +59,7 @@ function Index() {
                   src="/about.webp" 
                   alt="Professional working on roof with safety gear" 
                   className="w-full h-auto object-cover rounded-lg"
+                  loading="lazy"
                 />
               </div>
               
@@ -160,7 +165,7 @@ function Index() {
                 <path d="M55.7745 91.8654C55.462 92.1664 55.4348 92.3032 55.4348 93.4934C55.4348 94.9299 55.5707 95.3814 56.0734 95.614C56.5625 95.8328 56.7663 95.8055 57.1332 95.4224C57.4593 95.1078 57.4729 94.9983 57.4729 93.6029C57.4729 92.2211 57.4457 92.098 57.1604 91.8244C56.7392 91.4276 56.1821 91.4413 55.7745 91.8654Z" fill="white"/>
                 <path d="M51.4131 96.2432C51.0734 96.5852 51.0598 96.64 51.1142 98.0901C51.1549 99.7318 51.25 99.937 51.9973 100.088C52.3506 100.156 52.5 100.101 52.7718 99.8276C53.1115 99.4856 53.125 99.4035 53.125 97.9807C53.125 96.5989 53.0979 96.4758 52.8125 96.2022C52.3914 95.8054 51.8343 95.8191 51.4131 96.2432Z" fill="white"/>
                 <path d="M55.7607 98.432C55.4211 98.7741 55.4075 98.8288 55.4618 100.293C55.5026 101.688 55.5298 101.825 55.8287 102.071C56.2363 102.413 56.6711 102.399 57.1194 102.044C57.4591 101.77 57.4727 101.729 57.4727 100.224C57.4727 98.7877 57.4455 98.6646 57.1602 98.391C56.739 97.9943 56.1819 98.0079 55.7607 98.432Z" fill="white"/>
-                  </svg>
+                </svg>
                 </div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3">FLOOR LEVELING</h3>
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -184,8 +189,8 @@ function Index() {
                   <path d="M55.7201 78.7453C55.4755 79.06 55.4348 79.3062 55.4348 80.4554C55.4348 81.6593 55.462 81.8372 55.7473 82.1655C56.1685 82.6444 56.8614 82.6854 57.2283 82.2339C57.4321 81.974 57.4728 81.673 57.4728 80.4281C57.4728 79.1147 57.4457 78.9095 57.2011 78.6632C56.7935 78.2528 56.0734 78.2939 55.7201 78.7453Z" fill="white"/>
                   <path d="M51.3723 83.1234C51.1277 83.438 51.087 83.6843 51.087 84.7651C51.087 85.4628 51.1549 86.1879 51.2364 86.3794C51.5489 87.0771 52.6359 87.1319 52.9756 86.4752C53.0571 86.3247 53.125 85.5586 53.125 84.7651C53.125 83.4928 53.0843 83.2739 52.8533 83.0413C52.4457 82.6309 51.7256 82.6719 51.3723 83.1234Z" fill="white"/>
                   <path d="M55.7201 85.3121C55.4755 85.6268 55.4348 85.873 55.4348 86.9538C55.4348 87.6515 55.5027 88.3766 55.5842 88.5681C55.8967 89.2659 56.9837 89.3206 57.3234 88.6639C57.4049 88.5134 57.4728 87.7473 57.4728 86.9538C57.4728 85.6815 57.4321 85.4626 57.2011 85.23C56.7935 84.8196 56.0734 84.8606 55.7201 85.3121Z" fill="white"/>
-                  <path d="M51.3723 89.69C51.1277 90.0047 51.087 90.2509 51.087 91.3317C51.087 92.0295 51.1549 92.7545 51.2364 92.9461C51.5489 93.6438 52.6359 93.6985 52.9756 93.0418C53.0571 92.8913 53.125 92.1389 53.125 91.3454C53.125 90.0457 53.0978 89.9089 52.8125 89.6353C52.3641 89.2112 51.7256 89.2386 51.3723 89.69Z" fill="white"/>
-                  <path d="M55.7745 91.8654C55.462 92.1664 55.4348 92.3032 55.4348 93.4934C55.4348 94.9299 55.5707 95.3814 56.0734 95.614C56.5625 95.8328 56.7663 95.8055 57.1332 95.4224C57.4592 95.1078 57.4728 94.9983 57.4728 93.6029C57.4728 92.2211 57.4457 92.098 57.1603 91.8244C56.7391 91.4276 56.1821 91.4413 55.7745 91.8654Z" fill="white"/>
+                  <path d="M51.3723 89.69C51.1277 90.0047 51.087 90.2509 51.087 91.3317C51.087 92.0295 51.1548 92.7545 51.2364 92.9461C51.5489 93.6438 52.6359 93.6985 52.9756 93.0418C53.0571 92.8913 53.125 92.1389 53.125 91.3454C53.125 90.0457 53.0978 89.9089 52.8125 89.6353C52.3641 89.2112 51.7256 89.2386 51.3723 89.69Z" fill="white"/>
+                  <path d="M55.7745 91.8654C55.462 92.1664 55.4348 92.3032 55.4348 93.4934C55.4348 94.9299 55.5707 95.3814 56.0734 95.614C56.5625 95.8328 56.7663 95.8055 57.1332 95.4224C57.4592 95.1078 57.4728 94.9983 57.4728 93.6029C57.4728 92.2211 57.4457 92.098 57.1603 91.8244C56.7392 91.4276 56.1821 91.4413 55.7745 91.8654Z" fill="white"/>
                   <path d="M51.413 96.2432C51.0734 96.5852 51.0598 96.64 51.1141 98.0901C51.1549 99.7318 51.25 99.937 51.9973 100.088C52.3505 100.156 52.5 100.101 52.7717 99.8276C53.1114 99.4856 53.125 99.4035 53.125 97.9807C53.125 96.5989 53.0978 96.4758 52.8125 96.2022C52.3913 95.8054 51.8342 95.8191 51.413 96.2432Z" fill="white"/>
                   <path d="M55.7609 98.432C55.4212 98.7741 55.4076 98.8288 55.462 100.293C55.5027 101.688 55.5299 101.825 55.8288 102.071C56.2364 102.413 56.6712 102.399 57.1196 102.044C57.4592 101.77 57.4728 101.729 57.4728 100.224C57.4728 98.7877 57.4457 98.6646 57.1603 98.391C56.7391 97.9943 56.1821 98.0079 55.7609 98.432Z" fill="white"/>
                   </svg>
@@ -329,6 +334,7 @@ function Index() {
                     src="/s1.webp" 
                     alt="Waterproofing application process" 
                     className="w-full h-auto object-cover rounded-lg"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -449,6 +455,7 @@ function Index() {
                   src="/w1.webp" 
                   alt="Inspector with clipboard" 
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               
@@ -475,6 +482,7 @@ function Index() {
                   src="/w2.webp" 
                   alt="Consultation meeting" 
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               
@@ -501,6 +509,7 @@ function Index() {
                   src="/w3.webp" 
                   alt="Worker with power drill" 
                   className="w-full h-full object-cover"
+                  loading="lazy"
                 />
               </div>
               
@@ -536,6 +545,7 @@ function Index() {
                   src="/t1.webp" 
                   alt="Waterproof deck coatings project" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+                  loading="lazy"
                 />
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-70 transition-opacity duration-300">
@@ -560,6 +570,7 @@ function Index() {
                   src="/t2.webp" 
                   alt="Roof coating application project" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+                  loading="lazy"
                 />
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-70 transition-opacity duration-300">
@@ -584,6 +595,7 @@ function Index() {
                   src="/t3.webp" 
                   alt="Tile roof treatment project" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
+                  loading="lazy"
                 />
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-end p-6 opacity-0 group-hover:opacity-70 transition-opacity duration-300">
@@ -604,7 +616,9 @@ function Index() {
         </div>
       </section>
         
-      <Testimonial/>
+      <Suspense fallback={null}>
+        <Testimonial/>
+      </Suspense>
 
     </>
   )

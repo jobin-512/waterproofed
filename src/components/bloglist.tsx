@@ -72,7 +72,7 @@ const BlogList = () => {
             key={blog.id}
             className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
           >
-            <img src={blog.image} alt={blog.title} className="w-full h-48 object-cover" />
+            <img src={blog.image} alt={blog.title} className="w-full h-48 object-cover" loading="lazy" />
             <div className="p-4">
               <h3 className="text-lg font-semibold">{blog.title}</h3>
               <a
