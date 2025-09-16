@@ -32,9 +32,9 @@ export default function Footer() {
           </div>
 
           {/* Middle Section - Newsletter & Quick Links */}
-          <div className="lg:col-span-2">
+          <div className="lg:col-span-1">
             {/* Quick Links & Popular Services */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
               {/* Quick Links */}
               <div>
                 <h4 className="font-bold mb-3 relative">
@@ -43,11 +43,11 @@ export default function Footer() {
                 </h4>
                 <ul className="space-y-2 text-sm">
                   {[
-                    { text: 'POOL DECK COATINGS', href: '/service' },
-                    { text: 'Waterproof Deck Coatings', href: '/service' }, 
-                    { text: 'Between Slab Waterproofing', href: '/service' },
-                    { text: 'FLOOR LEVELING', href: '/service' },
+                    { text: 'Home', href: '/' },
+                    { text: 'Services', href: '/service' }, 
                     { text: 'About us', href: '/about' },
+                    { text: 'FLOOR LEVELING', href: '/service' },
+                    { text: 'Blog', href: '/blog' },
                     { text: 'Contact us', href: '/contact' }
                   ].map((link, index) => (
                     <li key={index}>
@@ -56,32 +56,6 @@ export default function Footer() {
                           <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
                         </svg>
                         {link.text}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Popular Services */}
-              <div>
-                <h4 className="font-bold mb-3 relative">
-                  Popular Services
-                  <div className="absolute bottom-0 left-0 w-8 h-0.5 bg-orange-500"></div>
-                </h4>
-                <ul className="space-y-2 text-sm">
-                  {[
-                    { text: 'EPOXY COATING', href: '/service' },
-                    { text: 'Stucco Repair & Waterproofing', href: '/service' },
-                    { text: 'DECORATIVE COATINGS', href: '/service' },
-                    { text: 'Below Grade Waterproofing', href: '/service' },
-                    { text: 'Planter Waterproofing', href: '/service' }
-                  ].map((service, index) => (
-                    <li key={index}>
-                      <a href={service.href} className="flex items-center text-gray-300 hover:text-[#00A7E8] transition-colors">
-                        <svg className="w-3 h-3 mr-2 text-[#00A7E8]" fill="currentColor" viewBox="0 0 20 20">
-                          <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
-                        </svg>
-                        {service.text}
                       </a>
                     </li>
                   ))}

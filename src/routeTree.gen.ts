@@ -17,6 +17,7 @@ import { Route as IndexRouteImport } from './routes/index'
 import { Route as ServicesPlanterWaterproofingCoatingRepairRouteImport } from './routes/services/planter-waterproofing-coating-repair'
 import { Route as ServicesDeckWaterproofingCoatingRepairRouteImport } from './routes/services/deck-waterproofing-coating-repair'
 import { Route as ServicesBalconyWaterproofingCoatingRepairRouteImport } from './routes/services/balcony-waterproofing-coating-repair'
+import { Route as ServicesProfessionalConcreteFloorLevelingRouteImport } from './routes/services/Professional-Concrete-Floor-Leveling'
 import { Route as blogBlog9RouteImport } from './routes/(blog)/blog-9'
 import { Route as blogBlog8RouteImport } from './routes/(blog)/blog-8'
 import { Route as blogBlog7RouteImport } from './routes/(blog)/blog-7'
@@ -37,6 +38,10 @@ import { Route as blogBlog12RouteImport } from './routes/(blog)/blog-12'
 import { Route as blogBlog11RouteImport } from './routes/(blog)/blog-11'
 import { Route as blogBlog10RouteImport } from './routes/(blog)/blog-10'
 import { Route as blogBlog1RouteImport } from './routes/(blog)/blog-1'
+import { Route as areaMalibuDeckWaterproofingContractorRouteImport } from './routes/(area)/malibu-deck-waterproofing-contractor'
+import { Route as areaLosAngelesDeckWaterproofingContractorRouteImport } from './routes/(area)/los-angeles-deck-waterproofing-contractor'
+import { Route as areaBeverlyHillsDeckWaterproofingContractorRouteImport } from './routes/(area)/beverly-hills-deck-waterproofing-contractor'
+import { Route as areaPasadenaDeckWaterproofingContractorRouteImport } from './routes/(area)/Pasadena-deck-waterproofing-contractor'
 
 const ServiceRoute = ServiceRouteImport.update({
   id: '/service',
@@ -79,6 +84,12 @@ const ServicesBalconyWaterproofingCoatingRepairRoute =
   ServicesBalconyWaterproofingCoatingRepairRouteImport.update({
     id: '/services/balcony-waterproofing-coating-repair',
     path: '/services/balcony-waterproofing-coating-repair',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const ServicesProfessionalConcreteFloorLevelingRoute =
+  ServicesProfessionalConcreteFloorLevelingRouteImport.update({
+    id: '/services/Professional-Concrete-Floor-Leveling',
+    path: '/services/Professional-Concrete-Floor-Leveling',
     getParentRoute: () => rootRouteImport,
   } as any)
 const blogBlog9Route = blogBlog9RouteImport.update({
@@ -181,6 +192,30 @@ const blogBlog1Route = blogBlog1RouteImport.update({
   path: '/blog-1',
   getParentRoute: () => rootRouteImport,
 } as any)
+const areaMalibuDeckWaterproofingContractorRoute =
+  areaMalibuDeckWaterproofingContractorRouteImport.update({
+    id: '/(area)/malibu-deck-waterproofing-contractor',
+    path: '/malibu-deck-waterproofing-contractor',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const areaLosAngelesDeckWaterproofingContractorRoute =
+  areaLosAngelesDeckWaterproofingContractorRouteImport.update({
+    id: '/(area)/los-angeles-deck-waterproofing-contractor',
+    path: '/los-angeles-deck-waterproofing-contractor',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const areaBeverlyHillsDeckWaterproofingContractorRoute =
+  areaBeverlyHillsDeckWaterproofingContractorRouteImport.update({
+    id: '/(area)/beverly-hills-deck-waterproofing-contractor',
+    path: '/beverly-hills-deck-waterproofing-contractor',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const areaPasadenaDeckWaterproofingContractorRoute =
+  areaPasadenaDeckWaterproofingContractorRouteImport.update({
+    id: '/(area)/Pasadena-deck-waterproofing-contractor',
+    path: '/Pasadena-deck-waterproofing-contractor',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -188,6 +223,10 @@ export interface FileRoutesByFullPath {
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/service': typeof ServiceRoute
+  '/Pasadena-deck-waterproofing-contractor': typeof areaPasadenaDeckWaterproofingContractorRoute
+  '/beverly-hills-deck-waterproofing-contractor': typeof areaBeverlyHillsDeckWaterproofingContractorRoute
+  '/los-angeles-deck-waterproofing-contractor': typeof areaLosAngelesDeckWaterproofingContractorRoute
+  '/malibu-deck-waterproofing-contractor': typeof areaMalibuDeckWaterproofingContractorRoute
   '/blog-1': typeof blogBlog1Route
   '/blog-10': typeof blogBlog10Route
   '/blog-11': typeof blogBlog11Route
@@ -208,6 +247,7 @@ export interface FileRoutesByFullPath {
   '/blog-7': typeof blogBlog7Route
   '/blog-8': typeof blogBlog8Route
   '/blog-9': typeof blogBlog9Route
+  '/services/Professional-Concrete-Floor-Leveling': typeof ServicesProfessionalConcreteFloorLevelingRoute
   '/services/balcony-waterproofing-coating-repair': typeof ServicesBalconyWaterproofingCoatingRepairRoute
   '/services/deck-waterproofing-coating-repair': typeof ServicesDeckWaterproofingCoatingRepairRoute
   '/services/planter-waterproofing-coating-repair': typeof ServicesPlanterWaterproofingCoatingRepairRoute
@@ -218,6 +258,10 @@ export interface FileRoutesByTo {
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/service': typeof ServiceRoute
+  '/Pasadena-deck-waterproofing-contractor': typeof areaPasadenaDeckWaterproofingContractorRoute
+  '/beverly-hills-deck-waterproofing-contractor': typeof areaBeverlyHillsDeckWaterproofingContractorRoute
+  '/los-angeles-deck-waterproofing-contractor': typeof areaLosAngelesDeckWaterproofingContractorRoute
+  '/malibu-deck-waterproofing-contractor': typeof areaMalibuDeckWaterproofingContractorRoute
   '/blog-1': typeof blogBlog1Route
   '/blog-10': typeof blogBlog10Route
   '/blog-11': typeof blogBlog11Route
@@ -238,6 +282,7 @@ export interface FileRoutesByTo {
   '/blog-7': typeof blogBlog7Route
   '/blog-8': typeof blogBlog8Route
   '/blog-9': typeof blogBlog9Route
+  '/services/Professional-Concrete-Floor-Leveling': typeof ServicesProfessionalConcreteFloorLevelingRoute
   '/services/balcony-waterproofing-coating-repair': typeof ServicesBalconyWaterproofingCoatingRepairRoute
   '/services/deck-waterproofing-coating-repair': typeof ServicesDeckWaterproofingCoatingRepairRoute
   '/services/planter-waterproofing-coating-repair': typeof ServicesPlanterWaterproofingCoatingRepairRoute
@@ -249,6 +294,10 @@ export interface FileRoutesById {
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/service': typeof ServiceRoute
+  '/(area)/Pasadena-deck-waterproofing-contractor': typeof areaPasadenaDeckWaterproofingContractorRoute
+  '/(area)/beverly-hills-deck-waterproofing-contractor': typeof areaBeverlyHillsDeckWaterproofingContractorRoute
+  '/(area)/los-angeles-deck-waterproofing-contractor': typeof areaLosAngelesDeckWaterproofingContractorRoute
+  '/(area)/malibu-deck-waterproofing-contractor': typeof areaMalibuDeckWaterproofingContractorRoute
   '/(blog)/blog-1': typeof blogBlog1Route
   '/(blog)/blog-10': typeof blogBlog10Route
   '/(blog)/blog-11': typeof blogBlog11Route
@@ -269,6 +318,7 @@ export interface FileRoutesById {
   '/(blog)/blog-7': typeof blogBlog7Route
   '/(blog)/blog-8': typeof blogBlog8Route
   '/(blog)/blog-9': typeof blogBlog9Route
+  '/services/Professional-Concrete-Floor-Leveling': typeof ServicesProfessionalConcreteFloorLevelingRoute
   '/services/balcony-waterproofing-coating-repair': typeof ServicesBalconyWaterproofingCoatingRepairRoute
   '/services/deck-waterproofing-coating-repair': typeof ServicesDeckWaterproofingCoatingRepairRoute
   '/services/planter-waterproofing-coating-repair': typeof ServicesPlanterWaterproofingCoatingRepairRoute
@@ -281,6 +331,10 @@ export interface FileRouteTypes {
     | '/blog'
     | '/contact'
     | '/service'
+    | '/Pasadena-deck-waterproofing-contractor'
+    | '/beverly-hills-deck-waterproofing-contractor'
+    | '/los-angeles-deck-waterproofing-contractor'
+    | '/malibu-deck-waterproofing-contractor'
     | '/blog-1'
     | '/blog-10'
     | '/blog-11'
@@ -301,6 +355,7 @@ export interface FileRouteTypes {
     | '/blog-7'
     | '/blog-8'
     | '/blog-9'
+    | '/services/Professional-Concrete-Floor-Leveling'
     | '/services/balcony-waterproofing-coating-repair'
     | '/services/deck-waterproofing-coating-repair'
     | '/services/planter-waterproofing-coating-repair'
@@ -311,6 +366,10 @@ export interface FileRouteTypes {
     | '/blog'
     | '/contact'
     | '/service'
+    | '/Pasadena-deck-waterproofing-contractor'
+    | '/beverly-hills-deck-waterproofing-contractor'
+    | '/los-angeles-deck-waterproofing-contractor'
+    | '/malibu-deck-waterproofing-contractor'
     | '/blog-1'
     | '/blog-10'
     | '/blog-11'
@@ -331,6 +390,7 @@ export interface FileRouteTypes {
     | '/blog-7'
     | '/blog-8'
     | '/blog-9'
+    | '/services/Professional-Concrete-Floor-Leveling'
     | '/services/balcony-waterproofing-coating-repair'
     | '/services/deck-waterproofing-coating-repair'
     | '/services/planter-waterproofing-coating-repair'
@@ -341,6 +401,10 @@ export interface FileRouteTypes {
     | '/blog'
     | '/contact'
     | '/service'
+    | '/(area)/Pasadena-deck-waterproofing-contractor'
+    | '/(area)/beverly-hills-deck-waterproofing-contractor'
+    | '/(area)/los-angeles-deck-waterproofing-contractor'
+    | '/(area)/malibu-deck-waterproofing-contractor'
     | '/(blog)/blog-1'
     | '/(blog)/blog-10'
     | '/(blog)/blog-11'
@@ -361,6 +425,7 @@ export interface FileRouteTypes {
     | '/(blog)/blog-7'
     | '/(blog)/blog-8'
     | '/(blog)/blog-9'
+    | '/services/Professional-Concrete-Floor-Leveling'
     | '/services/balcony-waterproofing-coating-repair'
     | '/services/deck-waterproofing-coating-repair'
     | '/services/planter-waterproofing-coating-repair'
@@ -372,6 +437,10 @@ export interface RootRouteChildren {
   BlogRoute: typeof BlogRoute
   ContactRoute: typeof ContactRoute
   ServiceRoute: typeof ServiceRoute
+  areaPasadenaDeckWaterproofingContractorRoute: typeof areaPasadenaDeckWaterproofingContractorRoute
+  areaBeverlyHillsDeckWaterproofingContractorRoute: typeof areaBeverlyHillsDeckWaterproofingContractorRoute
+  areaLosAngelesDeckWaterproofingContractorRoute: typeof areaLosAngelesDeckWaterproofingContractorRoute
+  areaMalibuDeckWaterproofingContractorRoute: typeof areaMalibuDeckWaterproofingContractorRoute
   blogBlog1Route: typeof blogBlog1Route
   blogBlog10Route: typeof blogBlog10Route
   blogBlog11Route: typeof blogBlog11Route
@@ -392,6 +461,7 @@ export interface RootRouteChildren {
   blogBlog7Route: typeof blogBlog7Route
   blogBlog8Route: typeof blogBlog8Route
   blogBlog9Route: typeof blogBlog9Route
+  ServicesProfessionalConcreteFloorLevelingRoute: typeof ServicesProfessionalConcreteFloorLevelingRoute
   ServicesBalconyWaterproofingCoatingRepairRoute: typeof ServicesBalconyWaterproofingCoatingRepairRoute
   ServicesDeckWaterproofingCoatingRepairRoute: typeof ServicesDeckWaterproofingCoatingRepairRoute
   ServicesPlanterWaterproofingCoatingRepairRoute: typeof ServicesPlanterWaterproofingCoatingRepairRoute
@@ -453,6 +523,13 @@ declare module '@tanstack/react-router' {
       path: '/services/balcony-waterproofing-coating-repair'
       fullPath: '/services/balcony-waterproofing-coating-repair'
       preLoaderRoute: typeof ServicesBalconyWaterproofingCoatingRepairRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/services/Professional-Concrete-Floor-Leveling': {
+      id: '/services/Professional-Concrete-Floor-Leveling'
+      path: '/services/Professional-Concrete-Floor-Leveling'
+      fullPath: '/services/Professional-Concrete-Floor-Leveling'
+      preLoaderRoute: typeof ServicesProfessionalConcreteFloorLevelingRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/(blog)/blog-9': {
@@ -595,6 +672,34 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof blogBlog1RouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/(area)/malibu-deck-waterproofing-contractor': {
+      id: '/(area)/malibu-deck-waterproofing-contractor'
+      path: '/malibu-deck-waterproofing-contractor'
+      fullPath: '/malibu-deck-waterproofing-contractor'
+      preLoaderRoute: typeof areaMalibuDeckWaterproofingContractorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/(area)/los-angeles-deck-waterproofing-contractor': {
+      id: '/(area)/los-angeles-deck-waterproofing-contractor'
+      path: '/los-angeles-deck-waterproofing-contractor'
+      fullPath: '/los-angeles-deck-waterproofing-contractor'
+      preLoaderRoute: typeof areaLosAngelesDeckWaterproofingContractorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/(area)/beverly-hills-deck-waterproofing-contractor': {
+      id: '/(area)/beverly-hills-deck-waterproofing-contractor'
+      path: '/beverly-hills-deck-waterproofing-contractor'
+      fullPath: '/beverly-hills-deck-waterproofing-contractor'
+      preLoaderRoute: typeof areaBeverlyHillsDeckWaterproofingContractorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/(area)/Pasadena-deck-waterproofing-contractor': {
+      id: '/(area)/Pasadena-deck-waterproofing-contractor'
+      path: '/Pasadena-deck-waterproofing-contractor'
+      fullPath: '/Pasadena-deck-waterproofing-contractor'
+      preLoaderRoute: typeof areaPasadenaDeckWaterproofingContractorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -604,6 +709,14 @@ const rootRouteChildren: RootRouteChildren = {
   BlogRoute: BlogRoute,
   ContactRoute: ContactRoute,
   ServiceRoute: ServiceRoute,
+  areaPasadenaDeckWaterproofingContractorRoute:
+    areaPasadenaDeckWaterproofingContractorRoute,
+  areaBeverlyHillsDeckWaterproofingContractorRoute:
+    areaBeverlyHillsDeckWaterproofingContractorRoute,
+  areaLosAngelesDeckWaterproofingContractorRoute:
+    areaLosAngelesDeckWaterproofingContractorRoute,
+  areaMalibuDeckWaterproofingContractorRoute:
+    areaMalibuDeckWaterproofingContractorRoute,
   blogBlog1Route: blogBlog1Route,
   blogBlog10Route: blogBlog10Route,
   blogBlog11Route: blogBlog11Route,
@@ -624,6 +737,8 @@ const rootRouteChildren: RootRouteChildren = {
   blogBlog7Route: blogBlog7Route,
   blogBlog8Route: blogBlog8Route,
   blogBlog9Route: blogBlog9Route,
+  ServicesProfessionalConcreteFloorLevelingRoute:
+    ServicesProfessionalConcreteFloorLevelingRoute,
   ServicesBalconyWaterproofingCoatingRepairRoute:
     ServicesBalconyWaterproofingCoatingRepairRoute,
   ServicesDeckWaterproofingCoatingRepairRoute:

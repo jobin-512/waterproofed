@@ -100,7 +100,7 @@ function DeckWaterproofingCoatingRepair() {
             {/* Background Pattern Overlay */}
             <div className="absolute inset-0 opacity-90">
               <div className="w-full h-full" style={{
-                backgroundImage: "/service/s4.svg"
+                backgroundImage: "/service/s4.webp"
               }}></div>
             </div>
             
@@ -110,9 +110,9 @@ function DeckWaterproofingCoatingRepair() {
                 Ready to Protect Your Deck with California's Most Trusted Waterproofing Experts?
               </h2>
               
-              <button className="bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 border border-gray-300">
+              <a href="/contact" className="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 border border-gray-300">
                 Call Now for Free Estimate
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -223,7 +223,7 @@ function DeckWaterproofingCoatingRepair() {
               <div className=" top-8">
                 <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                   <img 
-                    src="/service/s1.svg" 
+                    src="/service/s1.webp" 
                     alt="Worker applying deck coating with roller"
                     className="w-full h-auto object-cover"
                     style={{ minHeight: '600px' }}
@@ -243,7 +243,7 @@ function DeckWaterproofingCoatingRepair() {
             <div className="order-2 lg:order-1">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img 
-                  src="/service/s2.svg" 
+                  src="/service/s2.webp" 
                   alt="Workers performing deck repair work on concrete floor"
                   className="w-full h-auto object-cover"
                   style={{ minHeight: '500px' }}
@@ -495,7 +495,7 @@ function DeckWaterproofingCoatingRepair() {
             <div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img 
-                  src="/service/s3.svg" 
+                  src="/service/s3.webp" 
                   alt="Three construction workers applying bright light blue waterproof coating on outdoor deck"
                   className="w-full h-auto object-cover"
                   style={{ minHeight: '600px' }}
@@ -513,7 +513,7 @@ function DeckWaterproofingCoatingRepair() {
           <div 
             className="w-full h-full bg-cover bg-center"
             style={{
-              backgroundImage: "url('/service/s4.svg')",
+              backgroundImage: "url('/service/s4.webp')",
               filter: "blur(2px)"
             }}
           ></div>
@@ -712,9 +712,9 @@ function DeckWaterproofingCoatingRepair() {
             <p className="text-lg text-gray-700 mb-6">
               Don't let these problems compromise your deck's safety and value. Our expert team can identify and resolve any waterproofing issue.
             </p>
-            <button className="bg-[#00A7E8] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#0088C7] transition-colors duration-200">
+            <a href="/contact" className="inline-block bg-[#00A7E8] text-white px-8 py-4 rounded-lg font-semibold hover:bg-[#0088C7] transition-colors duration-200">
               Get Free Inspection & Quote
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -751,7 +751,7 @@ function DeckWaterproofingCoatingRepair() {
                 <div 
                   className="w-full h-full bg-cover bg-center"
                   style={{
-                    backgroundImage: "url('/service/s4.svg')",
+                    backgroundImage: "url('/service/s4.webp')",
                     filter: "blur(2px)"
                   }}
                 ></div>
@@ -841,9 +841,9 @@ function DeckWaterproofingCoatingRepair() {
               <p className="text-lg text-gray-700 leading-relaxed mb-8">
                 Globally repurpose interdependent products after enterprise alignments. Credibly orchestrate worldwide web services whereas bleeding-edge networks. Interactively target sticky architectures. Holistically aggregate team driven human capital via customer directed interfaces. Seamlessly scale diverse total linkage rather than cross-unit process improvements.
               </p>
-              <button className="bg-[#00A7E8] text-white font-bold py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out shadow-lg">
+              <a href="/contact" className="inline-block bg-[#00A7E8] text-white font-bold py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out shadow-lg">
                 ASK QUESTIONS
-              </button>
+              </a>
             </div>
 
             {/* Right Column - FAQ Accordion */}

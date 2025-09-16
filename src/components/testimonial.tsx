@@ -135,10 +135,10 @@ export default function Testimonial() {
           
           {/* Call-to-Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/blog" className="bg-[#00A7E8] hover:bg-[#0095d1] text-white font-semibold py-4 px-8 rounded-lg transition-colors duration-200 text-lg">
+            <Link to="/contact" className="bg-[#00A7E8] hover:bg-[#0095d1] text-white font-semibold py-4 px-8 rounded-lg transition-colors duration-200 text-lg">
               BOOK A ONLINE
             </Link>
-            <Link to="/blog" className="border-2 border-white text-white hover:bg-white hover:text-gray-800 font-semibold py-4 px-8 rounded-lg transition-colors duration-200 text-lg">
+            <Link to="/contact" className="border-2 border-white text-white hover:bg-white hover:text-gray-800 font-semibold py-4 px-8 rounded-lg transition-colors duration-200 text-lg">
               CONTACT US
             </Link>
           </div>

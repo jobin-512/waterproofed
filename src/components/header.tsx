@@ -6,6 +6,8 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false)
   const dropdownTimeoutRef = useRef<number | null>(null)
+  const [isAreaDropdownOpen, setIsAreaDropdownOpen] = useState(false)
+  const areaDropdownTimeoutRef = useRef<number | null>(null)
   const matchRoute = useMatchRoute()
 
   const handleMouseEnter = () => {
@@ -21,11 +23,27 @@ export default function Header() {
     }, 300) // 300ms delay before closing
   }
 
+  const handleAreaMouseEnter = () => {
+    if (areaDropdownTimeoutRef.current) {
+      clearTimeout(areaDropdownTimeoutRef.current)
+    }
+    setIsAreaDropdownOpen(true)
+  }
+
+  const handleAreaMouseLeave = () => {
+    areaDropdownTimeoutRef.current = setTimeout(() => {
+      setIsAreaDropdownOpen(false)
+    }, 300)
+  }
+
   // Cleanup timeout on unmount
   useEffect(() => {
     return () => {
       if (dropdownTimeoutRef.current) {
         clearTimeout(dropdownTimeoutRef.current)
+      }
+      if (areaDropdownTimeoutRef.current) {
+        clearTimeout(areaDropdownTimeoutRef.current)
       }
     }
   }, [])
@@ -119,9 +137,9 @@ export default function Header() {
 
           {/* Get a Quote Button */}
           <div className="w-full md:w-auto">
-            <button className="w-full md:w-auto bg-gray-800 text-white px-6 py-3 rounded hover:bg-gray-700 transition-colors font-semibold">
+            <a href="/contact" className="w-full md:w-auto bg-gray-800 text-white px-6 py-3 rounded hover:bg-gray-700 transition-colors font-semibold">
               GET A QUOTE
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -202,12 +220,81 @@ export default function Header() {
                         <div className="font-semibold text-gray-800">Planter Waterproofing</div>
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
                       </Link>
+                      <Link 
+                        to="/services/Professional-Concrete-Floor-Leveling"
+                        className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsServicesDropdownOpen(false)}
+                      >
+                        <div className="font-semibold text-gray-800">Concrete Floor Leveling</div>
+                        <div className="text-sm text-gray-600">Coating & Repair Services</div>
+                      </Link>
                     </div>
                   </div>
                 )}
               </div>
               
-              <a href="#" className="text-gray-700 hover:text-[#00A7E8]">Area </a>
+              {/* Area Dropdown */}
+              <div 
+                className="relative"
+                onMouseEnter={handleAreaMouseEnter}
+                onMouseLeave={handleAreaMouseLeave}
+              >
+                <a 
+                  href="#" 
+                  className={`hover:text-[#00A7E8] flex items-center gap-1 text-gray-700`}
+                >
+                  Area 
+                  <svg 
+                    className={`w-4 h-4 transition-transform duration-200 ${
+                      isAreaDropdownOpen ? 'transform rotate-180' : ''
+                    }`}
+                    fill="none" 
+                    stroke="currentColor" 
+                    viewBox="0 0 24 24"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                  </svg>
+                </a>
+                {isAreaDropdownOpen && (
+                  <div className="absolute top-full left-0 mt-2 w-80 bg-white border border-gray-200 rounded-lg shadow-lg z-50">
+                    <div className="py-2">
+                      <a 
+                        href="/los-angeles-deck-waterproofing-contractor"
+                        className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsAreaDropdownOpen(false)}
+                      >
+                        <div className="font-semibold text-gray-800">Los Angeles</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+                      <a 
+                        href="/beverly-hills-deck-waterproofing-contractor"
+                        className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsAreaDropdownOpen(false)}
+                      >
+                        <div className="font-semibold text-gray-800">Beverly Hills</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+                      <a 
+                        href="/malibu-deck-waterproofing-contractor"
+                        className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsAreaDropdownOpen(false)}
+                      >
+                        <div className="font-semibold text-gray-800">Malibu</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+
+                      <a 
+                        href="/Pasadena-deck-waterproofing-contractor"
+                        className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsAreaDropdownOpen(false)}
+                      >
+                        <div className="font-semibold text-gray-800">Pasadena</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+                    </div>
+                  </div>
+                )}
+              </div>
               <a href="/blog" className="text-gray-700 hover:text-[#00A7E8]">Blog </a>
               <Link 
                 to="/contact" 
@@ -292,10 +379,57 @@ export default function Header() {
                         <div className="font-medium text-gray-800">Planter Waterproofing</div>
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
                       </Link>
+                      <Link 
+                        to="/services/Professional-Concrete-Floor-Leveling"
+                        className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        <div className="font-medium text-gray-800">Concrete Floor Leveling</div>
+                        <div className="text-sm text-gray-600">Coating & Repair Services</div>
+                      </Link>
                     </div>
                   </div>
                   
-                  <a href="#" className="px-4 py-3 text-gray-700 border-b hover:bg-gray-50 hover:text-[#00A7E8]">Area </a>
+                  {/* Mobile Area Section */}
+                  <div className="border-b">
+                    <div className="px-4 py-3 text-gray-700 font-semibold">
+                      Area
+                    </div>
+                    <div className="bg-gray-50">
+                      <a 
+                        href="/los-angeles-deck-waterproofing-contractor"
+                        className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        <div className="font-medium text-gray-800">Los Angeles</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+                      <a 
+                        href="/beverly-hills-deck-waterproofing-contractor"
+                        className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        <div className="font-medium text-gray-800">Beverly Hills</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+                      <a 
+                        href="/malibu-deck-waterproofing-contractor"
+                        className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        <div className="font-medium text-gray-800">Malibu</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+                      <a 
+                        href="/Pasadena-deck-waterproofing-contractor"
+                        className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        <div className="font-medium text-gray-800">Pasadena</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+                    </div>
+                  </div>
                   <a href="/blog" className="px-4 py-3 text-gray-700 border-b hover:bg-gray-50 hover:text-[#00A7E8]">Blog </a>
                   <Link 
                     to="/contact" 

@@ -118,9 +118,9 @@ function Index() {
               <span className="text-[#00A7E8] font-semibold text-sm">Our Services</span>
             </div>
             <h2 className="text-4xl font-bold text-gray-800 mb-4 lg:mb-0">See Our Water Proofed Services</h2>
-            <button className="bg-[#00A7E8] hover:bg-[#0095d1] text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
+            <a href='/service' className="bg-[#00A7E8] hover:bg-[#0095d1] text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
               EXPLORE ALL SERVICES
-            </button>
+            </a>
           </div>
           
           {/* Services Content */}
@@ -143,9 +143,9 @@ function Index() {
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
                   When it comes to installing plumbing in a basement bathroom, there are a few options that may work for your space. If you are lucky enough.
                 </p>
-                <button className="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
+                <a href='/service' className="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
                   READ MORE
-                </button>
+                </a>
               </div>
               
               {/* Card 2: Decorative Coatings */}
@@ -171,9 +171,9 @@ function Index() {
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
                   Efficiently morph timely intellectual capital rather than equity invested applications. Proactively leverage other's intuitive human capital rather than effective.
                 </p>
-                <button className="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
+                <a href='/service' className="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
                   READ MORE
-                </button>
+                </a>
               </div>
               
               {/* card 3 */}
@@ -199,9 +199,9 @@ function Index() {
                 <p className="text-gray-600 text-sm leading-relaxed mb-4">
                   Efficiently morph timely intellectual capital rather than equity invested applications. Proactively leverage other's intuitive human capital rather than effective.
                 </p>
-                <button className="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
+                <a href='/service' className="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
                   READ MORE
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -394,9 +394,9 @@ function Index() {
               </p>
               
               <div className="pt-4">
-                <button className="bg-[#00A7E8] hover:bg-[#0095d1] text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
+                <a href='/contact' className="bg-[#00A7E8] hover:bg-[#0095d1] text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200">
                   ASK QUESTIONS
-                </button>
+                </a>
               </div>
             </div>
             

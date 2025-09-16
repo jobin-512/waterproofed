@@ -102,7 +102,7 @@ function RouteComponent() {
             {/* Background Pattern Overlay */}
             <div className="absolute inset-0 opacity-90">
               <div className="w-full h-full" style={{
-                backgroundImage: "/service/s4.svg"
+                backgroundImage: "/service/s4.webp"
               }}></div>
             </div>
             
@@ -112,9 +112,9 @@ function RouteComponent() {
                 Do you see stains, cracks, or soft stucco near your planters?
               </h2>
               
-              <button className="bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 border border-gray-300">
+              <a href="/contact" className="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 border border-gray-300">
                 Call us now for a free estimate!
-              </button>
+              </a>
             </div>
           </div>
         </div>
@@ -165,7 +165,7 @@ function RouteComponent() {
               <div className=" top-8">
                 <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                   <img 
-                    src="/service/s1.svg" 
+                    src="/service/s1.webp" 
                     alt="Worker applying balcony coating with roller"
                     className="w-full h-auto object-cover"
                     style={{ minHeight: '600px' }}
@@ -185,7 +185,7 @@ function RouteComponent() {
             <div className="order-2 lg:order-1">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img 
-                  src="/service/s2.svg" 
+                  src="/service/s2.webp" 
                   alt="Workers performing planter repair work on concrete floor"
                   className="w-full h-auto object-cover"
                   style={{ minHeight: '500px' }}
@@ -325,7 +325,7 @@ function RouteComponent() {
             <div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img 
-                  src="/service/s3.svg" 
+                  src="/service/s3.webp" 
                   alt="Three construction workers applying bright light blue waterproof coating on outdoor planter"
                   className="w-full h-auto object-cover"
                   style={{ minHeight: '600px' }}
@@ -395,7 +395,7 @@ function RouteComponent() {
           <div 
             className="w-full h-full bg-cover bg-center"
             style={{
-              backgroundImage: "url('/service/s4.svg')",
+              backgroundImage: "url('/service/s4.webp')",
               filter: "blur(2px)"
             }}
           ></div>
@@ -506,7 +506,7 @@ function RouteComponent() {
                 <div 
                   className="w-full h-full bg-cover bg-center"
                   style={{
-                    backgroundImage: "url('/service/s4.svg')",
+                    backgroundImage: "url('/service/s4.webp')",
                     filter: "blur(2px)"
                   }}
                 ></div>
@@ -587,9 +587,9 @@ function RouteComponent() {
               <p className="text-lg text-gray-700 leading-relaxed mb-8">
                 Globally repurpose interdependent products after enterprise alignments. Credibly orchestrate worldwide web services whereas bleeding-edge networks. Interactively target sticky architectures. Holistically aggregate team driven human capital via customer directed interfaces. Seamlessly scale diverse total linkage rather than cross-unit process improvements.
               </p>
-              <button className="bg-[#00A7E8] text-white font-bold py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out shadow-lg">
+              <a href="/contact" className="inline-block bg-[#00A7E8] text-white font-bold py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out shadow-lg">
                 ASK QUESTIONS
-              </button>
+              </a>
             </div>
 
             {/* Right Column - FAQ Accordion */}
