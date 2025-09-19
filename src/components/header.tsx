@@ -166,6 +166,31 @@ export default function Header() {
               >
                 About Us
               </Link>
+              <Link 
+                to="/gallery" 
+                className={`hover:text-[#00A7E8] ${
+                  matchRoute({ to: "/gallery" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                }`}
+              >
+                Gallery
+              </Link>
+              <Link 
+                to="/refrence-sheet" 
+                className={`hover:text-[#00A7E8] ${
+                  matchRoute({ to: "/refrence-sheet" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                }`}
+              >
+                Reference Sheet
+              </Link>
+              <Link 
+                to="/testimonials" 
+                className={`hover:text-[#00A7E8] ${
+                  matchRoute({ to: "/testimonials" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                }`}
+              >
+                Testimonials
+              </Link>
+              
               
               {/* Services Dropdown */}
               <div 
@@ -348,6 +373,30 @@ export default function Header() {
                   >
                     About Us
                   </Link>
+                  <Link 
+                  to="/gallery" 
+                  className={`hover:text-[#00A7E8] ${
+                    matchRoute({ to: "/gallery" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                  }`}
+                >
+                  Gallery
+                </Link>
+                <Link 
+                  to="/refrence-sheet" 
+                  className={`hover:text-[#00A7E8] ${
+                    matchRoute({ to: "/refrence-sheet" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                  }`}
+                >
+                  Reference Sheet
+                </Link>
+                <Link 
+                  to="/testimonials" 
+                  className={`hover:text-[#00A7E8] ${
+                    matchRoute({ to: "/testimonials" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                  }`}
+                >
+                  Testimonials
+                </Link>
                   
                   {/* Mobile Services Section */}
                   <div className="border-b">
