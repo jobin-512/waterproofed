@@ -68,12 +68,12 @@ function RouteComponent() {
         <div className="text-center text-white px-4">
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          Professional Concrete Floor Leveling in Santa Monica, CA
+          Concrete Floor Leveling 
           </h1>
           
           {/* Paragraph Text */}
           <p className="text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-8">
-          Epoxy Floor Leveling. We are located in the Santa Clarita Valley, Santa Monica & West Los Angeles, California.
+          Professional Floor Leveling Services in Santa Clarita Valley, Santa Monica and All of Southern California by Waterproofed.com's Experts.
           </p>
         </div>
       </div>
@@ -585,7 +585,7 @@ function RouteComponent() {
               Best Planter Waterproofing, Coating & Repair Services
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Globally repurpose interdependent products after enterprise alignments. Credibly orchestrate worldwide web services whereas bleeding-edge networks. Interactively target sticky architectures. Holistically aggregate team driven human capital via customer directed interfaces. Seamlessly scale diverse total linkage rather than cross-unit process improvements.
+              
             </p>
             <a href="/contact" className="inline-block bg-[#00A7E8] text-white font-bold py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out shadow-lg">
               ASK QUESTIONS

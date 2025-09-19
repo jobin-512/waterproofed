@@ -73,7 +73,7 @@ function RouteComponent() {
           
           {/* Paragraph Text */}
           <p className="text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-8">
-          Intrinsicly predominate backward-compatible potentialities without alternative total linkage. Interactively fabricate cross-unit growth strategies.
+          Looking for a Waterproofing Contractor? Southern California Decking's Professional Team Is Your One Stop Solution for Balcony Waterproofing and Coating Needs.
           </p>
         </div>
       </div>
@@ -83,9 +83,9 @@ function RouteComponent() {
     <div className="py-16 px-4">
       <div className="container mx-auto max-w-8xl">
         {/* Main Heading */}
-        <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-8">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-8">
           Balcony Waterproofing, Coating & Repair in Los Angeles
-        </h1>
+        </h2>
         
         {/* Introductory Paragraph */}
         <p className="text-lg text-gray-700 leading-relaxed mb-8 text-center">
@@ -706,7 +706,7 @@ function RouteComponent() {
               Best Balcony Waterproofing, Coating & Repair Services
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              Globally repurpose interdependent products after enterprise alignments. Credibly orchestrate worldwide web services whereas bleeding-edge networks. Interactively target sticky architectures. Holistically aggregate team driven human capital via customer directed interfaces. Seamlessly scale diverse total linkage rather than cross-unit process improvements.
+              
             </p>
             <a href="/contact" className="inline-block bg-[#00A7E8] text-white font-bold py-3 px-8 rounded-full hover:bg-blue-600 transition duration-300 ease-in-out shadow-lg">
               ASK QUESTIONS

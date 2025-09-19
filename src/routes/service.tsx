@@ -357,7 +357,7 @@ function Service() {
               </div>
               
               <p className="text-gray-600 leading-relaxed">
-                Globally repurpose interdependent products after enterprise alignments. Credibly orchestrate worldwide web services whereas bleeding-edge networks. Interactively target sticky architectures. Holistically aggregate team driven human capital via customer directed interfaces. Seamlessly scale diverse total linkage rather than cross-unit process improvements.
+                
               </p>
               
               <div className="pt-4">

@@ -248,8 +248,7 @@ function RouteComponent() {
       <section className="py-16 bg-gray-100">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Customer Photos</h2>
-            <p className="text-gray-600">Before and after photos of our completed projects</p>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">Testimonial Photos</h2>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">

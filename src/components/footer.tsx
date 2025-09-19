@@ -17,7 +17,7 @@ export default function Footer() {
             
             {/* Company Description */}
             <p className="text-gray-300 mb-6">
-              Uniquely engineer standards compliant expertise whereas revolutionary.
+              Serving home owners in Southern California from the last 38 years.
             </p>
             
             {/* Working Hours */}
