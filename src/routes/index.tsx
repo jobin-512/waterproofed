@@ -15,22 +15,22 @@ function Index() {
     {
       id: 0,
       question: "1. How do I know if I need waterproofing?",
-      answer: "Common signs include water stains, musty odors, mold growth, or visible cracks in your basement or foundation. If you're seeing any of these, it's best to schedule a free inspection."
+      answer: "If you notice cracks, leaks, bubbling paint, mold, or water stains, your property likely needs waterproofing. Acting early prevents costly structural damage and protects your investment long-term."
     },
     {
       id: 1,
-      question: "2. What does your free estimate include?",
-      answer: "Our free estimate includes a thorough inspection of your property, identification of water issues, detailed recommendations, and a comprehensive written quote with no hidden fees or pressure to sign up immediately."
+      question: "2. How long does waterproofing last?",
+      answer: "With professional installation and proper maintenance, our waterproofing systems provide durable protection for many years, even against Southern California’s toughest weather and environmental conditions."
     },
     {
       id: 2,
-      question: "3. Do you offer warranties?",
-      answer: "Yes, we offer comprehensive warranties on all our work. Our waterproofing systems come with lifetime transferable warranties, and we stand behind our craftsmanship with detailed warranty documentation."
+      question: "3. Do you offer free inspections?",
+      answer: " Yes! We offer free, no-obligation inspections and clear, upfront estimates. This way, you understand the problem, the solution, and the cost—before we begin any work."
     },
     {
       id: 3,
-      question: "4. How long does waterproofing take?",
-      answer: "The timeline varies depending on the scope of work. Simple repairs might take a day, while full basement waterproofing systems typically take 2-3 days. We'll provide a detailed timeline during your free estimate."
+      question: "4. Can waterproofing increase property value?",
+      answer: "Absolutely. Waterproofing not only prevents costly damage but also enhances safety, durability, and curb appeal—making your property more attractive and valuable to potential buyers."
     }
   ]
 
@@ -69,28 +69,32 @@ function Index() {
             <div className="lg:w-1/2 space-y-6">
               <div>
                 <p className="text-brand-blue-500 font-semibold text-sm uppercase tracking-wide mb-2">
-                  About Us Water Proofed
+                  About Us
                 </p>
                 <h2 className="text-4xl font-bold text-gray-800 mb-6">
-                  Decades of Waterproofing Excellence
+                Southern California Decking – Premium Deck & Balcony Waterproofing Solutions 
                 </h2>
               </div>
               
               <p className="text-gray-600 leading-relaxed">
-                Waterproofed.com is a team of experienced professionals dedicated to keeping your home safe and dry. With over 30 years in the industry, we've earned the trust of homeowners through exceptional service, expert craftsmanship, and reliable solutions.
+              Protect. Restore. Elevate. Your Outdoor Spaces Deserve the Best. 
+              </p>
+
+              <p className="text-gray-600 leading-relaxed">
+              At Southern California Decking, Inc., we don’t just waterproof decks and balconies—we preserve your lifestyle, enhance your home’s value, and give you peace of mind. With decades of experience and a reputation for excellence in Los Angeles, Santa Monica, Beverly Hills, Pasadena, and beyond, we specialize in premium waterproofing solutions that stand the test of time. Say goodbye to leaks, cracks, and water damage—welcome to durability, beauty, and worry-free outdoor living. 
               </p>
               
               <div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3">Our Mission:</h3>
                 <p className="text-gray-600 leading-relaxed mb-4">
-                  To protect homes and properties from water damage through honest work, dependable systems, and unbeatable customer service.
+                With 38 years of experience, we protect and enhance decks and balconies, delivering durable, leak-free waterproofing solutions that safeguard your home, preserve your investment, and provide peace of mind for years to come. 
                 </p>
               </div>
               
               <div>
                 <h3 className="text-xl font-bold text-gray-800 mb-3">Our Mission:</h3>
                 <p className="text-gray-600 leading-relaxed mb-6">
-                  Since our founding, we've helped thousands of families across the region secure their foundations and prevent costly water damage. From small repairs to full basement systems, no job is too big or small.
+                We aim to be the leading waterproofing experts in Los Angeles, Santa Monica, Malibu, Beverly Hills, and Pacific Palisades, ensuring every deck and balcony is beautifully protected, long-lasting, and worry-free—combining innovation, quality, and unmatched customer trust. 
                 </p>
               </div>
               
@@ -117,7 +121,7 @@ function Index() {
               </div>
               <span className="text-[#00A7E8] font-semibold text-sm">Our Services</span>
             </div>
-            <h2 className="text-4xl font-bold text-gray-800 mb-4 lg:mb-0">See Our Water Proofed Services</h2>
+            <h2 className="text-4xl font-bold text-gray-800 mb-4 lg:mb-0">Waterproofing Solutions Built to Last </h2>
             <a href='/service' className="bg-[#00A7E8] hover:bg-[#0095d1] text-white font-semibold py-3 px-6 rounded-lg transition-colors duration-200">
               EXPLORE ALL SERVICES
             </a>
@@ -128,7 +132,7 @@ function Index() {
             {/* Service Cards */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {/* Card 1: Waterproof Deck Coatings */}
-              <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
+              <div className="group bg-white rounded-lg shadow-lg p-6 hover:shadow-xl hover:bg-[#00A7E8] transition-all duration-200">
                 <div className=" w-fit  rounded-full flex items-center justify-center mb-6 mx-auto">
                 <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle opacity="0.2" cx="75" cy="75" r="75" fill="#323232"/>
@@ -139,9 +143,9 @@ function Index() {
                   <path d="M77.2965 94.711C77.1055 94.9708 77.0782 95.7366 77.0782 100.195V105.364L77.4193 105.692C77.8149 106.102 78.2924 106.13 78.688 105.761C78.9882 105.473 78.9882 105.446 78.9882 100.167C78.9882 95.2033 78.9745 94.8477 78.7426 94.6426C78.3606 94.3007 77.5557 94.3417 77.2965 94.711Z" fill="white"/>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">Waterproof Deck Coatings</h3>
-                <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  When it comes to installing plumbing in a basement bathroom, there are a few options that may work for your space. If you are lucky enough.
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-white">Deck Waterproofing </h3>
+                <p className="text-gray-600 text-sm leading-relaxed mb-4 group-hover:text-white">
+                Your deck is more than just an outdoor space—it’s where you relax, host, and create memories. But cracks, peeling, and water intrusion can quickly turn it into a hazard. Our deck waterproofing solutions not only stop leaks but also strengthen your deck, protect against weather damage, and extend its lifespan. The result? A durable, slip-resistant, and beautiful outdoor space you’ll enjoy year-round. 
                 </p>
                 <a href='/service' className="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
                   READ MORE
@@ -149,7 +153,7 @@ function Index() {
               </div>
               
               {/* Card 2: Decorative Coatings */}
-              <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
+              <div className="group bg-white rounded-lg shadow-lg p-6 hover:shadow-xl hover:bg-[#00A7E8] transition-all duration-200">
               <div className=" w-fit  rounded-full flex items-center justify-center mb-6 mx-auto">
               <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle opacity="0.2" cx="75" cy="75" r="75" fill="#323232"/>
@@ -167,9 +171,9 @@ function Index() {
                 <path d="M55.7607 98.432C55.4211 98.7741 55.4075 98.8288 55.4618 100.293C55.5026 101.688 55.5298 101.825 55.8287 102.071C56.2363 102.413 56.6711 102.399 57.1194 102.044C57.4591 101.77 57.4727 101.729 57.4727 100.224C57.4727 98.7877 57.4455 98.6646 57.1602 98.391C56.739 97.9943 56.1819 98.0079 55.7607 98.432Z" fill="white"/>
                 </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">FLOOR LEVELING</h3>
-                <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  Efficiently morph timely intellectual capital rather than equity invested applications. Proactively leverage other's intuitive human capital rather than effective.
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-white">Floor Leveling </h3>
+                <p className="text-gray-600 text-sm leading-relaxed mb-4 group-hover:text-white">
+                Uneven floors don’t just look bad—they can cause serious safety and structural problems. Our floor leveling services correct imperfections, create smooth foundations, and prepare surfaces for waterproofing and finishing. Whether it’s for residential or commercial spaces, we deliver precise, long-lasting results that make your floors safer, stronger, and visually appealing. 
                 </p>
                 <a href='/service' className="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
                   READ MORE
@@ -177,7 +181,7 @@ function Index() {
               </div>
               
               {/* card 3 */}
-              <div className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-200">
+              <div className="group bg-white   rounded-lg shadow-lg p-6 hover:shadow-xl hover:bg-[#00A7E8] transition-all duration-200">
                 <div className=" w-fit  rounded-full flex items-center justify-center mb-6 mx-auto">
                 <svg width="150" height="150" viewBox="0 0 150 150" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <circle opacity="0.2" cx="75" cy="75" r="75" fill="#323232"/>
@@ -195,9 +199,9 @@ function Index() {
                   <path d="M55.7609 98.432C55.4212 98.7741 55.4076 98.8288 55.462 100.293C55.5027 101.688 55.5299 101.825 55.8288 102.071C56.2364 102.413 56.6712 102.399 57.1196 102.044C57.4592 101.77 57.4728 101.729 57.4728 100.224C57.4728 98.7877 57.4457 98.6646 57.1603 98.391C56.7391 97.9943 56.1821 98.0079 55.7609 98.432Z" fill="white"/>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3">Floor Leveling</h3>
-                <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                  Efficiently morph timely intellectual capital rather than equity invested applications. Proactively leverage other's intuitive human capital rather than effective.
+                <h3 className="text-xl font-bold text-gray-800 mb-3 group-hover:text-white">Planter Waterproofing </h3>
+                <p className="text-gray-600 text-sm leading-relaxed mb-4 group-hover:text-white">
+                Planters bring life to your property but often leak, damaging walls and structures. Our planter waterproofing system seals the problem at its root, preventing costly water intrusion while keeping your landscaping healthy and beautiful. 
                 </p>
                 <a href='/service' className="bg-gray-700 hover:bg-gray-800 text-white font-semibold py-2 px-4 rounded transition-colors duration-200 text-sm">
                   READ MORE
@@ -270,55 +274,55 @@ function Index() {
             <div className="lg:w-1/2 space-y-6">
               <div>
                 <p className="text-[#00A7E8] font-semibold text-sm uppercase tracking-wide mb-2">
-                  Why Choosing Our Services
+                  Why Choose Southern California Decking? 
                 </p>
                 <h2 className="text-4xl font-bold text-gray-800 mb-6">
-                  Why Homeowners Trust Waterproofed.com
+                Bold Expertise Meets Proven Results 
                 </h2>
               </div>
               
               <p className="text-gray-600 leading-relaxed">
-                At Waterproofed.com, we combine decades of experience with proven techniques to deliver lasting solutions for every home. Our team is licensed, insured, and highly trained to tackle even the most complex water problems. We don't believe in one-size-fits-all fixes — just honest evaluations, transparent pricing, and work that's built to last. From our lifetime transferable warranties to our local reputation for reliability, everything we do is focused on protecting your home and earning your trust.
+              When it comes to protecting your property, experience matters. At Southern California Decking, Inc., we bring over 38 years of hands-on expertise to every project, combining time-tested methods with cutting-edge innovations. Waterproofing isn’t just about sealing surfaces—it’s about diagnosing the unique challenges of every deck, balcony, planter, and floor. Whether it’s a modern high-rise in Los Angeles or a family home with years of wear and tear, our solutions are precision-engineered to stop leaks, prevent damage, and add value to your space. 
               </p>
               
               <div className="space-y-4">
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-[#00A7E8] rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h3 className="font-bold text-gray-800 mb-1">Experience You Can Trust</h3>
-                    <p className="text-gray-600 text-sm">With over 30 years in waterproofing, we know how to diagnose and solve even the toughest water problems.</p>
+                    <h3 className="font-bold text-gray-800 mb-1">38+ Years of Experience </h3>
+                    <p className="text-gray-600 text-sm">Our proven solutions have been tested by time, ensuring reliability and trust built over decades.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-[#00A7E8] rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h3 className="font-bold text-gray-800 mb-1">Lifetime Warranty</h3>
-                    <p className="text-gray-600 text-sm">We stand behind our work with warranties that give you lasting peace of mind — and they're fully transferable.</p>
+                    <h3 className="font-bold text-gray-800 mb-1">Expert Technicians</h3>
+                    <p className="text-gray-600 text-sm">Every project is handled by skilled, certified professionals who take pride in their craftsmanship.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-[#00A7E8] rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h3 className="font-bold text-gray-800 mb-1">Honest, Upfront Pricing</h3>
-                    <p className="text-gray-600 text-sm">No gimmicks, no pressure. Just clear estimates and straightforward recommendations.</p>
+                    <h3 className="font-bold text-gray-800 mb-1">Tailored Solutions</h3>
+                    <p className="text-gray-600 text-sm">No two properties are the same, which is why we design strategies that fit your specific needs</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-[#00A7E8] rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h3 className="font-bold text-gray-800 mb-1">Top-Rated Service</h3>
-                    <p className="text-gray-600 text-sm">Hundreds of 5-star reviews and an A+ BBB rating speak for themselves.</p>
+                    <h3 className="font-bold text-gray-800 mb-1">Upfront Estimates </h3>
+                    <p className="text-gray-600 text-sm">With us, there are no hidden costs or surprises—just clear, transparent pricing from the start.</p>
                   </div>
                 </div>
                 
                 <div className="flex items-start gap-3">
                   <div className="w-2 h-2 bg-[#00A7E8] rounded-full mt-2 flex-shrink-0"></div>
                   <div>
-                    <h3 className="font-bold text-gray-800 mb-1">Local & Reliable</h3>
-                    <p className="text-gray-600 text-sm">We're not a national chain — we live and work in your community, and we treat your home like our own.</p>
+                    <h3 className="font-bold text-gray-800 mb-1">Lasting Results</h3>
+                    <p className="text-gray-600 text-sm">We don’t just waterproof; we deliver durable protection that truly works, guaranteed.</p>
                   </div>
                 </div>
               </div>
@@ -361,8 +365,8 @@ function Index() {
             
             {/* Stat 3 */}
             <div className="text-center border-r border-gray-600">
-              <div className="text-4xl md:text-5xl font-bold text-[#00A7E8] mb-2">250+</div>
-              <div className="text-gray-800 font-medium">Expert Plumbers</div>
+              <div className="text-4xl md:text-5xl font-bold text-[#00A7E8] mb-2">4.8</div>
+              <div className="text-gray-800 font-medium">Rating</div>
             </div>
             
             {/* Stat 4 */}
@@ -385,7 +389,7 @@ function Index() {
                   Frequently Asked Have Any Question?
                 </p>
                 <h2 className="text-3xl lg:text-4xl font-bold text-gray-800 mb-6">
-                  What to Know About Waterproofing, Our Services, and Your Protection.
+                Everything You Need to Know About Waterproofing
                 </h2>
               </div>
               
@@ -441,7 +445,7 @@ function Index() {
         <div className="container mx-auto px-4">
           {/* Section Title */}
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-800">Our Standard Working Process</h2>
+            <h2 className="text-4xl font-bold text-gray-800">How We Work – Our Proven Process </h2>
           </div>
           
           {/* Process Steps */}
@@ -462,7 +466,7 @@ function Index() {
               {/* Content */}
               <h3 className="text-xl font-bold text-gray-800 mb-3">Free Inspection & Assessment</h3>
               <p className="text-gray-600 text-sm">
-                When booking, it helps customers when they are shown a calendar. They can then click on the day they want and book from there.
+              It all starts with a complimentary inspection. Our experts carefully evaluate your deck, balcony, or planter, identifying potential issues before they become costly problems. 
               </p>
             </div>
             
@@ -489,7 +493,7 @@ function Index() {
               {/* Content */}
               <h3 className="text-xl font-bold text-gray-800 mb-3">Clear, Upfront Estimate</h3>
               <p className="text-gray-600 text-sm">
-                Professionally engage end-to-end channels after functionalized supply chains. Continually underwhelm cooperative.
+              Next, we provide a transparent, no-surprise estimate. You’ll know exactly what needs to be done, why it matters, and how much it will cost—before we begin any work. 
               </p>
             </div>
             
@@ -516,7 +520,7 @@ function Index() {
               {/* Content */}
               <h3 className="text-xl font-bold text-gray-800 mb-3">Expert Installation</h3>
               <p className="text-gray-600 text-sm">
-                Some common plumbing problems include low water pressure, clogged drains, leaky pipes, running toilets, and dripping faucets.
+              Finally, our certified technicians apply advanced waterproofing systems with precision and care. From surface preparation to final inspection, we deliver lasting protection and peace of mind. 
               </p>
             </div>
           </div>

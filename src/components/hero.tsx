@@ -13,18 +13,18 @@ interface CarouselSlide {
 const carouselData: CarouselSlide[] = [
   {
     id: 1,
-    title: "SPRINGTIME SPECIALS",
-    subtitle: "FOR LEAKING DECKS !!",
-    description: "Intrinsicly predominate backward-compatible potentialities without alternative total linkage. Interactively fabricate cross-unit growth strategies.",
+    title: "Shield Your Deck.",
+    subtitle: "Elevate Your Outdoors.",
+    description: "Transform your deck into a fortress against leaks and wear. Our expert waterproofing solutions ensure long-lasting protection, preserving your outdoor space's beauty and integrity. Trust our seasoned experts to protect your investment with precision and care.",
     image: "/hero-1.webp",
     ctaPrimary: "DISCOVER MORE",
     ctaSecondary: "OUR SERVICES"
   },
   {
     id: 2,
-    title: "PROFESSIONAL ROOFING",
-    subtitle: "EXPERT SOLUTIONS !!",
-    description: "Comprehensive roofing services with certified professionals. Quality materials and guaranteed workmanship for your peace of mind.",
+    title: "Protect Your Home with 38+ Years of",
+    subtitle: "Trusted Waterproofing Expertise",
+    description: "For over three decades, homeowners and property managers across Southern California have trusted us to solve their toughest water damage challenges. From decks to planters, floors to full property solutions—we deliver long-lasting protection that gives you confidence, comfort, and peace of mind. Stop leaks before they start. Build strong. Stay dry. Live worry-free. ",
     image: "/hero-2.webp",
     ctaPrimary: "GET QUOTE",
     ctaSecondary: "VIEW PROJECTS"
