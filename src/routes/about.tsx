@@ -206,7 +206,7 @@ function About() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-800 font-medium">Thousand</span>
+                  <span className="text-gray-800 font-medium">Thousand Oaks</span>
                 </div>
 
                 <div className="flex items-center space-x-2 bg-white border border-gray-300 rounded-lg px-4 py-2">
@@ -218,14 +218,6 @@ function About() {
                   <span className="text-gray-800 font-medium">Hollywood </span>
                 </div>
 
-                <div className="flex items-center space-x-2 bg-white border border-gray-300 rounded-lg px-4 py-2">
-                  <div className="w-6 h-6 bg-[#00A7E8] rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <span className="text-gray-800 font-medium">West </span>
-                </div>
 
                 <div className="flex items-center space-x-2 bg-white border border-gray-300 rounded-lg px-4 py-2">
                   <div className="w-6 h-6 bg-[#00A7E8] rounded-full flex items-center justify-center">
@@ -245,14 +237,6 @@ function About() {
                   <span className="text-gray-800 font-medium">Playa Del Rey </span>
                 </div>
 
-                <div className="flex items-center space-x-2 bg-white border border-gray-300 rounded-lg px-4 py-2">
-                  <div className="w-6 h-6 bg-[#00A7E8] rounded-full flex items-center justify-center">
-                    <svg className="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
-                      <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                    </svg>
-                  </div>
-                  <span className="text-gray-800 font-medium">Oaks</span>
-                </div>
 
                 <div className="flex items-center space-x-2 bg-white border border-gray-300 rounded-lg px-4 py-2">
                   <div className="w-6 h-6 bg-[#00A7E8] rounded-full flex items-center justify-center">
@@ -260,7 +244,7 @@ function About() {
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
                   </div>
-                  <span className="text-gray-800 font-medium">Hollywood</span>
+                  <span className="text-gray-800 font-medium">West Hollywood</span>
                 </div>
 
                 <div className="flex items-center space-x-2 bg-white border border-gray-300 rounded-lg px-4 py-2">
@@ -282,23 +266,48 @@ function About() {
         </div>
       </section>
 
-      {/* What We Do Section */}
-      <section className="w-full bg-white py-16">
-        <div className="container mx-auto px-4">
-          <div className="max-w-5xl mx-auto space-y-12">
-            {/* Intro */}
-            <div className="space-y-4">
-              <p className="text-[#00A7E8] font-semibold text-sm uppercase tracking-wide">What We Do</p>
-              <h2 className="text-3xl md:text-4xl font-bold text-gray-800">Specialists in Deck Coating and Waterproofing</h2>
-              <p className="text-gray-600 leading-relaxed">
-                Southern California Decking, Inc., has been installing waterproofing and deck coatings in the Santa Clarita Valley, San Fernando Valley, Santa Monica, Los Angeles and all over Southern California for over 26 years. During that time we have grown from a tiny, one man concern into a successful and dynamic operation serving major commercial projects, apartment complexes and schools, yet still finding time for individual home owners completing both new installations, maintenance, and repairs. Our estimators match the right product with your particular project, based upon requirements and cost, and we are confident that the end result will be both functionally and aesthetically superior.
-              </p>
+
+
+    {/* Call-to-Action Section */}
+      <div className='container mx-auto max-w-8xl px-4'>
+    <div className="bg-[#1a4a5e] rounded-lg p-8 md:p-12 text-center relative overflow-hidden">
+              {/* Background Pattern Overlay */}
+              <div className="absolute inset-0 opacity-90">
+                <div className="w-full h-full" style={{
+                  backgroundImage: "/service/s4.webp"
+                }}></div>
+              </div>
+              
+              {/* CTA Content */}
+              <div className="relative z-10">
+                <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
+                  With Waterproofed.com, you get expert diagnosis, precision workmanship, and peace of mind
+                </h2>
+                <p className='text-2xl md:text-3xl font-bold text-white mb-6'>-All in one service!</p>
+                
+                <a href="/contact" className="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 border border-gray-300">
+                  Call Now
+                </a>
+              </div>
             </div>
+            </div>
+            
+          {/* What We Do Section */}
+          <section className="w-full bg-white py-16">
+            <div className="container mx-auto px-4">
+              <div className="max-w-5xl mx-auto space-y-12">
+                {/* Intro */}
+                <div className="space-y-4">
+                  <h2 className="text-3xl md:text-4xl font-bold text-center text-[#00A7E8]">What We Do</h2>
+                  <p className="text-gray-600 leading-relaxed">
+                    Southern California Decking, Inc., has been installing waterproofing and deck coatings in the Santa Clarita Valley, San Fernando Valley, Santa Monica, Los Angeles and all over Southern California for over 26 years. During that time we have grown from a tiny, one man concern into a successful and dynamic operation serving major commercial projects, apartment complexes and schools, yet still finding time for individual home owners completing both new installations, maintenance, and repairs. Our estimators match the right product with your particular project, based upon requirements and cost, and we are confident that the end result will be both functionally and aesthetically superior.
+                  </p>
+                </div>
 
             {/* Deck Coating & Waterproofing */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-8 items-start">
               <div className="md:col-span-1">
-                <h3 className="text-2xl font-bold text-gray-800">Deck Coating & Waterproofing</h3>
+                <h3 className="text-3xl font-bold text-gray-800 text-center">Deck Coating & Waterproofing</h3>
               </div>
               <div className="md:col-span-2 space-y-4">
                 <p className="text-gray-600 leading-relaxed">
@@ -311,9 +320,9 @@ function About() {
             </div>
 
             {/* Technological Products */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-8 items-start">
               <div className="md:col-span-1">
-                <h3 className="text-2xl font-bold text-gray-800">Technological Products</h3>
+                <h3 className="text-3xl font-bold text-gray-800 text-center">Technological Products</h3>
               </div>
               <div className="md:col-span-2 space-y-4">
                 <p className="text-gray-600 leading-relaxed">
@@ -329,7 +338,7 @@ function About() {
       {/* Statistics Section */}
       <section className="w-full  py-16 bg-[#eeeeee]">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8">
             {/* Stat 1 */}
             <div className="text-center border-r border-gray-600">
               <div className="text-4xl md:text-5xl font-bold text-[#00A7E8] mb-2">1.25k</div>
@@ -344,8 +353,14 @@ function About() {
             
             {/* Stat 3 */}
             <div className="text-center border-r border-gray-600">
-              <div className="text-4xl md:text-5xl font-bold text-[#00A7E8] mb-2">4.8</div>
+              <div className="text-4xl md:text-5xl font-bold text-[#00A7E8] mb-2">4.85+</div>
               <div className="text-gray-800 font-medium">Rating</div>
+            </div>
+
+            {/* Stat 5 */}
+            <div className="text-center border-r border-gray-600">
+              <div className="text-4xl md:text-5xl font-bold text-[#00A7E8] mb-2">20+</div>
+              <div className="text-gray-800 font-medium">Skilled Technicians</div>
             </div>
             
             {/* Stat 4 */}
@@ -369,24 +384,11 @@ function About() {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-start">
               {/* Sidebar Card */}
               <aside className="lg:col-span-1 space-y-6">
+                <img src="/Waterproofedcom is the best deck waterproofing company.jpg" alt="Waterproofed.com is the best deck waterproofing company" />
                 <div className="bg-[#eeeeee] rounded-lg p-6">
                   <h3 className="text-xl font-bold text-gray-800">Hands-On Leadership</h3>
                   <p className="text-sm text-gray-600 mt-2">President: Darren Elliott</p>
                   <p className="text-sm text-gray-600">38+ years of industry experience</p>
-                </div>
-                <div className="grid grid-cols-3 gap-3">
-                  <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                    <div className="text-2xl font-bold text-[#00A7E8]">38+</div>
-                    <div className="text-xs text-gray-700">Years Leading</div>
-                  </div>
-                  <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                    <div className="text-2xl font-bold text-[#00A7E8]">20+</div>
-                    <div className="text-xs text-gray-700">Team Members</div>
-                  </div>
-                  <div className="bg-white border border-gray-200 rounded-lg p-4 text-center">
-                    <div className="text-2xl font-bold text-[#00A7E8]">100+</div>
-                    <div className="text-xs text-gray-700">Years Combined</div>
-                  </div>
                 </div>
               </aside>
 

@@ -12,7 +12,7 @@ export default function Testimonial() {
               Testimonials
             </p>
             <h2 className="text-4xl font-bold text-gray-800">
-              What Our Customer Says?
+              What Our Customer Says About Waterproofed.com?
             </h2>
           </div>
           
@@ -36,14 +36,13 @@ export default function Testimonial() {
                   />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-800 text-lg">Ethan David</h3>
-                  <p className="text-[#00A7E8] text-sm">UI/UX Designer</p>
+                  <h3 className="font-bold text-gray-800 text-lg">Leo S</h3>
                 </div>
               </div>
               
               {/* Testimonial Text */}
               <p className="text-gray-600 leading-relaxed mb-6">
-                Enthusiastically matrix visionary e-commerce after enterprise-wide collaboration and idea-sharing. Objectively administrate bleeding-edge best practices through interactive niche markets. Distinctively productize.
+              Southern California Decking transformed our balcony from a constant headache to a beautiful, worry-free space. Their team was professional, thorough, and genuinely cared about the results.
               </p>
               
               {/* Star Rating */}
@@ -77,14 +76,13 @@ export default function Testimonial() {
                   />
                 </div>
                 <div>
-                  <h3 className="font-bold text-gray-800 text-lg">Mason Robert</h3>
-                  <p className="text-[#00A7E8] text-sm">UI/UX Designer</p>
+                  <h3 className="font-bold text-gray-800 text-lg">Mark T</h3>
                 </div>
               </div>
               
               {/* Testimonial Text */}
               <p className="text-gray-600 leading-relaxed mb-6">
-                Enthusiastically matrix visionary e-commerce after enterprise-wide collaboration and idea-sharing. Objectively administrate bleeding-edge best practices through interactive niche markets. Distinctively productize.
+              We had multiple leaks on our deck, and other contractors gave up. Southern California Decking, Inc. fixed everything and even made it look better than new!
               </p>
               
               {/* Star Rating */}
@@ -129,9 +127,9 @@ export default function Testimonial() {
           </div>
           
           {/* Main Heading */}
-          <h1 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
-            The industry's waterproofing leader that has been installing waterproofing and deck coatings.
-          </h1>
+          <h2 className="text-3xl md:text-5xl font-bold mb-8 leading-tight md:w-[98rem]">
+          The industry's waterproofing leader with 38 years of experience, installing waterproofing and deck coatings
+          </h2>
           
           {/* Call-to-Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

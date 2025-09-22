@@ -109,8 +109,9 @@ function RouteComponent() {
           {/* CTA Content */}
           <div className="relative z-10">
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
-              With Waterproofed.com, you get expert diagnosis, precision workmanship, and peace of mind—all in one service!
+              With Waterproofed.com, you get expert diagnosis, precision workmanship, and peace of mind
             </h2>
+            <p className='text-2xl md:text-3xl font-bold text-white mb-6'>-All in one service!</p>
             
             <a href="/contact" className="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 border border-gray-300">
               Call Now

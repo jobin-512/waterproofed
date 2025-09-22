@@ -4,7 +4,7 @@ export default function Footer() {
     <footer className="bg-gray-900 text-white">
       {/* Main Footer Content */}
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-6 gap-8">
           
           {/* Left Section - Company Information & Working Hours */}
           <div className="lg:col-span-1">
@@ -46,9 +46,39 @@ export default function Footer() {
                     { text: 'Home', href: '/' },
                     { text: 'Services', href: '/service' }, 
                     { text: 'About us', href: '/about' },
-                    { text: 'FLOOR LEVELING', href: '/service' },
                     { text: 'Blog', href: '/blog' },
                     { text: 'Contact us', href: '/contact' }
+                  ].map((link, index) => (
+                    <li key={index}>
+                      <a href={link.href} className="flex items-center text-gray-300 hover:text-[#00A7E8] transition-colors">
+                        <svg className="w-3 h-3 mr-2 text-[#00A7E8]" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
+                        </svg>
+                        {link.text}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+
+
+          <div className="lg:col-span-1">
+            {/* Quick Links & Popular Services */}
+            <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
+              {/* Quick Links */}
+              <div>
+                <h4 className="font-bold mb-3 relative">
+                  Services
+                  <div className="absolute bottom-0 left-0 w-8 h-0.5 bg-orange-500"></div>
+                </h4>
+                <ul className="space-y-2 text-sm">
+                  {[
+                    { text: 'Balcony Waterproofing', href: '/services/balcony-waterproofing-coating-repair' },
+                    { text: 'Deck Waterproofing', href: '/services/deck-waterproofing-coating-repair' }, 
+                    { text: 'Planter Wateproofing', href: '/services/planter-waterproofing-coating-repair' },
+                    { text: 'Floor Leveling', href: '/services/Professional-Concrete-Floor-Leveling' }
                   ].map((link, index) => (
                     <li key={index}>
                       <a href={link.href} className="flex items-center text-gray-300 hover:text-[#00A7E8] transition-colors">
@@ -101,6 +131,36 @@ export default function Footer() {
               </div>
             </div>
           </div>
+
+
+          {/* Right Section - Contact Us */}
+          <div className="lg:col-span-1">
+            <h4 className="font-bold mb-3 relative">
+              locations
+              <div className="absolute bottom-0 left-0 w-8 h-0.5 bg-orange-500"></div>
+            </h4>
+
+            <div>
+            <div ><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Southern%20California%20Decking%20Santa%20Clarita+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/it/calcola-la-popolazione-su-una-mappa/">città più popolate Italia mappa</a></iframe></div>
+            </div>
+            
+            
+          </div>
+
+
+          <div className="lg:col-span-1">
+            <h4 className="font-bold mb-3 relative">
+              locations
+              <div className="absolute bottom-0 left-0 w-8 h-0.5 bg-orange-500"></div>
+            </h4>
+
+            <div>
+            <div><iframe width="100%" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Los%20Angeles+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.mapsdirections.info/it/calcola-la-popolazione-su-una-mappa/">popolazione comuni Italia mappa interattiva</a></iframe></div>
+            </div>
+            
+            
+          </div>
+
         </div>
       </div>
 

@@ -130,7 +130,7 @@ export default function Header() {
               </div>
               <div>
                 <div className="text-sm text-gray-600">Our Office Location:</div>
-                <div className="font-semibold text-gray-800">United States of America</div>
+                <div className="font-semibold text-gray-800">427 Montana Ave. Santa Monica CA 90403 United States of America</div>
               </div>
             </div>
           </div>
@@ -166,33 +166,7 @@ export default function Header() {
               >
                 About Us
               </Link>
-              <Link 
-                to="/gallery" 
-                className={`hover:text-[#00A7E8] ${
-                  matchRoute({ to: "/gallery" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
-                }`}
-              >
-                Gallery
-              </Link>
-              <Link 
-                to="/refrence-sheet" 
-                className={`hover:text-[#00A7E8] ${
-                  matchRoute({ to: "/refrence-sheet" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
-                }`}
-              >
-                Reference Sheet
-              </Link>
-              <Link 
-                to="/testimonials" 
-                className={`hover:text-[#00A7E8] ${
-                  matchRoute({ to: "/testimonials" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
-                }`}
-              >
-                Testimonials
-              </Link>
-              
-              
-              {/* Services Dropdown */}
+
               <div 
                 className="relative"
                 onMouseEnter={handleMouseEnter}
@@ -320,7 +294,37 @@ export default function Header() {
                   </div>
                 )}
               </div>
-              <a href="/blog" className="text-gray-700 hover:text-[#00A7E8]">Blog </a>
+
+              <Link 
+                to="/gallery" 
+                className={`hover:text-[#00A7E8] ${
+                  matchRoute({ to: "/gallery" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                }`}
+              >
+                Gallery
+              </Link>
+
+              <Link 
+                to="/refrence-sheet" 
+                className={`hover:text-[#00A7E8] ${
+                  matchRoute({ to: "/refrence-sheet" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                }`}
+              >
+                Reference Sheet
+              </Link>
+              <Link 
+                to="/testimonials" 
+                className={`hover:text-[#00A7E8] ${
+                  matchRoute({ to: "/testimonials" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                }`}
+              >
+                Testimonials
+              </Link>
+              
+              
+              {/* Services Dropdown */}
+
+              
               <Link 
                 to="/contact" 
                 className={`hover:text-[#00A7E8] ${
@@ -329,6 +333,7 @@ export default function Header() {
               >
                 Contact Us
               </Link>
+              <a href="/blog" className="text-gray-700 hover:text-[#00A7E8]">Blog </a>
             </nav>
           </div>
 

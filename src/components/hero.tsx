@@ -13,18 +13,18 @@ interface CarouselSlide {
 const carouselData: CarouselSlide[] = [
   {
     id: 1,
-    title: "Shield Your Deck.",
-    subtitle: "Elevate Your Outdoors.",
-    description: "Transform your deck into a fortress against leaks and wear. Our expert waterproofing solutions ensure long-lasting protection, preserving your outdoor space's beauty and integrity. Trust our seasoned experts to protect your investment with precision and care.",
+    title: "Shield Your Deck with Expert Wateproofing Solutions",
+    subtitle: "",
+    description: "Transform your deck into a fortress against leaks and wear. Our expert waterproofing solutions ensure long-lasting protection, preserving your outdoor space's beauty and integrity.",
     image: "/hero-1.webp",
-    ctaPrimary: "DISCOVER MORE",
+    ctaPrimary: "CONTACT US",
     ctaSecondary: "OUR SERVICES"
   },
   {
     id: 2,
-    title: "Protect Your Home with 38+ Years of",
-    subtitle: "Trusted Waterproofing Expertise",
-    description: "For over three decades, homeowners and property managers across Southern California have trusted us to solve their toughest water damage challenges. From decks to planters, floors to full property solutions—we deliver long-lasting protection that gives you confidence, comfort, and peace of mind. Stop leaks before they start. Build strong. Stay dry. Live worry-free. ",
+    title: "Protect Your Home with ",
+    subtitle: "Trusted Waterproofing Solutions",
+    description: "For over three decades, homeowners and property managers across Southern California have trusted us to solve their toughest water damage challenges.  ",
     image: "/hero-2.webp",
     ctaPrimary: "GET QUOTE",
     ctaSecondary: "VIEW PROJECTS"
@@ -87,11 +87,11 @@ export default function Hero() {
 
             {/* Content */}
             <div className="relative z-10 flex items-center justify-center h-full">
-              <div className="text-center text-white px-4 max-w-4xl mx-auto">
+              <div className="text-center text-white px-4 max-w-5xl mx-auto">
                 {/* Main Title */}
-                <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-2">
+                <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-2">
                   {slide.title}
-                </h1>
+                </h2>
                 
                 {/* Subtitle */}
                 <h2 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-6">
