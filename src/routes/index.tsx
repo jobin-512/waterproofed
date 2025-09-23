@@ -3,7 +3,6 @@ import { useState, lazy, Suspense } from 'react'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 const Hero = lazy(() => import('../components/hero'))
-const TrustedPartners = lazy(() => import('../components/trusted-partners'))
 const Testimonial = lazy(() => import('../components/testimonial'))
 
 export const Route = createFileRoute('/')({
