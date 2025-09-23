@@ -83,9 +83,9 @@ function RouteComponent() {
     <div className="py-16 px-4">
       <div className="container mx-auto max-w-8xl">
         {/* Main Heading */}
-        <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-8">
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-8">
           Precision Floor Leveling for Lasting Safety, Stability, and Comfort
-        </h1>
+        </h2>
         
         {/* Introductory Paragraph */}
         <p className="text-lg text-gray-700 leading-relaxed mb-8 text-center">

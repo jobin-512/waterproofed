@@ -69,9 +69,9 @@ function Index() {
                 <p className="text-brand-blue-500 font-semibold text-sm uppercase tracking-wide mb-2">
                   About Us
                 </p>
-                <h2 className="text-4xl font-bold text-gray-800 mb-6">
+                <h1 className="text-4xl font-bold text-gray-800 mb-6">
                 Southern California Decking – Best Deck & Waterproofing Company 
-                </h2>
+                </h1>
               </div>
               
               <p className="text-gray-600 leading-relaxed">
