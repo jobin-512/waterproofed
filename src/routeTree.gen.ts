@@ -15,32 +15,32 @@ import { Route as RefrenceSheetRouteImport } from './routes/refrence-sheet'
 import { Route as GalleryRouteImport } from './routes/gallery'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as BlogRouteImport } from './routes/blog'
-import { Route as AboutRouteImport } from './routes/about'
+import { Route as AboutUsRouteImport } from './routes/about-us'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ServicesPlanterWaterproofingCoatingRepairRouteImport } from './routes/services/planter-waterproofing-coating-repair'
 import { Route as ServicesDeckWaterproofingCoatingRepairRouteImport } from './routes/services/deck-waterproofing-coating-repair'
 import { Route as ServicesBalconyWaterproofingCoatingRepairRouteImport } from './routes/services/balcony-waterproofing-coating-repair'
 import { Route as ServicesProfessionalConcreteFloorLevelingRouteImport } from './routes/services/Professional-Concrete-Floor-Leveling'
-import { Route as blogBlog9RouteImport } from './routes/(blog)/blog-9'
-import { Route as blogBlog8RouteImport } from './routes/(blog)/blog-8'
-import { Route as blogBlog7RouteImport } from './routes/(blog)/blog-7'
-import { Route as blogBlog6RouteImport } from './routes/(blog)/blog-6'
-import { Route as blogBlog5RouteImport } from './routes/(blog)/blog-5'
-import { Route as blogBlog4RouteImport } from './routes/(blog)/blog-4'
-import { Route as blogBlog3RouteImport } from './routes/(blog)/blog-3'
-import { Route as blogBlog20RouteImport } from './routes/(blog)/blog-20'
-import { Route as blogBlog2RouteImport } from './routes/(blog)/blog-2'
-import { Route as blogBlog19RouteImport } from './routes/(blog)/blog-19'
-import { Route as blogBlog18RouteImport } from './routes/(blog)/blog-18'
-import { Route as blogBlog17RouteImport } from './routes/(blog)/blog-17'
-import { Route as blogBlog16RouteImport } from './routes/(blog)/blog-16'
-import { Route as blogBlog15RouteImport } from './routes/(blog)/blog-15'
-import { Route as blogBlog14RouteImport } from './routes/(blog)/blog-14'
-import { Route as blogBlog13RouteImport } from './routes/(blog)/blog-13'
-import { Route as blogBlog12RouteImport } from './routes/(blog)/blog-12'
-import { Route as blogBlog11RouteImport } from './routes/(blog)/blog-11'
-import { Route as blogBlog10RouteImport } from './routes/(blog)/blog-10'
-import { Route as blogBlog1RouteImport } from './routes/(blog)/blog-1'
+import { Route as BlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRouteImport } from './routes/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs'
+import { Route as BlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRouteImport } from './routes/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living'
+import { Route as BlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRouteImport } from './routes/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property'
+import { Route as BlogsWhyCommercialBuildingsNeedWaterproofingServicesRouteImport } from './routes/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services'
+import { Route as BlogsWhichWaterproofingDeckCoatingWinsRouteImport } from './routes/blogs/Which-Waterproofing-Deck-Coating-Wins'
+import { Route as BlogsWhenShouldYouReapplyOrUpgradeWaterproofingSolutionsRouteImport } from './routes/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions'
+import { Route as BlogsWhatIsWaterproofingRouteImport } from './routes/blogs/What-is-Waterproofing'
+import { Route as BlogsWhatIsPoolDeckingRouteImport } from './routes/blogs/What-is-Pool-Decking'
+import { Route as BlogsWhatIsEpoxyFlooringRouteImport } from './routes/blogs/What-is-Epoxy-Flooring'
+import { Route as BlogsWhatIsTheDifferenceBetweenInteriorAndExteriorWaterproofingServicesRouteImport } from './routes/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services'
+import { Route as BlogsTheBenefitsOfProfessionalDeckSealantForLongTermDeckProtectionRouteImport } from './routes/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection'
+import { Route as BlogsSignsOfBalconyDeckDamageWhenToConsiderBalconyDeckRepairRouteImport } from './routes/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair'
+import { Route as BlogsSafetyAndAestheticsTheImportanceOfTimelyPoolDeckingRepairInSantaMonicaRouteImport } from './routes/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica'
+import { Route as BlogsProtectingYourHomeTheImportanceOfBalconyLeakDetectionAndRepairRouteImport } from './routes/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair'
+import { Route as BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRouteImport } from './routes/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection'
+import { Route as BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRouteImport } from './routes/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane'
+import { Route as BlogsHowToChooseTheBestDeckStainRouteImport } from './routes/blogs/How-to-Choose-the-Best-Deck-Stain'
+import { Route as BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRouteImport } from './routes/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
+import { Route as BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRouteImport } from './routes/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
+import { Route as BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRouteImport } from './routes/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
 import { Route as areaMalibuDeckWaterproofingContractorRouteImport } from './routes/(area)/malibu-deck-waterproofing-contractor'
 import { Route as areaLosAngelesDeckWaterproofingContractorRouteImport } from './routes/(area)/los-angeles-deck-waterproofing-contractor'
 import { Route as areaBeverlyHillsDeckWaterproofingContractorRouteImport } from './routes/(area)/beverly-hills-deck-waterproofing-contractor'
@@ -76,9 +76,9 @@ const BlogRoute = BlogRouteImport.update({
   path: '/blog',
   getParentRoute: () => rootRouteImport,
 } as any)
-const AboutRoute = AboutRouteImport.update({
-  id: '/about',
-  path: '/about',
+const AboutUsRoute = AboutUsRouteImport.update({
+  id: '/about-us',
+  path: '/about-us',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -110,106 +110,143 @@ const ServicesProfessionalConcreteFloorLevelingRoute =
     path: '/services/Professional-Concrete-Floor-Leveling',
     getParentRoute: () => rootRouteImport,
   } as any)
-const blogBlog9Route = blogBlog9RouteImport.update({
-  id: '/(blog)/blog-9',
-  path: '/blog-9',
+const BlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute =
+  BlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRouteImport.update({
+    id: '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs',
+    path: '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute =
+  BlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRouteImport.update({
+    id: '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living',
+    path: '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute =
+  BlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRouteImport.update({
+    id: '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property',
+    path: '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogsWhyCommercialBuildingsNeedWaterproofingServicesRoute =
+  BlogsWhyCommercialBuildingsNeedWaterproofingServicesRouteImport.update({
+    id: '/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services',
+    path: '/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogsWhichWaterproofingDeckCoatingWinsRoute =
+  BlogsWhichWaterproofingDeckCoatingWinsRouteImport.update({
+    id: '/blogs/Which-Waterproofing-Deck-Coating-Wins',
+    path: '/blogs/Which-Waterproofing-Deck-Coating-Wins',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogsWhenShouldYouReapplyOrUpgradeWaterproofingSolutionsRoute =
+  BlogsWhenShouldYouReapplyOrUpgradeWaterproofingSolutionsRouteImport.update({
+    id: '/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions',
+    path: '/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogsWhatIsWaterproofingRoute =
+  BlogsWhatIsWaterproofingRouteImport.update({
+    id: '/blogs/What-is-Waterproofing',
+    path: '/blogs/What-is-Waterproofing',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogsWhatIsPoolDeckingRoute = BlogsWhatIsPoolDeckingRouteImport.update({
+  id: '/blogs/What-is-Pool-Decking',
+  path: '/blogs/What-is-Pool-Decking',
   getParentRoute: () => rootRouteImport,
 } as any)
-const blogBlog8Route = blogBlog8RouteImport.update({
-  id: '/(blog)/blog-8',
-  path: '/blog-8',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog7Route = blogBlog7RouteImport.update({
-  id: '/(blog)/blog-7',
-  path: '/blog-7',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog6Route = blogBlog6RouteImport.update({
-  id: '/(blog)/blog-6',
-  path: '/blog-6',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog5Route = blogBlog5RouteImport.update({
-  id: '/(blog)/blog-5',
-  path: '/blog-5',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog4Route = blogBlog4RouteImport.update({
-  id: '/(blog)/blog-4',
-  path: '/blog-4',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog3Route = blogBlog3RouteImport.update({
-  id: '/(blog)/blog-3',
-  path: '/blog-3',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog20Route = blogBlog20RouteImport.update({
-  id: '/(blog)/blog-20',
-  path: '/blog-20',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog2Route = blogBlog2RouteImport.update({
-  id: '/(blog)/blog-2',
-  path: '/blog-2',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog19Route = blogBlog19RouteImport.update({
-  id: '/(blog)/blog-19',
-  path: '/blog-19',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog18Route = blogBlog18RouteImport.update({
-  id: '/(blog)/blog-18',
-  path: '/blog-18',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog17Route = blogBlog17RouteImport.update({
-  id: '/(blog)/blog-17',
-  path: '/blog-17',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog16Route = blogBlog16RouteImport.update({
-  id: '/(blog)/blog-16',
-  path: '/blog-16',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog15Route = blogBlog15RouteImport.update({
-  id: '/(blog)/blog-15',
-  path: '/blog-15',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog14Route = blogBlog14RouteImport.update({
-  id: '/(blog)/blog-14',
-  path: '/blog-14',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog13Route = blogBlog13RouteImport.update({
-  id: '/(blog)/blog-13',
-  path: '/blog-13',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog12Route = blogBlog12RouteImport.update({
-  id: '/(blog)/blog-12',
-  path: '/blog-12',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog11Route = blogBlog11RouteImport.update({
-  id: '/(blog)/blog-11',
-  path: '/blog-11',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog10Route = blogBlog10RouteImport.update({
-  id: '/(blog)/blog-10',
-  path: '/blog-10',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const blogBlog1Route = blogBlog1RouteImport.update({
-  id: '/(blog)/blog-1',
-  path: '/blog-1',
-  getParentRoute: () => rootRouteImport,
-} as any)
+const BlogsWhatIsEpoxyFlooringRoute =
+  BlogsWhatIsEpoxyFlooringRouteImport.update({
+    id: '/blogs/What-is-Epoxy-Flooring',
+    path: '/blogs/What-is-Epoxy-Flooring',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogsWhatIsTheDifferenceBetweenInteriorAndExteriorWaterproofingServicesRoute =
+  BlogsWhatIsTheDifferenceBetweenInteriorAndExteriorWaterproofingServicesRouteImport.update(
+    {
+      id: '/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services',
+      path: '/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
+const BlogsTheBenefitsOfProfessionalDeckSealantForLongTermDeckProtectionRoute =
+  BlogsTheBenefitsOfProfessionalDeckSealantForLongTermDeckProtectionRouteImport.update(
+    {
+      id: '/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection',
+      path: '/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
+const BlogsSignsOfBalconyDeckDamageWhenToConsiderBalconyDeckRepairRoute =
+  BlogsSignsOfBalconyDeckDamageWhenToConsiderBalconyDeckRepairRouteImport.update(
+    {
+      id: '/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair',
+      path: '/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
+const BlogsSafetyAndAestheticsTheImportanceOfTimelyPoolDeckingRepairInSantaMonicaRoute =
+  BlogsSafetyAndAestheticsTheImportanceOfTimelyPoolDeckingRepairInSantaMonicaRouteImport.update(
+    {
+      id: '/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica',
+      path: '/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
+const BlogsProtectingYourHomeTheImportanceOfBalconyLeakDetectionAndRepairRoute =
+  BlogsProtectingYourHomeTheImportanceOfBalconyLeakDetectionAndRepairRouteImport.update(
+    {
+      id: '/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair',
+      path: '/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
+const BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute =
+  BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRouteImport.update(
+    {
+      id: '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection',
+      path: '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
+const BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute =
+  BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRouteImport.update(
+    {
+      id: '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane',
+      path: '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
+const BlogsHowToChooseTheBestDeckStainRoute =
+  BlogsHowToChooseTheBestDeckStainRouteImport.update({
+    id: '/blogs/How-to-Choose-the-Best-Deck-Stain',
+    path: '/blogs/How-to-Choose-the-Best-Deck-Stain',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute =
+  BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRouteImport.update(
+    {
+      id: '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage',
+      path: '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
+const BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute =
+  BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRouteImport.update(
+    {
+      id: '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners',
+      path: '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
+const BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute =
+  BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRouteImport.update({
+    id: '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair',
+    path: '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const areaMalibuDeckWaterproofingContractorRoute =
   areaMalibuDeckWaterproofingContractorRouteImport.update({
     id: '/(area)/malibu-deck-waterproofing-contractor',
@@ -237,7 +274,7 @@ const areaPasadenaDeckWaterproofingContractorRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
+  '/about-us': typeof AboutUsRoute
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/gallery': typeof GalleryRoute
@@ -248,26 +285,26 @@ export interface FileRoutesByFullPath {
   '/beverly-hills-deck-waterproofing-contractor': typeof areaBeverlyHillsDeckWaterproofingContractorRoute
   '/los-angeles-deck-waterproofing-contractor': typeof areaLosAngelesDeckWaterproofingContractorRoute
   '/malibu-deck-waterproofing-contractor': typeof areaMalibuDeckWaterproofingContractorRoute
-  '/blog-1': typeof blogBlog1Route
-  '/blog-10': typeof blogBlog10Route
-  '/blog-11': typeof blogBlog11Route
-  '/blog-12': typeof blogBlog12Route
-  '/blog-13': typeof blogBlog13Route
-  '/blog-14': typeof blogBlog14Route
-  '/blog-15': typeof blogBlog15Route
-  '/blog-16': typeof blogBlog16Route
-  '/blog-17': typeof blogBlog17Route
-  '/blog-18': typeof blogBlog18Route
-  '/blog-19': typeof blogBlog19Route
-  '/blog-2': typeof blogBlog2Route
-  '/blog-20': typeof blogBlog20Route
-  '/blog-3': typeof blogBlog3Route
-  '/blog-4': typeof blogBlog4Route
-  '/blog-5': typeof blogBlog5Route
-  '/blog-6': typeof blogBlog6Route
-  '/blog-7': typeof blogBlog7Route
-  '/blog-8': typeof blogBlog8Route
-  '/blog-9': typeof blogBlog9Route
+  '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair': typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute
+  '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners': typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute
+  '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage': typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute
+  '/blogs/How-to-Choose-the-Best-Deck-Stain': typeof BlogsHowToChooseTheBestDeckStainRoute
+  '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane': typeof BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute
+  '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection': typeof BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute
+  '/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair': typeof BlogsProtectingYourHomeTheImportanceOfBalconyLeakDetectionAndRepairRoute
+  '/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica': typeof BlogsSafetyAndAestheticsTheImportanceOfTimelyPoolDeckingRepairInSantaMonicaRoute
+  '/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair': typeof BlogsSignsOfBalconyDeckDamageWhenToConsiderBalconyDeckRepairRoute
+  '/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection': typeof BlogsTheBenefitsOfProfessionalDeckSealantForLongTermDeckProtectionRoute
+  '/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services': typeof BlogsWhatIsTheDifferenceBetweenInteriorAndExteriorWaterproofingServicesRoute
+  '/blogs/What-is-Epoxy-Flooring': typeof BlogsWhatIsEpoxyFlooringRoute
+  '/blogs/What-is-Pool-Decking': typeof BlogsWhatIsPoolDeckingRoute
+  '/blogs/What-is-Waterproofing': typeof BlogsWhatIsWaterproofingRoute
+  '/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions': typeof BlogsWhenShouldYouReapplyOrUpgradeWaterproofingSolutionsRoute
+  '/blogs/Which-Waterproofing-Deck-Coating-Wins': typeof BlogsWhichWaterproofingDeckCoatingWinsRoute
+  '/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services': typeof BlogsWhyCommercialBuildingsNeedWaterproofingServicesRoute
+  '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property': typeof BlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute
+  '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living': typeof BlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute
+  '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs': typeof BlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute
   '/services/Professional-Concrete-Floor-Leveling': typeof ServicesProfessionalConcreteFloorLevelingRoute
   '/services/balcony-waterproofing-coating-repair': typeof ServicesBalconyWaterproofingCoatingRepairRoute
   '/services/deck-waterproofing-coating-repair': typeof ServicesDeckWaterproofingCoatingRepairRoute
@@ -275,7 +312,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
+  '/about-us': typeof AboutUsRoute
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/gallery': typeof GalleryRoute
@@ -286,26 +323,26 @@ export interface FileRoutesByTo {
   '/beverly-hills-deck-waterproofing-contractor': typeof areaBeverlyHillsDeckWaterproofingContractorRoute
   '/los-angeles-deck-waterproofing-contractor': typeof areaLosAngelesDeckWaterproofingContractorRoute
   '/malibu-deck-waterproofing-contractor': typeof areaMalibuDeckWaterproofingContractorRoute
-  '/blog-1': typeof blogBlog1Route
-  '/blog-10': typeof blogBlog10Route
-  '/blog-11': typeof blogBlog11Route
-  '/blog-12': typeof blogBlog12Route
-  '/blog-13': typeof blogBlog13Route
-  '/blog-14': typeof blogBlog14Route
-  '/blog-15': typeof blogBlog15Route
-  '/blog-16': typeof blogBlog16Route
-  '/blog-17': typeof blogBlog17Route
-  '/blog-18': typeof blogBlog18Route
-  '/blog-19': typeof blogBlog19Route
-  '/blog-2': typeof blogBlog2Route
-  '/blog-20': typeof blogBlog20Route
-  '/blog-3': typeof blogBlog3Route
-  '/blog-4': typeof blogBlog4Route
-  '/blog-5': typeof blogBlog5Route
-  '/blog-6': typeof blogBlog6Route
-  '/blog-7': typeof blogBlog7Route
-  '/blog-8': typeof blogBlog8Route
-  '/blog-9': typeof blogBlog9Route
+  '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair': typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute
+  '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners': typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute
+  '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage': typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute
+  '/blogs/How-to-Choose-the-Best-Deck-Stain': typeof BlogsHowToChooseTheBestDeckStainRoute
+  '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane': typeof BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute
+  '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection': typeof BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute
+  '/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair': typeof BlogsProtectingYourHomeTheImportanceOfBalconyLeakDetectionAndRepairRoute
+  '/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica': typeof BlogsSafetyAndAestheticsTheImportanceOfTimelyPoolDeckingRepairInSantaMonicaRoute
+  '/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair': typeof BlogsSignsOfBalconyDeckDamageWhenToConsiderBalconyDeckRepairRoute
+  '/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection': typeof BlogsTheBenefitsOfProfessionalDeckSealantForLongTermDeckProtectionRoute
+  '/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services': typeof BlogsWhatIsTheDifferenceBetweenInteriorAndExteriorWaterproofingServicesRoute
+  '/blogs/What-is-Epoxy-Flooring': typeof BlogsWhatIsEpoxyFlooringRoute
+  '/blogs/What-is-Pool-Decking': typeof BlogsWhatIsPoolDeckingRoute
+  '/blogs/What-is-Waterproofing': typeof BlogsWhatIsWaterproofingRoute
+  '/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions': typeof BlogsWhenShouldYouReapplyOrUpgradeWaterproofingSolutionsRoute
+  '/blogs/Which-Waterproofing-Deck-Coating-Wins': typeof BlogsWhichWaterproofingDeckCoatingWinsRoute
+  '/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services': typeof BlogsWhyCommercialBuildingsNeedWaterproofingServicesRoute
+  '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property': typeof BlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute
+  '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living': typeof BlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute
+  '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs': typeof BlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute
   '/services/Professional-Concrete-Floor-Leveling': typeof ServicesProfessionalConcreteFloorLevelingRoute
   '/services/balcony-waterproofing-coating-repair': typeof ServicesBalconyWaterproofingCoatingRepairRoute
   '/services/deck-waterproofing-coating-repair': typeof ServicesDeckWaterproofingCoatingRepairRoute
@@ -314,7 +351,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/about': typeof AboutRoute
+  '/about-us': typeof AboutUsRoute
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/gallery': typeof GalleryRoute
@@ -325,26 +362,26 @@ export interface FileRoutesById {
   '/(area)/beverly-hills-deck-waterproofing-contractor': typeof areaBeverlyHillsDeckWaterproofingContractorRoute
   '/(area)/los-angeles-deck-waterproofing-contractor': typeof areaLosAngelesDeckWaterproofingContractorRoute
   '/(area)/malibu-deck-waterproofing-contractor': typeof areaMalibuDeckWaterproofingContractorRoute
-  '/(blog)/blog-1': typeof blogBlog1Route
-  '/(blog)/blog-10': typeof blogBlog10Route
-  '/(blog)/blog-11': typeof blogBlog11Route
-  '/(blog)/blog-12': typeof blogBlog12Route
-  '/(blog)/blog-13': typeof blogBlog13Route
-  '/(blog)/blog-14': typeof blogBlog14Route
-  '/(blog)/blog-15': typeof blogBlog15Route
-  '/(blog)/blog-16': typeof blogBlog16Route
-  '/(blog)/blog-17': typeof blogBlog17Route
-  '/(blog)/blog-18': typeof blogBlog18Route
-  '/(blog)/blog-19': typeof blogBlog19Route
-  '/(blog)/blog-2': typeof blogBlog2Route
-  '/(blog)/blog-20': typeof blogBlog20Route
-  '/(blog)/blog-3': typeof blogBlog3Route
-  '/(blog)/blog-4': typeof blogBlog4Route
-  '/(blog)/blog-5': typeof blogBlog5Route
-  '/(blog)/blog-6': typeof blogBlog6Route
-  '/(blog)/blog-7': typeof blogBlog7Route
-  '/(blog)/blog-8': typeof blogBlog8Route
-  '/(blog)/blog-9': typeof blogBlog9Route
+  '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair': typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute
+  '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners': typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute
+  '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage': typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute
+  '/blogs/How-to-Choose-the-Best-Deck-Stain': typeof BlogsHowToChooseTheBestDeckStainRoute
+  '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane': typeof BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute
+  '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection': typeof BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute
+  '/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair': typeof BlogsProtectingYourHomeTheImportanceOfBalconyLeakDetectionAndRepairRoute
+  '/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica': typeof BlogsSafetyAndAestheticsTheImportanceOfTimelyPoolDeckingRepairInSantaMonicaRoute
+  '/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair': typeof BlogsSignsOfBalconyDeckDamageWhenToConsiderBalconyDeckRepairRoute
+  '/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection': typeof BlogsTheBenefitsOfProfessionalDeckSealantForLongTermDeckProtectionRoute
+  '/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services': typeof BlogsWhatIsTheDifferenceBetweenInteriorAndExteriorWaterproofingServicesRoute
+  '/blogs/What-is-Epoxy-Flooring': typeof BlogsWhatIsEpoxyFlooringRoute
+  '/blogs/What-is-Pool-Decking': typeof BlogsWhatIsPoolDeckingRoute
+  '/blogs/What-is-Waterproofing': typeof BlogsWhatIsWaterproofingRoute
+  '/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions': typeof BlogsWhenShouldYouReapplyOrUpgradeWaterproofingSolutionsRoute
+  '/blogs/Which-Waterproofing-Deck-Coating-Wins': typeof BlogsWhichWaterproofingDeckCoatingWinsRoute
+  '/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services': typeof BlogsWhyCommercialBuildingsNeedWaterproofingServicesRoute
+  '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property': typeof BlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute
+  '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living': typeof BlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute
+  '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs': typeof BlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute
   '/services/Professional-Concrete-Floor-Leveling': typeof ServicesProfessionalConcreteFloorLevelingRoute
   '/services/balcony-waterproofing-coating-repair': typeof ServicesBalconyWaterproofingCoatingRepairRoute
   '/services/deck-waterproofing-coating-repair': typeof ServicesDeckWaterproofingCoatingRepairRoute
@@ -354,7 +391,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/about'
+    | '/about-us'
     | '/blog'
     | '/contact'
     | '/gallery'
@@ -365,26 +402,26 @@ export interface FileRouteTypes {
     | '/beverly-hills-deck-waterproofing-contractor'
     | '/los-angeles-deck-waterproofing-contractor'
     | '/malibu-deck-waterproofing-contractor'
-    | '/blog-1'
-    | '/blog-10'
-    | '/blog-11'
-    | '/blog-12'
-    | '/blog-13'
-    | '/blog-14'
-    | '/blog-15'
-    | '/blog-16'
-    | '/blog-17'
-    | '/blog-18'
-    | '/blog-19'
-    | '/blog-2'
-    | '/blog-20'
-    | '/blog-3'
-    | '/blog-4'
-    | '/blog-5'
-    | '/blog-6'
-    | '/blog-7'
-    | '/blog-8'
-    | '/blog-9'
+    | '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
+    | '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
+    | '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
+    | '/blogs/How-to-Choose-the-Best-Deck-Stain'
+    | '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane'
+    | '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection'
+    | '/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair'
+    | '/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica'
+    | '/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair'
+    | '/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection'
+    | '/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services'
+    | '/blogs/What-is-Epoxy-Flooring'
+    | '/blogs/What-is-Pool-Decking'
+    | '/blogs/What-is-Waterproofing'
+    | '/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions'
+    | '/blogs/Which-Waterproofing-Deck-Coating-Wins'
+    | '/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services'
+    | '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property'
+    | '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living'
+    | '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs'
     | '/services/Professional-Concrete-Floor-Leveling'
     | '/services/balcony-waterproofing-coating-repair'
     | '/services/deck-waterproofing-coating-repair'
@@ -392,7 +429,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/about'
+    | '/about-us'
     | '/blog'
     | '/contact'
     | '/gallery'
@@ -403,26 +440,26 @@ export interface FileRouteTypes {
     | '/beverly-hills-deck-waterproofing-contractor'
     | '/los-angeles-deck-waterproofing-contractor'
     | '/malibu-deck-waterproofing-contractor'
-    | '/blog-1'
-    | '/blog-10'
-    | '/blog-11'
-    | '/blog-12'
-    | '/blog-13'
-    | '/blog-14'
-    | '/blog-15'
-    | '/blog-16'
-    | '/blog-17'
-    | '/blog-18'
-    | '/blog-19'
-    | '/blog-2'
-    | '/blog-20'
-    | '/blog-3'
-    | '/blog-4'
-    | '/blog-5'
-    | '/blog-6'
-    | '/blog-7'
-    | '/blog-8'
-    | '/blog-9'
+    | '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
+    | '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
+    | '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
+    | '/blogs/How-to-Choose-the-Best-Deck-Stain'
+    | '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane'
+    | '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection'
+    | '/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair'
+    | '/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica'
+    | '/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair'
+    | '/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection'
+    | '/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services'
+    | '/blogs/What-is-Epoxy-Flooring'
+    | '/blogs/What-is-Pool-Decking'
+    | '/blogs/What-is-Waterproofing'
+    | '/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions'
+    | '/blogs/Which-Waterproofing-Deck-Coating-Wins'
+    | '/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services'
+    | '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property'
+    | '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living'
+    | '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs'
     | '/services/Professional-Concrete-Floor-Leveling'
     | '/services/balcony-waterproofing-coating-repair'
     | '/services/deck-waterproofing-coating-repair'
@@ -430,7 +467,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
-    | '/about'
+    | '/about-us'
     | '/blog'
     | '/contact'
     | '/gallery'
@@ -441,26 +478,26 @@ export interface FileRouteTypes {
     | '/(area)/beverly-hills-deck-waterproofing-contractor'
     | '/(area)/los-angeles-deck-waterproofing-contractor'
     | '/(area)/malibu-deck-waterproofing-contractor'
-    | '/(blog)/blog-1'
-    | '/(blog)/blog-10'
-    | '/(blog)/blog-11'
-    | '/(blog)/blog-12'
-    | '/(blog)/blog-13'
-    | '/(blog)/blog-14'
-    | '/(blog)/blog-15'
-    | '/(blog)/blog-16'
-    | '/(blog)/blog-17'
-    | '/(blog)/blog-18'
-    | '/(blog)/blog-19'
-    | '/(blog)/blog-2'
-    | '/(blog)/blog-20'
-    | '/(blog)/blog-3'
-    | '/(blog)/blog-4'
-    | '/(blog)/blog-5'
-    | '/(blog)/blog-6'
-    | '/(blog)/blog-7'
-    | '/(blog)/blog-8'
-    | '/(blog)/blog-9'
+    | '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
+    | '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
+    | '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
+    | '/blogs/How-to-Choose-the-Best-Deck-Stain'
+    | '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane'
+    | '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection'
+    | '/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair'
+    | '/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica'
+    | '/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair'
+    | '/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection'
+    | '/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services'
+    | '/blogs/What-is-Epoxy-Flooring'
+    | '/blogs/What-is-Pool-Decking'
+    | '/blogs/What-is-Waterproofing'
+    | '/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions'
+    | '/blogs/Which-Waterproofing-Deck-Coating-Wins'
+    | '/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services'
+    | '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property'
+    | '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living'
+    | '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs'
     | '/services/Professional-Concrete-Floor-Leveling'
     | '/services/balcony-waterproofing-coating-repair'
     | '/services/deck-waterproofing-coating-repair'
@@ -469,7 +506,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  AboutRoute: typeof AboutRoute
+  AboutUsRoute: typeof AboutUsRoute
   BlogRoute: typeof BlogRoute
   ContactRoute: typeof ContactRoute
   GalleryRoute: typeof GalleryRoute
@@ -480,26 +517,26 @@ export interface RootRouteChildren {
   areaBeverlyHillsDeckWaterproofingContractorRoute: typeof areaBeverlyHillsDeckWaterproofingContractorRoute
   areaLosAngelesDeckWaterproofingContractorRoute: typeof areaLosAngelesDeckWaterproofingContractorRoute
   areaMalibuDeckWaterproofingContractorRoute: typeof areaMalibuDeckWaterproofingContractorRoute
-  blogBlog1Route: typeof blogBlog1Route
-  blogBlog10Route: typeof blogBlog10Route
-  blogBlog11Route: typeof blogBlog11Route
-  blogBlog12Route: typeof blogBlog12Route
-  blogBlog13Route: typeof blogBlog13Route
-  blogBlog14Route: typeof blogBlog14Route
-  blogBlog15Route: typeof blogBlog15Route
-  blogBlog16Route: typeof blogBlog16Route
-  blogBlog17Route: typeof blogBlog17Route
-  blogBlog18Route: typeof blogBlog18Route
-  blogBlog19Route: typeof blogBlog19Route
-  blogBlog2Route: typeof blogBlog2Route
-  blogBlog20Route: typeof blogBlog20Route
-  blogBlog3Route: typeof blogBlog3Route
-  blogBlog4Route: typeof blogBlog4Route
-  blogBlog5Route: typeof blogBlog5Route
-  blogBlog6Route: typeof blogBlog6Route
-  blogBlog7Route: typeof blogBlog7Route
-  blogBlog8Route: typeof blogBlog8Route
-  blogBlog9Route: typeof blogBlog9Route
+  BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute: typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute
+  BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute: typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute
+  BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute: typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute
+  BlogsHowToChooseTheBestDeckStainRoute: typeof BlogsHowToChooseTheBestDeckStainRoute
+  BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute: typeof BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute
+  BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute: typeof BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute
+  BlogsProtectingYourHomeTheImportanceOfBalconyLeakDetectionAndRepairRoute: typeof BlogsProtectingYourHomeTheImportanceOfBalconyLeakDetectionAndRepairRoute
+  BlogsSafetyAndAestheticsTheImportanceOfTimelyPoolDeckingRepairInSantaMonicaRoute: typeof BlogsSafetyAndAestheticsTheImportanceOfTimelyPoolDeckingRepairInSantaMonicaRoute
+  BlogsSignsOfBalconyDeckDamageWhenToConsiderBalconyDeckRepairRoute: typeof BlogsSignsOfBalconyDeckDamageWhenToConsiderBalconyDeckRepairRoute
+  BlogsTheBenefitsOfProfessionalDeckSealantForLongTermDeckProtectionRoute: typeof BlogsTheBenefitsOfProfessionalDeckSealantForLongTermDeckProtectionRoute
+  BlogsWhatIsTheDifferenceBetweenInteriorAndExteriorWaterproofingServicesRoute: typeof BlogsWhatIsTheDifferenceBetweenInteriorAndExteriorWaterproofingServicesRoute
+  BlogsWhatIsEpoxyFlooringRoute: typeof BlogsWhatIsEpoxyFlooringRoute
+  BlogsWhatIsPoolDeckingRoute: typeof BlogsWhatIsPoolDeckingRoute
+  BlogsWhatIsWaterproofingRoute: typeof BlogsWhatIsWaterproofingRoute
+  BlogsWhenShouldYouReapplyOrUpgradeWaterproofingSolutionsRoute: typeof BlogsWhenShouldYouReapplyOrUpgradeWaterproofingSolutionsRoute
+  BlogsWhichWaterproofingDeckCoatingWinsRoute: typeof BlogsWhichWaterproofingDeckCoatingWinsRoute
+  BlogsWhyCommercialBuildingsNeedWaterproofingServicesRoute: typeof BlogsWhyCommercialBuildingsNeedWaterproofingServicesRoute
+  BlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute: typeof BlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute
+  BlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute: typeof BlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute
+  BlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute: typeof BlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute
   ServicesProfessionalConcreteFloorLevelingRoute: typeof ServicesProfessionalConcreteFloorLevelingRoute
   ServicesBalconyWaterproofingCoatingRepairRoute: typeof ServicesBalconyWaterproofingCoatingRepairRoute
   ServicesDeckWaterproofingCoatingRepairRoute: typeof ServicesDeckWaterproofingCoatingRepairRoute
@@ -550,11 +587,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/about': {
-      id: '/about'
-      path: '/about'
-      fullPath: '/about'
-      preLoaderRoute: typeof AboutRouteImport
+    '/about-us': {
+      id: '/about-us'
+      path: '/about-us'
+      fullPath: '/about-us'
+      preLoaderRoute: typeof AboutUsRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -592,144 +629,144 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServicesProfessionalConcreteFloorLevelingRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-9': {
-      id: '/(blog)/blog-9'
-      path: '/blog-9'
-      fullPath: '/blog-9'
-      preLoaderRoute: typeof blogBlog9RouteImport
+    '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs': {
+      id: '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs'
+      path: '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs'
+      fullPath: '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs'
+      preLoaderRoute: typeof BlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-8': {
-      id: '/(blog)/blog-8'
-      path: '/blog-8'
-      fullPath: '/blog-8'
-      preLoaderRoute: typeof blogBlog8RouteImport
+    '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living': {
+      id: '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living'
+      path: '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living'
+      fullPath: '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living'
+      preLoaderRoute: typeof BlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-7': {
-      id: '/(blog)/blog-7'
-      path: '/blog-7'
-      fullPath: '/blog-7'
-      preLoaderRoute: typeof blogBlog7RouteImport
+    '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property': {
+      id: '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property'
+      path: '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property'
+      fullPath: '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property'
+      preLoaderRoute: typeof BlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-6': {
-      id: '/(blog)/blog-6'
-      path: '/blog-6'
-      fullPath: '/blog-6'
-      preLoaderRoute: typeof blogBlog6RouteImport
+    '/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services': {
+      id: '/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services'
+      path: '/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services'
+      fullPath: '/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services'
+      preLoaderRoute: typeof BlogsWhyCommercialBuildingsNeedWaterproofingServicesRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-5': {
-      id: '/(blog)/blog-5'
-      path: '/blog-5'
-      fullPath: '/blog-5'
-      preLoaderRoute: typeof blogBlog5RouteImport
+    '/blogs/Which-Waterproofing-Deck-Coating-Wins': {
+      id: '/blogs/Which-Waterproofing-Deck-Coating-Wins'
+      path: '/blogs/Which-Waterproofing-Deck-Coating-Wins'
+      fullPath: '/blogs/Which-Waterproofing-Deck-Coating-Wins'
+      preLoaderRoute: typeof BlogsWhichWaterproofingDeckCoatingWinsRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-4': {
-      id: '/(blog)/blog-4'
-      path: '/blog-4'
-      fullPath: '/blog-4'
-      preLoaderRoute: typeof blogBlog4RouteImport
+    '/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions': {
+      id: '/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions'
+      path: '/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions'
+      fullPath: '/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions'
+      preLoaderRoute: typeof BlogsWhenShouldYouReapplyOrUpgradeWaterproofingSolutionsRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-3': {
-      id: '/(blog)/blog-3'
-      path: '/blog-3'
-      fullPath: '/blog-3'
-      preLoaderRoute: typeof blogBlog3RouteImport
+    '/blogs/What-is-Waterproofing': {
+      id: '/blogs/What-is-Waterproofing'
+      path: '/blogs/What-is-Waterproofing'
+      fullPath: '/blogs/What-is-Waterproofing'
+      preLoaderRoute: typeof BlogsWhatIsWaterproofingRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-20': {
-      id: '/(blog)/blog-20'
-      path: '/blog-20'
-      fullPath: '/blog-20'
-      preLoaderRoute: typeof blogBlog20RouteImport
+    '/blogs/What-is-Pool-Decking': {
+      id: '/blogs/What-is-Pool-Decking'
+      path: '/blogs/What-is-Pool-Decking'
+      fullPath: '/blogs/What-is-Pool-Decking'
+      preLoaderRoute: typeof BlogsWhatIsPoolDeckingRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-2': {
-      id: '/(blog)/blog-2'
-      path: '/blog-2'
-      fullPath: '/blog-2'
-      preLoaderRoute: typeof blogBlog2RouteImport
+    '/blogs/What-is-Epoxy-Flooring': {
+      id: '/blogs/What-is-Epoxy-Flooring'
+      path: '/blogs/What-is-Epoxy-Flooring'
+      fullPath: '/blogs/What-is-Epoxy-Flooring'
+      preLoaderRoute: typeof BlogsWhatIsEpoxyFlooringRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-19': {
-      id: '/(blog)/blog-19'
-      path: '/blog-19'
-      fullPath: '/blog-19'
-      preLoaderRoute: typeof blogBlog19RouteImport
+    '/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services': {
+      id: '/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services'
+      path: '/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services'
+      fullPath: '/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services'
+      preLoaderRoute: typeof BlogsWhatIsTheDifferenceBetweenInteriorAndExteriorWaterproofingServicesRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-18': {
-      id: '/(blog)/blog-18'
-      path: '/blog-18'
-      fullPath: '/blog-18'
-      preLoaderRoute: typeof blogBlog18RouteImport
+    '/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection': {
+      id: '/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection'
+      path: '/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection'
+      fullPath: '/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection'
+      preLoaderRoute: typeof BlogsTheBenefitsOfProfessionalDeckSealantForLongTermDeckProtectionRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-17': {
-      id: '/(blog)/blog-17'
-      path: '/blog-17'
-      fullPath: '/blog-17'
-      preLoaderRoute: typeof blogBlog17RouteImport
+    '/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair': {
+      id: '/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair'
+      path: '/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair'
+      fullPath: '/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair'
+      preLoaderRoute: typeof BlogsSignsOfBalconyDeckDamageWhenToConsiderBalconyDeckRepairRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-16': {
-      id: '/(blog)/blog-16'
-      path: '/blog-16'
-      fullPath: '/blog-16'
-      preLoaderRoute: typeof blogBlog16RouteImport
+    '/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica': {
+      id: '/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica'
+      path: '/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica'
+      fullPath: '/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica'
+      preLoaderRoute: typeof BlogsSafetyAndAestheticsTheImportanceOfTimelyPoolDeckingRepairInSantaMonicaRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-15': {
-      id: '/(blog)/blog-15'
-      path: '/blog-15'
-      fullPath: '/blog-15'
-      preLoaderRoute: typeof blogBlog15RouteImport
+    '/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair': {
+      id: '/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair'
+      path: '/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair'
+      fullPath: '/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair'
+      preLoaderRoute: typeof BlogsProtectingYourHomeTheImportanceOfBalconyLeakDetectionAndRepairRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-14': {
-      id: '/(blog)/blog-14'
-      path: '/blog-14'
-      fullPath: '/blog-14'
-      preLoaderRoute: typeof blogBlog14RouteImport
+    '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection': {
+      id: '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection'
+      path: '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection'
+      fullPath: '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection'
+      preLoaderRoute: typeof BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-13': {
-      id: '/(blog)/blog-13'
-      path: '/blog-13'
-      fullPath: '/blog-13'
-      preLoaderRoute: typeof blogBlog13RouteImport
+    '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane': {
+      id: '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane'
+      path: '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane'
+      fullPath: '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane'
+      preLoaderRoute: typeof BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-12': {
-      id: '/(blog)/blog-12'
-      path: '/blog-12'
-      fullPath: '/blog-12'
-      preLoaderRoute: typeof blogBlog12RouteImport
+    '/blogs/How-to-Choose-the-Best-Deck-Stain': {
+      id: '/blogs/How-to-Choose-the-Best-Deck-Stain'
+      path: '/blogs/How-to-Choose-the-Best-Deck-Stain'
+      fullPath: '/blogs/How-to-Choose-the-Best-Deck-Stain'
+      preLoaderRoute: typeof BlogsHowToChooseTheBestDeckStainRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-11': {
-      id: '/(blog)/blog-11'
-      path: '/blog-11'
-      fullPath: '/blog-11'
-      preLoaderRoute: typeof blogBlog11RouteImport
+    '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage': {
+      id: '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
+      path: '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
+      fullPath: '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
+      preLoaderRoute: typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-10': {
-      id: '/(blog)/blog-10'
-      path: '/blog-10'
-      fullPath: '/blog-10'
-      preLoaderRoute: typeof blogBlog10RouteImport
+    '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners': {
+      id: '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
+      path: '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
+      fullPath: '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
+      preLoaderRoute: typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/(blog)/blog-1': {
-      id: '/(blog)/blog-1'
-      path: '/blog-1'
-      fullPath: '/blog-1'
-      preLoaderRoute: typeof blogBlog1RouteImport
+    '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair': {
+      id: '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
+      path: '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
+      fullPath: '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
+      preLoaderRoute: typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/(area)/malibu-deck-waterproofing-contractor': {
@@ -765,7 +802,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  AboutRoute: AboutRoute,
+  AboutUsRoute: AboutUsRoute,
   BlogRoute: BlogRoute,
   ContactRoute: ContactRoute,
   GalleryRoute: GalleryRoute,
@@ -780,26 +817,42 @@ const rootRouteChildren: RootRouteChildren = {
     areaLosAngelesDeckWaterproofingContractorRoute,
   areaMalibuDeckWaterproofingContractorRoute:
     areaMalibuDeckWaterproofingContractorRoute,
-  blogBlog1Route: blogBlog1Route,
-  blogBlog10Route: blogBlog10Route,
-  blogBlog11Route: blogBlog11Route,
-  blogBlog12Route: blogBlog12Route,
-  blogBlog13Route: blogBlog13Route,
-  blogBlog14Route: blogBlog14Route,
-  blogBlog15Route: blogBlog15Route,
-  blogBlog16Route: blogBlog16Route,
-  blogBlog17Route: blogBlog17Route,
-  blogBlog18Route: blogBlog18Route,
-  blogBlog19Route: blogBlog19Route,
-  blogBlog2Route: blogBlog2Route,
-  blogBlog20Route: blogBlog20Route,
-  blogBlog3Route: blogBlog3Route,
-  blogBlog4Route: blogBlog4Route,
-  blogBlog5Route: blogBlog5Route,
-  blogBlog6Route: blogBlog6Route,
-  blogBlog7Route: blogBlog7Route,
-  blogBlog8Route: blogBlog8Route,
-  blogBlog9Route: blogBlog9Route,
+  BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute:
+    BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute,
+  BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute:
+    BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute,
+  BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute:
+    BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute,
+  BlogsHowToChooseTheBestDeckStainRoute: BlogsHowToChooseTheBestDeckStainRoute,
+  BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute:
+    BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute,
+  BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute:
+    BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute,
+  BlogsProtectingYourHomeTheImportanceOfBalconyLeakDetectionAndRepairRoute:
+    BlogsProtectingYourHomeTheImportanceOfBalconyLeakDetectionAndRepairRoute,
+  BlogsSafetyAndAestheticsTheImportanceOfTimelyPoolDeckingRepairInSantaMonicaRoute:
+    BlogsSafetyAndAestheticsTheImportanceOfTimelyPoolDeckingRepairInSantaMonicaRoute,
+  BlogsSignsOfBalconyDeckDamageWhenToConsiderBalconyDeckRepairRoute:
+    BlogsSignsOfBalconyDeckDamageWhenToConsiderBalconyDeckRepairRoute,
+  BlogsTheBenefitsOfProfessionalDeckSealantForLongTermDeckProtectionRoute:
+    BlogsTheBenefitsOfProfessionalDeckSealantForLongTermDeckProtectionRoute,
+  BlogsWhatIsTheDifferenceBetweenInteriorAndExteriorWaterproofingServicesRoute:
+    BlogsWhatIsTheDifferenceBetweenInteriorAndExteriorWaterproofingServicesRoute,
+  BlogsWhatIsEpoxyFlooringRoute: BlogsWhatIsEpoxyFlooringRoute,
+  BlogsWhatIsPoolDeckingRoute: BlogsWhatIsPoolDeckingRoute,
+  BlogsWhatIsWaterproofingRoute: BlogsWhatIsWaterproofingRoute,
+  BlogsWhenShouldYouReapplyOrUpgradeWaterproofingSolutionsRoute:
+    BlogsWhenShouldYouReapplyOrUpgradeWaterproofingSolutionsRoute,
+  BlogsWhichWaterproofingDeckCoatingWinsRoute:
+    BlogsWhichWaterproofingDeckCoatingWinsRoute,
+  BlogsWhyCommercialBuildingsNeedWaterproofingServicesRoute:
+    BlogsWhyCommercialBuildingsNeedWaterproofingServicesRoute,
+  BlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute:
+    BlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute,
+  BlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute:
+    BlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute,
+  BlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute:
+    BlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute,
   ServicesProfessionalConcreteFloorLevelingRoute:
     ServicesProfessionalConcreteFloorLevelingRoute,
   ServicesBalconyWaterproofingCoatingRepairRoute:

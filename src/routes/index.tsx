@@ -455,7 +455,7 @@ function Index() {
                 {/* Bottom Image with Video Play Button */}
                 <div className="relative">
                   <img 
-                    src="/s1.webp" 
+                    src="/Home/3.jpg" 
                     alt="Waterproofing application process" 
                     className="w-full h-auto object-cover rounded-lg"
                     loading="lazy"
@@ -520,7 +520,7 @@ function Index() {
               {/* Image */}
               <div className="w-auto h-[20rem] p-10 rounded-full  overflow-hidden mb-4">
                 <img 
-                  src="/w1.webp" 
+                  src="/Home/Free-Inspection-&-Assessment.jpg" 
                   alt="Inspector with clipboard" 
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -547,7 +547,7 @@ function Index() {
               {/* Image */}
               <div className="w-auto h-[20rem] p-10 rounded-full overflow-hidden mb-4">
                 <img 
-                  src="/w2.webp" 
+                  src="/Home/Clear,-Upfront-Estimate.jpg" 
                   alt="Consultation meeting" 
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -574,7 +574,7 @@ function Index() {
               {/* Image */}
               <div className="w-auto h-[20rem] p-10 rounded-full  overflow-hidden mb-4">
                 <img 
-                  src="/w3.webp" 
+                  src="/Home/Expert-Installation.jpg" 
                   alt="Worker with power drill" 
                   className="w-full h-full object-cover"
                   loading="lazy"

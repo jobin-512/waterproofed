@@ -25,26 +25,26 @@ const BlogList = () => {
   ];
 
   const BLOGS = [
-    { id: 1, slug: "blog-1", title: "Which Waterproofing Deck Coating Wins?", image: images[0] },
-    { id: 2, slug: "blog-2", title: "How to Fix Peeling or Cracked Waterproof Deck Coatings: Liquid Rubber vs Polyurethane", image: images[1] },
-    { id: 3, slug: "blog-3", title: "Why Waterproof Deck Coatings Are Essential for Outdoor Living", image: images[2] },
-    { id: 4, slug: "blog-4", title: "Why Waterproofing Balcony Decks Saves You Big Repairs", image: images[3] },
-    { id: 5, slug: "blog-5", title: "How Waterproofing Services Protect Your Home from Long-Term Damage", image: images[4] },
-    { id: 6, slug: "blog-6", title: "What Is the Difference Between Interior and Exterior Waterproofing Services", image: images[5] },
-    { id: 7, slug: "blog-7", title: "Why Summer Is the Best Time to Waterproof Your Property", image: images[6] },
-    { id: 8, slug: "blog-8", title: "When Should You Reapply or Upgrade Waterproofing Solutions?", image: images[7] },
-    { id: 9, slug: "blog-9", title: "Why Commercial Buildings Need Waterproofing Services", image: images[8] },
-    { id: 10, slug: "blog-10", title: "Protecting Your Home: The Importance of Balcony Leak Detection and Repair", image: images[9] },
-    { id: 11, slug: "blog-11", title: "Preventing Water Intrusion: The Importance of Balcony Leak Detection", image: images[10] },
-    { id: 12, slug: "blog-12", title: "Safety and Aesthetics: The Importance of Timely Pool Decking Repair in Santa Monica", image: images[11] },
-    { id: 13, slug: "blog-13", title: "Enjoy Your Deck, Rain or Shine: Waterproofing Tips for Los Angeles Homeowners", image: images[12] },
-    { id: 14, slug: "blog-14", title: "DIY vs. Professional Help: Understanding Balcony Deck Repair", image: images[13] },
-    { id: 15, slug: "blog-15", title: "Signs of Balcony Deck Damage: When to Consider Balcony Deck Repair", image: images[14] },
-    { id: 16, slug: "blog-16", title: "What is Pool Decking", image: images[15] },
-    { id: 17, slug: "blog-17", title: "How to Choose the Best Deck Stain", image: images[16] },
-    { id: 18, slug: "blog-18", title: "How to Choose the Best Deck Stain", image: images[17] },
-    { id: 19, slug: "blog-19", title: "What is Waterproofing", image: images[18] },
-    { id: 20, slug: "blog-20", title: "What is Epoxy Flooring", image: images[19] },
+    { id: 1, path: "/blogs/Which-Waterproofing-Deck-Coating-Wins", title: "Which Waterproofing Deck Coating Wins?", image: images[0] },
+    { id: 2, path: "/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane", title: "How to Fix Peeling or Cracked Waterproof Deck Coatings: Liquid Rubber vs Polyurethane", image: images[1] },
+    { id: 3, path: "/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living", title: "Why Waterproof Deck Coatings Are Essential for Outdoor Living", image: images[2] },
+    { id: 4, path: "/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs", title: "Why Waterproofing Balcony Decks Saves You Big Repairs", image: images[3] },
+    { id: 5, path: "/blogs//How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage", title: "How Waterproofing Services Protect Your Home from Long-Term Damage", image: images[4] },
+    { id: 6, path: "/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services", title: "What Is the Difference Between Interior and Exterior Waterproofing Services", image: images[5] },
+    { id: 7, path: "/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property", title: "Why Summer Is the Best Time to Waterproof Your Property", image: images[6] },
+    { id: 8, path: "/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions", title: "When Should You Reapply or Upgrade Waterproofing Solutions?", image: images[7] },
+    { id: 9, path: "/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services", title: "Why Commercial Buildings Need Waterproofing Services", image: images[8] },
+    { id: 10, path: "/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair", title: "Protecting Your Home: The Importance of Balcony Leak Detection and Repair", image: images[9] },
+    { id: 11, path: "/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection", title: "Preventing Water Intrusion: The Importance of Balcony Leak Detection", image: images[10] },
+    { id: 12, path: "/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica", title: "Safety and Aesthetics: The Importance of Timely Pool Decking Repair in Santa Monica", image: images[11] },
+    { id: 13, path: "/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners", title: "Enjoy Your Deck, Rain or Shine: Waterproofing Tips for Los Angeles Homeowners", image: images[12] },
+    { id: 14, path: "/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair", title: "DIY vs. Professional Help: Understanding Balcony Deck Repair", image: images[13] },
+    { id: 15, path: "/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair", title: "Signs of Balcony Deck Damage: When to Consider Balcony Deck Repair", image: images[14] },
+    { id: 16, path: "/blogs/What-is-Pool-Decking", title: "What is Pool Decking", image: images[15] },
+    { id: 17, path: "/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection", title: "The Benefits of Professional Deck Sealant for Long-Term Deck Protection", image: images[16] },
+    { id: 18, path: "/blogs/How-to-Choose-the-Best-Deck-Stain", title: "How to Choose the Best Deck Stain", image: images[17] },
+    { id: 19, path: "/blogs/What-is-Waterproofing", title: "What is Waterproofing", image: images[18] },
+    { id: 20, path: "/blogs/What-is-Epoxy-Flooring", title: "What is Epoxy Flooring", image: images[19] },
   ];
 
   const [currentPage, setCurrentPage] = useState(1);
@@ -76,7 +76,7 @@ const BlogList = () => {
             <div className="p-4">
               <h3 className="text-lg font-semibold">{blog.title}</h3>
               <a
-                href={`/${blog.slug}`}
+                href={blog.path}
                 className="inline-block mt-2 text-blue-600 hover:underline"
               >
                 Read More →

@@ -1,7 +1,7 @@
 import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
-export const Route = createFileRoute('/(blog)/blog-10')({
+export const Route = createFileRoute('/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair')({
   component: BlogPage,
 })
 

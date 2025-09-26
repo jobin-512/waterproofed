@@ -7,6 +7,8 @@ export default function Header() {
   const [isServicesDropdownOpen, setIsServicesDropdownOpen] = useState(false)
   const dropdownTimeoutRef = useRef<number | null>(null)
   const [isAreaDropdownOpen, setIsAreaDropdownOpen] = useState(false)
+  const [isMobileServicesOpen, setIsMobileServicesOpen] = useState(false)
+  const [isMobileAreaOpen, setIsMobileAreaOpen] = useState(false)
   const areaDropdownTimeoutRef = useRef<number | null>(null)
   const matchRoute = useMatchRoute()
 
@@ -137,7 +139,7 @@ export default function Header() {
 
           {/* Get a Quote Button */}
           <div className="w-full md:w-auto">
-            <a href="/contact" className="w-full md:w-auto bg-gray-800 text-white px-6 py-3 rounded hover:bg-gray-700 transition-colors font-semibold">
+            <a href="/contact" className="w-full md:w-auto bg-gray-800 text-white px-6 py-3 rounded hover:bg-gray-700 transition-colors font-semibold inline-flex items-center justify-center whitespace-nowrap">
               GET A QUOTE
             </a>
           </div>
@@ -159,9 +161,9 @@ export default function Header() {
                 Home 
               </Link>
               <Link 
-                to="/about" 
+                to="/about-us" 
                 className={`hover:text-[#00A7E8] ${
-                  matchRoute({ to: "/about" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                  matchRoute({ to: "/about-us" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
                 }`}
               >
                 About Us
@@ -257,39 +259,39 @@ export default function Header() {
                 {isAreaDropdownOpen && (
                   <div className="absolute top-full left-0 mt-2 w-80 bg-white border border-gray-200 rounded-lg shadow-lg z-50">
                     <div className="py-2">
-                      <a 
-                        href="/los-angeles-deck-waterproofing-contractor"
+                      <Link 
+                        to="/los-angeles-deck-waterproofing-contractor"
                         className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsAreaDropdownOpen(false)}
                       >
                         <div className="font-semibold text-gray-800">Los Angeles</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </a>
-                      <a 
-                        href="/beverly-hills-deck-waterproofing-contractor"
+                      </Link>
+                      <Link 
+                        to="/beverly-hills-deck-waterproofing-contractor"
                         className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsAreaDropdownOpen(false)}
                       >
                         <div className="font-semibold text-gray-800">Beverly Hills</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </a>
-                      <a 
-                        href="/malibu-deck-waterproofing-contractor"
+                      </Link>
+                      <Link 
+                        to="/malibu-deck-waterproofing-contractor"
                         className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsAreaDropdownOpen(false)}
                       >
                         <div className="font-semibold text-gray-800">Malibu</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </a>
+                      </Link>
 
-                      <a 
-                        href="/Pasadena-deck-waterproofing-contractor"
+                      <Link 
+                        to="/Pasadena-deck-waterproofing-contractor"
                         className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsAreaDropdownOpen(false)}
                       >
                         <div className="font-semibold text-gray-800">Pasadena</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 )}
@@ -358,7 +360,7 @@ export default function Header() {
 
             {/* Mobile Menu Dropdown */}
             {isMobileMenuOpen && (
-              <div className="mt-4 bg-white border rounded-lg shadow-lg">
+              <div className="mt-4 bg-white border rounded-lg shadow-lg max-h-[70vh] overflow-y-auto">
                 <nav className="flex flex-col">
                   <Link 
                     to="/" 
@@ -370,44 +372,54 @@ export default function Header() {
                     Home 
                   </Link>
                   <Link 
-                    to="/about" 
+                    to="/about-us" 
                     className={`px-4 py-3 border-b hover:bg-gray-50 ${
-                      matchRoute({ to: "/about" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
+                      matchRoute({ to: "/about-us" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
                     }`}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     About Us
                   </Link>
-                  <Link 
+                <Link 
                   to="/gallery" 
-                  className={`hover:text-[#00A7E8] ${
-                    matchRoute({ to: "/gallery" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                  className={`px-4 py-3 border-b hover:bg-gray-50 ${
+                    matchRoute({ to: "/gallery" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
                   }`}
+                  onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Gallery
                 </Link>
                 <Link 
                   to="/refrence-sheet" 
-                  className={`hover:text-[#00A7E8] ${
-                    matchRoute({ to: "/refrence-sheet" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                  className={`px-4 py-3 border-b hover:bg-gray-50 ${
+                    matchRoute({ to: "/refrence-sheet" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
                   }`}
+                  onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Reference Sheet
                 </Link>
                 <Link 
                   to="/testimonials" 
-                  className={`hover:text-[#00A7E8] ${
-                    matchRoute({ to: "/testimonials" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                  className={`px-4 py-3 border-b hover:bg-gray-50 ${
+                    matchRoute({ to: "/testimonials" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
                   }`}
+                  onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Testimonials
                 </Link>
                   
                   {/* Mobile Services Section */}
                   <div className="border-b">
-                    <div className="px-4 py-3 text-gray-700 font-semibold">
+                    <button
+                      type="button"
+                      className="w-full px-4 py-3 text-left text-gray-700 font-semibold flex items-center justify-between"
+                      aria-expanded={isMobileServicesOpen}
+                      onClick={() => setIsMobileServicesOpen(!isMobileServicesOpen)}
+                    >
                       Services
-                    </div>
+                      <svg className={`w-4 h-4 transition-transform ${isMobileServicesOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                    </button>
+                    {isMobileServicesOpen && (
                     <div className="bg-gray-50">
                       <Link 
                         to="/services/balcony-waterproofing-coating-repair"
@@ -442,47 +454,56 @@ export default function Header() {
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
                       </Link>
                     </div>
+                    )}
                   </div>
                   
                   {/* Mobile Area Section */}
                   <div className="border-b">
-                    <div className="px-4 py-3 text-gray-700 font-semibold">
+                    <button
+                      type="button"
+                      className="w-full px-4 py-3 text-left text-gray-700 font-semibold flex items-center justify-between"
+                      aria-expanded={isMobileAreaOpen}
+                      onClick={() => setIsMobileAreaOpen(!isMobileAreaOpen)}
+                    >
                       Area
-                    </div>
+                      <svg className={`w-4 h-4 transition-transform ${isMobileAreaOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+                    </button>
+                    {isMobileAreaOpen && (
                     <div className="bg-gray-50">
-                      <a 
-                        href="/los-angeles-deck-waterproofing-contractor"
+                      <Link 
+                        to="/los-angeles-deck-waterproofing-contractor"
                         className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Los Angeles</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </a>
-                      <a 
-                        href="/beverly-hills-deck-waterproofing-contractor"
+                      </Link>
+                      <Link 
+                        to="/beverly-hills-deck-waterproofing-contractor"
                         className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Beverly Hills</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </a>
-                      <a 
-                        href="/malibu-deck-waterproofing-contractor"
+                      </Link>
+                      <Link 
+                        to="/malibu-deck-waterproofing-contractor"
                         className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Malibu</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </a>
-                      <a 
-                        href="/Pasadena-deck-waterproofing-contractor"
+                      </Link>
+                      <Link 
+                        to="/Pasadena-deck-waterproofing-contractor"
                         className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Pasadena</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </a>
+                      </Link>
                     </div>
+                    )}
                   </div>
                   <a href="/blog" className="px-4 py-3 text-gray-700 border-b hover:bg-gray-50 hover:text-[#00A7E8]">Blog </a>
                   <Link 
