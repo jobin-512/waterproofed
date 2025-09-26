@@ -91,6 +91,30 @@ export default function Footer() {
                   ))}
                 </ul>
               </div>
+
+              <div>
+                <h4 className="font-bold mb-3 relative">
+                  Area
+                  <div className="absolute bottom-0 left-0 w-8 h-0.5 bg-orange-500"></div>
+                </h4>
+                <ul className="space-y-2 text-sm">
+                  {[
+                    { text: 'Los Angeles ', href: '/services//los-angeles-deck-waterproofing-contractor' },
+                    { text: 'Beverly Hills', href: '/services/beverly-hills-deck-waterproofing-contractor' }, 
+                    { text: 'Malibu', href: '/services/malibu-deck-waterproofing-contractor' },
+                    { text: 'Pasadena', href: '/services/Pasadena-deck-waterproofing-contractor' }
+                  ].map((link, index) => (
+                    <li key={index}>
+                      <a href={link.href} className="flex items-center text-gray-300 hover:text-[#00A7E8] transition-colors">
+                        <svg className="w-3 h-3 mr-2 text-[#00A7E8]" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clipRule="evenodd" />
+                        </svg>
+                        {link.text}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
 
@@ -107,10 +131,10 @@ export default function Footer() {
                 <svg className="w-5 h-5 text-gray-400 mr-3 mt-0.5 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
-                <div className="text-gray-300 text-sm">
+                <a href="https://www.google.com/maps/place/427+Montana+Ave,+Santa+Monica,+CA+90403,+USA/@36.6226253,-118.8627283,6.21z/data=!4m6!3m5!1s0x80c2a4bf2c0b15f7:0xb2e8d43a71f2a45a!8m2!3d34.0253902!4d-118.5042388!16s%2Fg%2F11c26czyjf?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D" className="text-gray-300 text-sm">
                   <p>427 Montana Ave. Santa Monica CA 90403</p>
                   <p>United States of America</p>
-                </div>
+                </a>
               </div>
 
               {/* Phone */}
@@ -118,7 +142,7 @@ export default function Footer() {
                 <svg className="w-5 h-5 text-gray-400 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                <span className="text-gray-300 text-sm">+1 (310) 569-3129</span>
+                <a href="tel:+1310569-3129" className="text-gray-300 text-sm">+1 (310) 569-3129</a>
               </div>
 
               {/* Email */}
@@ -127,7 +151,7 @@ export default function Footer() {
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
-                <span className="text-gray-300 text-sm">scd@waterproofed.com</span>
+                <a href="maito:scd@waterproofed.com" className="text-gray-300 text-sm">scd@waterproofed.com</a>
               </div>
             </div>
           </div>
