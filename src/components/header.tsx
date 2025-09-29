@@ -90,7 +90,7 @@ export default function Header() {
           {/* Logo Section */}
           <div className="flex items-center">
             <a href="/" className="flex items-center gap-3">
-              <img src={logo} alt="logo" className="h-16 lg:h-20" />
+              <img src={logo} alt="Southern California Decking logo" className="h-16 lg:h-20" />
             </a>
           </div>
 

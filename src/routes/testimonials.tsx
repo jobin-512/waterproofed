@@ -13,7 +13,7 @@ function RouteComponent() {
         <div className="absolute inset-0">
           <img 
             src="/banner.webp" 
-            alt="Construction workers on roof" 
+            alt="Southern California Decking professional waterproofing banner" 
             className="w-full h-full object-cover"
             loading="lazy"
           />
@@ -254,13 +254,13 @@ function RouteComponent() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {/* Image Placeholder 1 */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <img src="/test1.webp" alt="" className='w-fit h-full '/>
+            <img src="/test1.webp" alt="Customer testimonial deck waterproofing Los Angeles" className='w-fit h-full '/>
             </div>
 
             {/* Image Placeholder 2 */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="bg-gray-200 flex items-center justify-center h-[30rem]">
-                  <img src="/test2.webp" alt="" className='w-fit h-full '/>
+                  <img src="/test2.webp" alt="Happy client testimonial for deck waterproofing services" className='w-fit h-full '/>
               </div>
             </div>
           </div>

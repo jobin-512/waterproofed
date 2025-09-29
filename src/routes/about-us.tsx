@@ -48,7 +48,7 @@ function About() {
               <div className="relative z-10 mb-6">
                 <img 
                   src="/about2.webp" 
-                  alt="Worker applying coating to roof" 
+                  alt="Happy client testimonial for deck waterproofing services" 
                   className="w-full rounded-lg shadow-lg"
                 />
               </div>

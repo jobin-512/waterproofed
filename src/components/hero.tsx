@@ -8,6 +8,7 @@ interface CarouselSlide {
   image: string
   ctaPrimary: string
   ctaSecondary: string
+  alt: string
 }
 
 const carouselData: CarouselSlide[] = [
@@ -18,7 +19,8 @@ const carouselData: CarouselSlide[] = [
     description: "Transform your deck into a fortress against leaks and wear. Our expert waterproofing solutions ensure long-lasting protection, preserving your outdoor space's beauty and integrity.",
     image: "/hero-1.webp",
     ctaPrimary: "CONTACT US",
-    ctaSecondary: "OUR SERVICES"
+    ctaSecondary: "OUR SERVICES",
+    alt:"Balcony waterproofing and coating services in Los Angeles"
   },
   {
     id: 2,
@@ -27,7 +29,8 @@ const carouselData: CarouselSlide[] = [
     description: "For over three decades, homeowners and property managers across Southern California have trusted us to solve their toughest water damage challenges.  ",
     image: "/hero-2.webp",
     ctaPrimary: "GET QUOTE",
-    ctaSecondary: "VIEW PROJECTS"
+    ctaSecondary: "VIEW PROJECTS",
+    alt:"Los Angeles deck waterproofing experts Southern California Decking"
   }
 ]
 
@@ -77,6 +80,7 @@ export default function Hero() {
               className="absolute inset-0 bg-cover bg-center bg-no-repeat"
               style={{
                 backgroundImage: `url(${slide.image})`,
+                backgroundAlt: slide.alt,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover'
               }}

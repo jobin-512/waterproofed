@@ -38,7 +38,7 @@ function BlogPage() {
         <figure className="my-8">
           <img
             src="/blogs/b1.webp"
-            alt="Waterproof deck coating in action"
+            alt="Benefits of deck waterproofing in Southern California"
             className="w-full rounded object-cover"
           />
         </figure>

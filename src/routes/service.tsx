@@ -352,7 +352,7 @@ function Service() {
               <div className="relative overflow-hidden rounded-lg">
                 <img 
                   src="/t1.webp" 
-                  alt="Waterproof deck coatings project" 
+                  alt="Customer testimonial deck waterproofing Los Angeles" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 {/* Overlay */}
@@ -376,7 +376,7 @@ function Service() {
               <div className="relative overflow-hidden rounded-lg">
                 <img 
                   src="/t2.webp" 
-                  alt="Roof coating application project" 
+                  alt="Happy client testimonial for deck waterproofing services" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 {/* Overlay */}
@@ -400,7 +400,7 @@ function Service() {
               <div className="relative overflow-hidden rounded-lg">
                 <img 
                   src="/t3.webp" 
-                  alt="Tile roof treatment project" 
+                  alt="Southern California Decking satisfied customer review" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 {/* Overlay */}

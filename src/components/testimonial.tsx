@@ -30,7 +30,7 @@ export default function Testimonial() {
                 <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
                   <img 
                     src="/t4.webp" 
-                    alt="Ethan David" 
+                    alt="Testimonial for waterproof deck coating in Los Angeles" 
                     className="w-full h-full object-cover"
                     loading="lazy"
                   />
@@ -70,7 +70,7 @@ export default function Testimonial() {
                 <div className="w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
                   <img 
                     src="/t5.webp" 
-                    alt="Mason Robert" 
+                    alt="Client feedback on balcony waterproofing services" 
                     className="w-full h-full object-cover"
                     loading="lazy"
                   />
@@ -108,7 +108,7 @@ export default function Testimonial() {
         <div className="absolute inset-0">
           <img 
             src="/banner.webp" 
-            alt="Construction workers on roof" 
+            alt="Southern California Decking professional waterproofing banner" 
             className="w-full h-full object-cover"
             loading="lazy"
           />

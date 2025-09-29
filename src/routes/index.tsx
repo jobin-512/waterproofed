@@ -55,7 +55,7 @@ function Index() {
               <div className="relative">
                 <img 
                   src="/about.webp" 
-                  alt="Professional working on roof with safety gear" 
+                  alt="About Southern California Decking waterproofing company" 
                   className="w-full h-auto object-cover rounded-lg"
                   loading="lazy"
                 />
@@ -521,7 +521,7 @@ function Index() {
               <div className="w-auto h-[20rem] p-10 rounded-full  overflow-hidden mb-4">
                 <img 
                   src="/Home/Free-Inspection-&-Assessment.jpg" 
-                  alt="Inspector with clipboard" 
+                  alt="Free inspection and waterproofing assessment" 
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
@@ -548,7 +548,7 @@ function Index() {
               <div className="w-auto h-[20rem] p-10 rounded-full overflow-hidden mb-4">
                 <img 
                   src="/Home/Clear,-Upfront-Estimate.jpg" 
-                  alt="Consultation meeting" 
+                  alt="Clear and upfront waterproofing estimate" 
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
@@ -575,7 +575,7 @@ function Index() {
               <div className="w-auto h-[20rem] p-10 rounded-full  overflow-hidden mb-4">
                 <img 
                   src="/Home/Expert-Installation.jpg" 
-                  alt="Worker with power drill" 
+                  alt="Expert installation of deck waterproofing systems" 
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />
@@ -673,7 +673,7 @@ function Index() {
               <div className="relative overflow-hidden rounded-lg">
                 <img 
                   src="/t1.webp" 
-                  alt="Waterproof deck coatings project" 
+                  alt="Customer testimonial deck waterproofing Los Angeles" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
                   loading="lazy"
                 />
@@ -698,7 +698,7 @@ function Index() {
               <div className="relative overflow-hidden rounded-lg">
                 <img 
                   src="/t2.webp" 
-                  alt="Roof coating application project" 
+                  alt="Happy client testimonial for deck waterproofing services" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
                   loading="lazy"
                 />
@@ -723,7 +723,7 @@ function Index() {
               <div className="relative overflow-hidden rounded-lg">
                 <img 
                   src="/t3.webp" 
-                  alt="Tile roof treatment project" 
+                  alt="Southern California Decking satisfied customer review" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-110"
                   loading="lazy"
                 />

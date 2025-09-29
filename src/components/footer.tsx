@@ -11,7 +11,7 @@ export default function Footer() {
             {/* Logo */}
             <div className="mb-6">
               <div className="flex items-center mb-2">
-                <img src="/logo.webp" alt="logo" />
+                <img src="/logo.webp" alt="Southern California Decking " />
               </div>
             </div>
             

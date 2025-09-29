@@ -90,7 +90,7 @@ function BlogPage() {
           </ul>
 
           <figure className="my-8">
-            <img src="/blogs/b3.webp" alt="Applying new deck coating" className="w-full rounded object-cover" />
+            <img src="/blogs/b3.webp" alt="Balcony coating waterproofing blog article image" className="w-full rounded object-cover" />
           </figure>
 
           <h2 className="mt-10 text-3xl md:text-4xl font-bold">Step Four: Apply the New Coating</h2>
