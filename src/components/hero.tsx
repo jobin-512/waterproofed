@@ -80,7 +80,6 @@ export default function Hero() {
               className="absolute inset-0 bg-cover bg-center bg-no-repeat"
               style={{
                 backgroundImage: `url(${slide.image})`,
-                backgroundAlt: slide.alt,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover'
               }}
