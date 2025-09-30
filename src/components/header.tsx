@@ -1,6 +1,6 @@
 import logo from "/logo.webp"
 import { useState, useRef, useEffect } from "react"
-import { Link, useMatchRoute } from "@tanstack/react-router"
+import {  useMatchRoute } from "@tanstack/react-router"
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -105,7 +105,7 @@ export default function Header() {
               </div>
               <div>
                 <div className="text-sm text-gray-600">Call Us Any Time:</div>
-                <div className="font-semibold text-gray-800">+1 (310) 569-3129</div>
+                <a href="tel:+13105693129" className="font-semibold text-gray-800 truncate">+1 (310) 569-3129</a>
               </div>
             </div>
 
@@ -119,7 +119,7 @@ export default function Header() {
               </div>
               <div>
                 <div className="text-sm text-gray-600">Email Us:</div>
-                <div className="font-semibold text-gray-800">scd@waterproofed.com</div>
+                <a href="mailto:scd@waterproofed.com" className="font-semibold text-gray-800">scd@waterproofed.com</a>
               </div>
             </div>
 
@@ -137,10 +137,30 @@ export default function Header() {
             </div>
           </div>
 
-          {/* Get a Quote Button */}
-          <div className="w-full md:w-auto">
-            <a href="/contact" className="w-full md:w-auto bg-gray-800 text-white px-6 py-3 rounded hover:bg-gray-700 transition-colors font-semibold inline-flex items-center justify-center whitespace-nowrap">
+          {/* Get a Quote + Mobile Quick Actions */}
+          <div className="w-full md:w-auto flex items-center justify-end gap-2">
+            <a href="/contact" className="bg-gray-800 text-white px-6 py-3 rounded hover:bg-gray-700 transition-colors font-semibold inline-flex items-center justify-center whitespace-nowrap">
               GET A QUOTE
+            </a>
+            {/* Mobile-only quick action: Call */}
+            <a
+              href="tel:+13105693129"
+              aria-label="Call us"
+              className="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-full bg-gray-200 text-gray-800 hover:bg-gray-300 transition-colors"
+            >
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+              </svg>
+            </a>
+            {/* Mobile-only quick action: SMS */}
+            <a
+              href="sms:+13105693129"
+              aria-label="Text us"
+              className="md:hidden inline-flex items-center justify-center w-11 h-11 rounded-full bg-gray-200 text-gray-800 hover:bg-gray-300 transition-colors"
+            >
+              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M20 2H4a2 2 0 00-2 2v18l4-4h14a2 2 0 002-2V4a2 2 0 00-2-2zM6 9h12v2H6V9zm0-3h12v2H6V6zm0 6h8v2H6v-2z" />
+              </svg>
             </a>
           </div>
         </div>
@@ -152,30 +172,30 @@ export default function Header() {
           {/* Desktop Navigation */}
           <div className="hidden lg:flex justify-center items-center">
             <nav className="flex items-center gap-8">
-              <Link 
-                to="/" 
+              <a 
+                href="/" 
                 className={`font-semibold hover:text-blue-700 ${
                   matchRoute({ to: "/" }) ? "text-[#00A7E8]" : "text-gray-700 hover:text-[#00A7E8]"
                 }`}
               >
                 Home 
-              </Link>
-              <Link 
-                to="/about-us" 
+              </a>
+              <a 
+                href="/about-us" 
                 className={`hover:text-[#00A7E8] ${
                   matchRoute({ to: "/about-us" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
                 }`}
               >
                 About Us
-              </Link>
+              </a>
 
               <div 
                 className="relative"
                 onMouseEnter={handleMouseEnter}
                 onMouseLeave={handleMouseLeave}
               >
-                <Link 
-                  to="/service" 
+                <a 
+                  href="/service" 
                   className={`hover:text-[#00A7E8] flex items-center gap-1 ${
                     matchRoute({ to: "/service" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
                   }`}
@@ -191,44 +211,44 @@ export default function Header() {
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                   </svg>
-                </Link>
+                </a>
                 
                 {/* Dropdown Menu */}
                 {isServicesDropdownOpen && (
                   <div className="absolute top-full left-0 mt-2 w-80 bg-white border border-gray-200 rounded-lg shadow-lg z-50">
                     <div className="py-2">
-                      <Link 
-                        to="/services/balcony-waterproofing-coating-repair"
+                      <a 
+                        href="/services/balcony-waterproofing-coating-repair"
                         className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsServicesDropdownOpen(false)}
                       >
                         <div className="font-semibold text-gray-800">Balcony Waterproofing</div>
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
-                      </Link>
-                      <Link 
-                        to="/services/deck-waterproofing-coating-repair"
+                      </a>
+                      <a 
+                        href="/services/deck-waterproofing-coating-repair"
                         className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsServicesDropdownOpen(false)}
                       >
                         <div className="font-semibold text-gray-800">Deck Waterproofing</div>
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
-                      </Link>
-                      <Link 
-                        to="/services/planter-waterproofing-coating-repair"
+                      </a>
+                      <a 
+                        href="/services/planter-waterproofing-coating-repair"
                         className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsServicesDropdownOpen(false)}
                       >
                         <div className="font-semibold text-gray-800">Planter Waterproofing</div>
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
-                      </Link>
-                      <Link 
-                        to="/services/Professional-Concrete-Floor-Leveling"
+                      </a>
+                      <a 
+                        href="/services/Professional-Concrete-Floor-Leveling"
                         className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsServicesDropdownOpen(false)}
                       >
                         <div className="font-semibold text-gray-800">Concrete Floor Leveling</div>
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 )}
@@ -259,82 +279,82 @@ export default function Header() {
                 {isAreaDropdownOpen && (
                   <div className="absolute top-full left-0 mt-2 w-80 bg-white border border-gray-200 rounded-lg shadow-lg z-50">
                     <div className="py-2">
-                      <Link 
-                        to="/los-angeles-deck-waterproofing-contractor"
+                      <a 
+                        href="/los-angeles-deck-waterproofing-contractor"
                         className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsAreaDropdownOpen(false)}
                       >
                         <div className="font-semibold text-gray-800">Los Angeles</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </Link>
-                      <Link 
-                        to="/beverly-hills-deck-waterproofing-contractor"
+                      </a>
+                      <a 
+                        href="/beverly-hills-deck-waterproofing-contractor"
                         className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsAreaDropdownOpen(false)}
                       >
                         <div className="font-semibold text-gray-800">Beverly Hills</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </Link>
-                      <Link 
-                        to="/malibu-deck-waterproofing-contractor"
+                      </a>
+                      <a 
+                        href="/malibu-deck-waterproofing-contractor"
                         className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsAreaDropdownOpen(false)}
                       >
                         <div className="font-semibold text-gray-800">Malibu</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </Link>
+                      </a>
 
-                      <Link 
-                        to="/Pasadena-deck-waterproofing-contractor"
+                      <a 
+                        href="/Pasadena-deck-waterproofing-contractor"
                         className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsAreaDropdownOpen(false)}
                       >
                         <div className="font-semibold text-gray-800">Pasadena</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 )}
               </div>
 
-              <Link 
-                to="/gallery" 
+              <a 
+                href="/gallery" 
                 className={`hover:text-[#00A7E8] ${
                   matchRoute({ to: "/gallery" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
                 }`}
               >
                 Gallery
-              </Link>
+              </a>
 
-              <Link 
-                to="/reference-sheet" 
+              <a 
+                href="/reference-sheet" 
                 className={`hover:text-[#00A7E8] ${
                   matchRoute({ to: "/reference-sheet" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
                 }`}
               >
                 Reference Sheet
-              </Link>
-              <Link 
-                to="/testimonials" 
+              </a>
+              <a 
+                href="/testimonials" 
                 className={`hover:text-[#00A7E8] ${
                   matchRoute({ to: "/testimonials" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
                 }`}
               >
                 Testimonials
-              </Link>
+              </a>
               
               
               {/* Services Dropdown */}
 
               
-              <Link 
-                to="/contact" 
+              <a 
+                href="/contact" 
                 className={`hover:text-[#00A7E8] ${
                   matchRoute({ to: "/contact" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
                 }`}
               >
                 Contact Us
-              </Link>
+              </a>
               <a href="/blog" className="text-gray-700 hover:text-[#00A7E8]">Blog </a>
             </nav>
           </div>
@@ -362,51 +382,51 @@ export default function Header() {
             {isMobileMenuOpen && (
               <div className="mt-4 bg-white border rounded-lg shadow-lg max-h-[70vh] overflow-y-auto">
                 <nav className="flex flex-col">
-                  <Link 
-                    to="/" 
+                  <a 
+                    href="/" 
                     className={`px-4 py-3 border-b hover:bg-gray-50 ${
                       matchRoute({ to: "/" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
                     }`}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Home 
-                  </Link>
-                  <Link 
-                    to="/about-us" 
+                  </a>
+                  <a 
+                    href="/about-us" 
                     className={`px-4 py-3 border-b hover:bg-gray-50 ${
                       matchRoute({ to: "/about-us" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
                     }`}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     About Us
-                  </Link>
-                <Link 
-                  to="/gallery" 
+                  </a>
+                <a 
+                  href="/gallery" 
                   className={`px-4 py-3 border-b hover:bg-gray-50 ${
                     matchRoute({ to: "/gallery" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
                   }`}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Gallery
-                </Link>
-                <Link 
-                  to="/reference-sheet" 
+                </a>
+                <a 
+                  href="/reference-sheet" 
                   className={`px-4 py-3 border-b hover:bg-gray-50 ${
                     matchRoute({ to: "/reference-sheet" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
                   }`}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Reference Sheet
-                </Link>
-                <Link 
-                  to="/testimonials" 
+                </a>
+                <a 
+                  href="/testimonials" 
                   className={`px-4 py-3 border-b hover:bg-gray-50 ${
                     matchRoute({ to: "/testimonials" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
                   }`}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   Testimonials
-                </Link>
+                </a>
                   
                   {/* Mobile Services Section */}
                   <div className="border-b">
@@ -421,38 +441,38 @@ export default function Header() {
                     </button>
                     {isMobileServicesOpen && (
                     <div className="bg-gray-50">
-                      <Link 
-                        to="/services/balcony-waterproofing-coating-repair"
+                      <a 
+                        href="/services/balcony-waterproofing-coating-repair"
                         className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Balcony Waterproofing</div>
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
-                      </Link>
-                      <Link 
-                        to="/services/deck-waterproofing-coating-repair"
+                      </a>
+                      <a 
+                        href="/services/deck-waterproofing-coating-repair"
                         className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Deck Waterproofing</div>
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
-                      </Link>
-                      <Link 
-                        to="/services/planter-waterproofing-coating-repair"
+                      </a>
+                      <a 
+                        href="/services/planter-waterproofing-coating-repair"
                         className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Planter Waterproofing</div>
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
-                      </Link>
-                      <Link 
-                        to="/services/Professional-Concrete-Floor-Leveling"
+                      </a>
+                      <a 
+                        href="/services/Professional-Concrete-Floor-Leveling"
                         className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Concrete Floor Leveling</div>
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
-                      </Link>
+                      </a>
                     </div>
                     )}
                   </div>
@@ -470,51 +490,51 @@ export default function Header() {
                     </button>
                     {isMobileAreaOpen && (
                     <div className="bg-gray-50">
-                      <Link 
-                        to="/los-angeles-deck-waterproofing-contractor"
+                      <a 
+                        href="/los-angeles-deck-waterproofing-contractor"
                         className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Los Angeles</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </Link>
-                      <Link 
-                        to="/beverly-hills-deck-waterproofing-contractor"
+                      </a>
+                      <a 
+                        href="/beverly-hills-deck-waterproofing-contractor"
                         className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Beverly Hills</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </Link>
-                      <Link 
-                        to="/malibu-deck-waterproofing-contractor"
+                      </a>
+                      <a 
+                        href="/malibu-deck-waterproofing-contractor"
                         className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Malibu</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </Link>
-                      <Link 
-                        to="/Pasadena-deck-waterproofing-contractor"
+                      </a>
+                      <a 
+                        href="/Pasadena-deck-waterproofing-contractor"
                         className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Pasadena</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
-                      </Link>
+                      </a>
                     </div>
                     )}
                   </div>
                   <a href="/blog" className="px-4 py-3 text-gray-700 border-b hover:bg-gray-50 hover:text-[#00A7E8]">Blog </a>
-                  <Link 
-                    to="/contact" 
+                  <a 
+                    href="/contact" 
                     className={`px-4 py-3 hover:bg-gray-50 ${
                       matchRoute({ to: "/contact" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
                     }`}
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
                     Contact Us
-                  </Link>
+                  </a>
                 </nav>
               </div>
             )}
