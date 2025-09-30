@@ -307,9 +307,9 @@ export default function Header() {
               </Link>
 
               <Link 
-                to="/refrence-sheet" 
+                to="/reference-sheet" 
                 className={`hover:text-[#00A7E8] ${
-                  matchRoute({ to: "/refrence-sheet" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
+                  matchRoute({ to: "/reference-sheet" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700"
                 }`}
               >
                 Reference Sheet
@@ -390,9 +390,9 @@ export default function Header() {
                   Gallery
                 </Link>
                 <Link 
-                  to="/refrence-sheet" 
+                  to="/reference-sheet" 
                   className={`px-4 py-3 border-b hover:bg-gray-50 ${
-                    matchRoute({ to: "/refrence-sheet" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
+                    matchRoute({ to: "/reference-sheet" }) ? "text-[#00A7E8] font-semibold" : "text-gray-700 hover:text-[#00A7E8]"
                   }`}
                   onClick={() => setIsMobileMenuOpen(false)}
                 >

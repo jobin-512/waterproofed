@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/The-Benefits-of-Professional-Deck-Sealant-for-Long-Term-Deck-Protection')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Professional deck sealant enhances protection, prevents damage, and extends deck life. Learn why hiring experts ensures long-term results.',
+      },
+      {
+        title: 'Benefits of Professional Deck Sealant for Long Term Deck Protection',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

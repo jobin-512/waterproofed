@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/What-is-Epoxy-Flooring')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Epoxy flooring offers durability and style for homes and businesses. Learn what it is, how it works, and why it’s a popular flooring choice.',
+      },
+      {
+        title: 'What Is Epoxy Flooring? Guide | Waterproofed.com',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

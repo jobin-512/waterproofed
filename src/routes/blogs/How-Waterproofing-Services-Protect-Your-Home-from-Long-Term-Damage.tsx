@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Waterproofing prevents costly water damage. Learn how professional services protect your home, extend its life, and save money long-term',
+      },
+      {
+        title: 'How Waterproofing Services Protect Your Home from Long Term Damage',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

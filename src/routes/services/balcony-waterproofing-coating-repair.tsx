@@ -2,9 +2,18 @@ import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
 import Testimonial from '../../components/testimonial'
 
-export const Route = createFileRoute(
-  '/services/balcony-waterproofing-coating-repair',
-)({
+export const Route = createFileRoute('/services/balcony-waterproofing-coating-repair',)({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Southern California Decking provides expert balcony waterproofing, coating, and repair services to protect your property from leaks and damage in Southern California.',
+      },
+      {
+        title: 'Balcony Waterproofing & Repair | Southern California Decking',
+      },
+    ],
+  }),
   component: RouteComponent,
 })
 

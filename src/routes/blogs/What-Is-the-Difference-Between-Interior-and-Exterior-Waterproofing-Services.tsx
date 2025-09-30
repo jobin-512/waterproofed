@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Learn the difference between interior and exterior waterproofing. Discover which service protects your property best from leaks and damage.',
+      },
+      {
+        title: 'Difference Between Interior and Exterior Waterproofing Services',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

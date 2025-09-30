@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/What-is-Pool-Decking')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Learn what pool decking is, explore material options, and discover how waterproof coatings protect, beautify, and extend pool deck life.',
+      },
+      {
+        title: 'What Is Pool Decking & Benefits | Waterproofed.com',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

@@ -1,7 +1,18 @@
 import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
 
-export const Route = createFileRoute('/refrence-sheet')({
+export const Route = createFileRoute('/reference-sheet')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Access Waterproofed’s reference sheet for full details on waterproofing, deck coatings, and repair services available in Southern California.',
+      },
+      {
+        title: 'Waterproofed Reference Sheet | Service Details',
+      },
+    ],
+  }),
   component: RouteComponent,
 })
 

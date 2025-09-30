@@ -2,6 +2,18 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/Which-Waterproofing-Deck-Coating-Wins')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Compare waterproofing deck coatings to choose the best for durability, style, and cost. Find expert insights to protect and enhance your deck.',
+      },
+      {
+        title: 'Which Waterproofing Deck Coating Wins',
+      },
+    ],
+  }),
+  
   component: BlogPage,
 })
 

@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../components/testimonial'
 
 export const Route = createFileRoute('/contact')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Contact Waterproofed for expert waterproofing and deck coating services in Los Angeles. Request your free consultation today.',
+      },
+      {
+        title: 'Contact Us - Waterproofed | Get a Free Quote Today',
+      },
+    ],
+  }),
   component: Contact,
 })
 

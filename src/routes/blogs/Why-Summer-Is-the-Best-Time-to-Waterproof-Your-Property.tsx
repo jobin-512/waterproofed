@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Summer is the ideal season for waterproofing projects. Learn why warm weather ensures better application, durability, and lasting protection.',
+      },
+      {
+        title: 'Why Summer Is the Best Time to Waterproof Your Property',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

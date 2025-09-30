@@ -6,6 +6,17 @@ const Hero = lazy(() => import('../components/hero'))
 const Testimonial = lazy(() => import('../components/testimonial'))
 
 export const Route = createFileRoute('/')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Southern California Decking INC offers expert deck waterproofing, balcony repair, deck coatings, railing, stucco, and paint services in Los Angeles.',
+      },
+      {
+        title: 'Balcony &amp; Deck Waterproofing | Southern California Decking',
+      },
+    ],
+  }),
   component: Index,
 })
 

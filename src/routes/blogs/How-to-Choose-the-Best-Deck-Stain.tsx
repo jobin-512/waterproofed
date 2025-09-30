@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/How-to-Choose-the-Best-Deck-Stain')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Choosing the best deck stain ensures beauty and protection. Learn which stains work best for lasting results and long-term deck maintenance.',
+      },
+      {
+        title: 'How to Choose the Best Deck Stain | Waterproofed.com',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

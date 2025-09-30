@@ -4,6 +4,17 @@ import { lazy, Suspense } from 'react'
 const BlogList = lazy(() => import('../components/bloglist'))
 
 export const Route = createFileRoute('/blog')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Read expert blogs on waterproofing, deck coatings, balcony repair, and leak prevention. Stay informed with Waterproofed’s professional insights.',
+      },
+      {
+        title: 'Waterproofing Tips & Guides | Southern California Decking',
+      },
+    ],
+  }),
   component: Blog,
 })
 

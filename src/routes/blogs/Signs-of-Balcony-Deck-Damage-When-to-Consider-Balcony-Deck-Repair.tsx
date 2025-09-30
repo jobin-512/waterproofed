@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/Signs-of-Balcony-Deck-Damage-When-to-Consider-Balcony-Deck-Repair')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Learn how to spot balcony deck damage early. Cracks, leaks, and wear may require professional repair to avoid safety risks and costly damage.',
+      },
+      {
+        title: 'Signs of Balcony Deck Damage When to Consider Balcony Deck Repair',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

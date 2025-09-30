@@ -11,11 +11,12 @@
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as TestimonialsRouteImport } from './routes/testimonials'
 import { Route as ServiceRouteImport } from './routes/service'
-import { Route as RefrenceSheetRouteImport } from './routes/refrence-sheet'
+import { Route as ReferenceSheetRouteImport } from './routes/reference-sheet'
 import { Route as GalleryRouteImport } from './routes/gallery'
 import { Route as ContactRouteImport } from './routes/contact'
 import { Route as BlogRouteImport } from './routes/blog'
 import { Route as AboutUsRouteImport } from './routes/about-us'
+import { Route as SplatRouteImport } from './routes/$'
 import { Route as IndexRouteImport } from './routes/index'
 import { Route as ServicesPlanterWaterproofingCoatingRepairRouteImport } from './routes/services/planter-waterproofing-coating-repair'
 import { Route as ServicesDeckWaterproofingCoatingRepairRouteImport } from './routes/services/deck-waterproofing-coating-repair'
@@ -56,9 +57,9 @@ const ServiceRoute = ServiceRouteImport.update({
   path: '/service',
   getParentRoute: () => rootRouteImport,
 } as any)
-const RefrenceSheetRoute = RefrenceSheetRouteImport.update({
-  id: '/refrence-sheet',
-  path: '/refrence-sheet',
+const ReferenceSheetRoute = ReferenceSheetRouteImport.update({
+  id: '/reference-sheet',
+  path: '/reference-sheet',
   getParentRoute: () => rootRouteImport,
 } as any)
 const GalleryRoute = GalleryRouteImport.update({
@@ -79,6 +80,11 @@ const BlogRoute = BlogRouteImport.update({
 const AboutUsRoute = AboutUsRouteImport.update({
   id: '/about-us',
   path: '/about-us',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const SplatRoute = SplatRouteImport.update({
+  id: '/$',
+  path: '/$',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -274,11 +280,12 @@ const areaPasadenaDeckWaterproofingContractorRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/$': typeof SplatRoute
   '/about-us': typeof AboutUsRoute
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/gallery': typeof GalleryRoute
-  '/refrence-sheet': typeof RefrenceSheetRoute
+  '/reference-sheet': typeof ReferenceSheetRoute
   '/service': typeof ServiceRoute
   '/testimonials': typeof TestimonialsRoute
   '/Pasadena-deck-waterproofing-contractor': typeof areaPasadenaDeckWaterproofingContractorRoute
@@ -312,11 +319,12 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/$': typeof SplatRoute
   '/about-us': typeof AboutUsRoute
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/gallery': typeof GalleryRoute
-  '/refrence-sheet': typeof RefrenceSheetRoute
+  '/reference-sheet': typeof ReferenceSheetRoute
   '/service': typeof ServiceRoute
   '/testimonials': typeof TestimonialsRoute
   '/Pasadena-deck-waterproofing-contractor': typeof areaPasadenaDeckWaterproofingContractorRoute
@@ -351,11 +359,12 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/$': typeof SplatRoute
   '/about-us': typeof AboutUsRoute
   '/blog': typeof BlogRoute
   '/contact': typeof ContactRoute
   '/gallery': typeof GalleryRoute
-  '/refrence-sheet': typeof RefrenceSheetRoute
+  '/reference-sheet': typeof ReferenceSheetRoute
   '/service': typeof ServiceRoute
   '/testimonials': typeof TestimonialsRoute
   '/(area)/Pasadena-deck-waterproofing-contractor': typeof areaPasadenaDeckWaterproofingContractorRoute
@@ -391,11 +400,12 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/$'
     | '/about-us'
     | '/blog'
     | '/contact'
     | '/gallery'
-    | '/refrence-sheet'
+    | '/reference-sheet'
     | '/service'
     | '/testimonials'
     | '/Pasadena-deck-waterproofing-contractor'
@@ -429,11 +439,12 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/$'
     | '/about-us'
     | '/blog'
     | '/contact'
     | '/gallery'
-    | '/refrence-sheet'
+    | '/reference-sheet'
     | '/service'
     | '/testimonials'
     | '/Pasadena-deck-waterproofing-contractor'
@@ -467,11 +478,12 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/$'
     | '/about-us'
     | '/blog'
     | '/contact'
     | '/gallery'
-    | '/refrence-sheet'
+    | '/reference-sheet'
     | '/service'
     | '/testimonials'
     | '/(area)/Pasadena-deck-waterproofing-contractor'
@@ -506,11 +518,12 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  SplatRoute: typeof SplatRoute
   AboutUsRoute: typeof AboutUsRoute
   BlogRoute: typeof BlogRoute
   ContactRoute: typeof ContactRoute
   GalleryRoute: typeof GalleryRoute
-  RefrenceSheetRoute: typeof RefrenceSheetRoute
+  ReferenceSheetRoute: typeof ReferenceSheetRoute
   ServiceRoute: typeof ServiceRoute
   TestimonialsRoute: typeof TestimonialsRoute
   areaPasadenaDeckWaterproofingContractorRoute: typeof areaPasadenaDeckWaterproofingContractorRoute
@@ -559,11 +572,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ServiceRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/refrence-sheet': {
-      id: '/refrence-sheet'
-      path: '/refrence-sheet'
-      fullPath: '/refrence-sheet'
-      preLoaderRoute: typeof RefrenceSheetRouteImport
+    '/reference-sheet': {
+      id: '/reference-sheet'
+      path: '/reference-sheet'
+      fullPath: '/reference-sheet'
+      preLoaderRoute: typeof ReferenceSheetRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/gallery': {
@@ -592,6 +605,13 @@ declare module '@tanstack/react-router' {
       path: '/about-us'
       fullPath: '/about-us'
       preLoaderRoute: typeof AboutUsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/$': {
+      id: '/$'
+      path: '/$'
+      fullPath: '/$'
+      preLoaderRoute: typeof SplatRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -802,11 +822,12 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  SplatRoute: SplatRoute,
   AboutUsRoute: AboutUsRoute,
   BlogRoute: BlogRoute,
   ContactRoute: ContactRoute,
   GalleryRoute: GalleryRoute,
-  RefrenceSheetRoute: RefrenceSheetRoute,
+  ReferenceSheetRoute: ReferenceSheetRoute,
   ServiceRoute: ServiceRoute,
   TestimonialsRoute: TestimonialsRoute,
   areaPasadenaDeckWaterproofingContractorRoute:

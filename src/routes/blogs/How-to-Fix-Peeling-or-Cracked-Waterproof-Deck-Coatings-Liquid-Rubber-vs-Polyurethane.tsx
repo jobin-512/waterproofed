@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Learn how to fix cracked or peeling deck coatings. Compare liquid rubber vs polyurethane waterproofing to find the right repair solution.',
+      },
+      {
+        title: 'How to Fix Peeling or Cracked Waterproof Deck Coatings Liquid Rubber ',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

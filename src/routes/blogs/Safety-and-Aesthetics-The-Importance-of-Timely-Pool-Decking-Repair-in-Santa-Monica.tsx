@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/Safety-and-Aesthetics-The-Importance-of-Timely-Pool-Decking-Repair-in-Santa-Monica')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Timely pool decking repair ensures safety, beauty, and long-term durability. Learn why Santa Monica homeowners trust experts for protection.',
+      },
+      {
+        title: 'Safety and Aesthetics | Importance of Timely Pool Decking Repair',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/Protecting-Your-Home-The-Importance-of-Balcony-Leak-Detection-and-Repair')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Balcony leaks can cause serious damage. Learn how professional leak detection and repair services protect your home and prevent costly repairs.',
+      },
+      {
+        title: 'Protecting Your Home the Importance of Balcony Leak Detection & Repair',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

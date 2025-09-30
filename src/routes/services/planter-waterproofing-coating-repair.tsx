@@ -3,8 +3,18 @@ import {useState} from "react"
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute(
-  '/services/planter-waterproofing-coating-repair',
-)({
+  '/services/planter-waterproofing-coating-repair',)({
+    head: () => ({
+      meta: [
+        {
+          name: 'description',
+          content: 'outhern California Decking provides planter waterproofing and repair services to prevent water intrusion and structural damage. Call today for a free estimate.',
+        },
+        {
+          title: 'Planter Waterproofing, Coating & Repair Services in Los Angles',
+        },
+      ],
+    }),
   component: RouteComponent,
 })
 

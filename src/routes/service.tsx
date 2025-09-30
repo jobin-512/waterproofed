@@ -3,6 +3,17 @@ import { useState } from 'react'
 import Testimonial from '../components/testimonial'
 
 export const Route = createFileRoute('/service')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Explore our waterproofing services: deck, balcony, planter, and concrete floor leveling. Professional, reliable solutions for long-term protection.',
+      },
+      {
+        title: 'Deck, Balcony & Planter Waterproofing Services in Los Angles',
+      },
+    ],
+  }),
   component: Service,
 })
 

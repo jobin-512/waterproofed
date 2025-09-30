@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import { useState, useRef, useEffect } from 'react'
 
 export const Route = createFileRoute('/gallery')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'View our waterproofing and deck coating project gallery. See before and after photos of residential and commercial work across Southern California.',
+      },
+      {
+        title: 'Waterproofed Project Gallery | Before & After',
+      },
+    ],
+  }),
   component: RouteComponent,
 })
 

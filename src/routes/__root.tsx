@@ -1,4 +1,4 @@
-import { createRootRoute, Outlet } from '@tanstack/react-router'
+import { createRootRoute, Outlet, HeadContent } from '@tanstack/react-router'
 import { lazy, Suspense, type ComponentType } from 'react'
 import Header from '../components/header'
 import Footer from '../components/footer'
@@ -10,6 +10,9 @@ const TanStackRouterDevtoolsLazy: ComponentType | null = import.meta.env.DEV
 export const Route = createRootRoute({
   component: () => (
     <>
+    <head>
+      <HeadContent />
+    </head>
       <Header />
       <Outlet />
       {TanStackRouterDevtoolsLazy ? (

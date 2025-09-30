@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Should you repair your balcony deck yourself or hire a pro? Learn the pros and cons of DIY vs professional repair for safety and results.',
+      },
+      {
+        title: 'DIY vs Professional Help Understanding Balcony Deck Repair',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Rain or shine, your deck deserves protection. Learn waterproofing tips tailored for Los Angeles homeowners to keep decks safe and durable.',
+      },
+      {
+        title: 'Enjoy Your Deck Rain or Shine Waterproofing Tips for Homeowners',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

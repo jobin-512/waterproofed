@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Learn when to reapply or upgrade waterproofing to keep your property protected. Signs of wear may signal it’s time for professional care.',
+      },
+      {
+        title: 'When Should You Reapply or Upgrade Waterproofing Solutions',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

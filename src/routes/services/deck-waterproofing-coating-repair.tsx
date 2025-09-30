@@ -3,6 +3,17 @@ import { useState } from 'react'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/services/deck-waterproofing-coating-repair')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Looking for professional deck waterproofing and coatings coating service in Southern California. Protect your deck with durable, leak-free solutions from Waterproofed contractors.',
+      },
+      {
+        title: 'Deck Waterproofing & Coatings Service | Southern California Decking',
+      },
+    ],
+  }),
   component: DeckWaterproofingCoatingRepair,
 })
 

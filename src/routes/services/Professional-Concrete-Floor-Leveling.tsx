@@ -2,9 +2,18 @@ import { createFileRoute } from '@tanstack/react-router'
 import {useState} from "react"
 import Testimonial from '../../components/testimonial'
 
-export const Route = createFileRoute(
-  '/services/Professional-Concrete-Floor-Leveling',
-)({
+export const Route = createFileRoute('/services/Professional-Concrete-Floor-Leveling',)({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Professional concrete floor leveling services. Ensure a smooth, durable surface for your home or business with Southern California Decking experts team.',
+      },
+      {
+        title: 'Concrete Precision Floor Leveling & Waterproofing Services',
+      },
+    ],
+  }),
   component: RouteComponent,
 })
 

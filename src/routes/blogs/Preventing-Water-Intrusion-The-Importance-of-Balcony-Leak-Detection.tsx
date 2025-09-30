@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Balcony water intrusion can lead to leaks and damage. Learn how early detection and waterproofing protect your property and save money.',
+      },
+      {
+        title: 'Preventing Water Intrusion the Importance of Balcony Leak Detection',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Waterproofing your balcony deck prevents leaks, damage, and costly repairs. Learn why investing in professional waterproofing saves money long-term.',
+      },
+      {
+        title: 'Why Waterproofing Balcony Decks Saves You Big Repairs',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 

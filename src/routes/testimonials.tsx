@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import { Link } from '@tanstack/react-router'
 
 export const Route = createFileRoute('/testimonials')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Hear from real customers about their experience with Waterproofed. Trusted waterproofing and deck coating experts in Southern California.',
+      },
+      {
+        title: 'Client Testimonials & Reviews | Southern California Decking',
+      },
+    ],
+  }),
   component: RouteComponent,
 })
 

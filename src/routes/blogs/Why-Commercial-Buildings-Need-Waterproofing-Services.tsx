@@ -2,6 +2,17 @@ import { createFileRoute } from '@tanstack/react-router'
 import Testimonial from '../../components/testimonial'
 
 export const Route = createFileRoute('/blogs/Why-Commercial-Buildings-Need-Waterproofing-Services')({
+  head: () => ({
+    meta: [
+      {
+        name: 'description',
+        content: 'Commercial buildings face serious water risks. Learn why waterproofing prevents structural damage, ensures safety, and protects long-term investments.',
+      },
+      {
+        title: 'Why Commercial Buildings Need Waterproofing Services',
+      },
+    ],
+  }),
   component: BlogPage,
 })
 
