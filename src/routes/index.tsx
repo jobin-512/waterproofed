@@ -13,7 +13,7 @@ export const Route = createFileRoute('/')({
         content: 'Southern California Decking INC offers expert deck waterproofing, balcony repair, deck coatings, railing, stucco, and paint services in Los Angeles.',
       },
       {
-        title: 'Balcony &amp; Deck Waterproofing | Southern California Decking',
+        title: 'Balcony & Deck Waterproofing | Southern California Decking',
       },
     ],
   }),
