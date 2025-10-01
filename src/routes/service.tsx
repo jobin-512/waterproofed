@@ -7,7 +7,7 @@ export const Route = createFileRoute('/service')({
     meta: [
       {
         name: 'description',
-        content: 'Explore our waterproofing services: deck, balcony, planter, and concrete floor leveling. Professional, reliable solutions for long-term protection.',
+        description: 'Explore our waterproofing services: deck, balcony, planter, and concrete floor leveling. Professional, reliable solutions for long-term protection.',
       },
       {
         title: 'Deck, Balcony & Planter Waterproofing Services in Los Angles',
