@@ -65,7 +65,7 @@ function DeckWaterproofingCoatingRepair() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/hero-1.webp')"
+            backgroundImage: "url('/Services/Deck Waterproofing Coating Repair/1.jpg')"
           }}
         >
           {/* Dark Overlay */}
@@ -234,7 +234,7 @@ function DeckWaterproofingCoatingRepair() {
               <div className=" top-8">
                 <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                   <img 
-                    src="/service/s1.webp" 
+                    src="/Services/Deck Waterproofing Coating Repair/2.jpg" 
                     alt="Worker applying deck coating with roller"
                     className="w-full h-auto object-cover"
                     style={{ minHeight: '600px' }}
@@ -254,7 +254,7 @@ function DeckWaterproofingCoatingRepair() {
             <div className="order-2 lg:order-1">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img 
-                  src="/service/s2.webp" 
+                  src="/Services/Deck Waterproofing Coating Repair/3.jpg" 
                   alt="Workers performing deck repair work on concrete floor"
                   className="w-full h-auto object-cover"
                   style={{ minHeight: '500px' }}
@@ -506,7 +506,7 @@ function DeckWaterproofingCoatingRepair() {
             <div>
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img 
-                  src="/service/s3.webp" 
+                  src="/Services/Deck Waterproofing Coating Repair/4.jpg" 
                   alt="Three construction workers applying bright light blue waterproof coating on outdoor deck"
                   className="w-full h-auto object-cover"
                   style={{ minHeight: '600px' }}

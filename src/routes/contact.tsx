@@ -24,7 +24,7 @@ function Contact() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/hero-1.webp')"
+            backgroundImage: "url('/Contact us/1.jpg')"
           }}
         >
           {/* Dark Overlay */}
@@ -73,7 +73,7 @@ function Contact() {
               </div>
               <div>
                 <p className="text-xs font-semibold text-white uppercase tracking-wide">Have a Question?</p>
-                <p className="text-lg font-bold text-white underline">+1 (310) 569-3129</p>
+                <a href="tel:+13105693129" className="text-lg font-bold text-white underline">+1 (310) 569-3129</a>
               </div>
             </div>
 
@@ -86,7 +86,7 @@ function Contact() {
               </div>
               <div>
                 <p className="text-xs font-semibold text-gray-600 uppercase tracking-wide">Any Question? Email Us!</p>
-                <p className="text-lg font-bold text-gray-900 underline">scd@waterproofed.com</p>
+                <a href="mailto:scd@waterproofed.com" className="text-lg font-bold text-gray-900 underline">scd@waterproofed.com</a>
               </div>
             </div>
           </div>

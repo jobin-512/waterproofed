@@ -25,7 +25,7 @@ function About() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/hero-1.webp')"
+            backgroundImage: "url('/About Us/2.jpg')"
           }}
         >
           {/* Dark Overlay */}
@@ -59,7 +59,7 @@ function About() {
               {/* Main Image */}
               <div className="relative z-10 mb-6">
                 <img 
-                  src="/about2.webp" 
+                  src="/About Us/1.jpg" 
                   alt="Happy client testimonial for deck waterproofing services" 
                   className="w-full rounded-lg shadow-lg"
                 />

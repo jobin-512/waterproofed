@@ -57,7 +57,7 @@ function RouteComponent() {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/hero-1.webp')"
+          backgroundImage: "url('/Area/Expert Deck and Balcony Waterproofing in Pasadena  Waterproofed.com – 38 Yrs Experience/banner.jpg')"
         }}
       >
         {/* Dark Overlay */}
@@ -191,7 +191,7 @@ function RouteComponent() {
             <div className=" top-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img 
-                  src="/service/s1.webp" 
+                  src="/Area/Expert Deck and Balcony Waterproofing in Pasadena  Waterproofed.com – 38 Yrs Experience/1.jpg" 
                   alt="Worker applying balcony coating with roller"
                   className="w-full h-auto object-cover"
                   style={{ minHeight: '600px' }}
@@ -211,7 +211,7 @@ function RouteComponent() {
           <div className="order-2 lg:order-1">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/service/s2.webp" 
+                src="/Area/Expert Deck and Balcony Waterproofing in Pasadena  Waterproofed.com – 38 Yrs Experience/2.jpg" 
                 alt="Workers performing balcony repair work on concrete floor"
                 className="w-full h-auto object-cover"
                 style={{ minHeight: '500px' }}
@@ -360,7 +360,7 @@ function RouteComponent() {
           <div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/service/s3.webp" 
+                src="/Area/Expert Deck and Balcony Waterproofing in Pasadena  Waterproofed.com – 38 Yrs Experience/3.jpg" 
                 alt="Three construction workers applying bright light blue waterproof coating on outdoor balcony"
                 className="w-full h-auto object-cover"
                 style={{ minHeight: '600px' }}

@@ -55,7 +55,7 @@ function Service() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('/hero-1.webp')"
+            backgroundImage: "url('/Services/1.jpg')"
           }}
         >
           {/* Dark Overlay */}
@@ -96,7 +96,7 @@ function Service() {
             {/* Service Card 1: Waterproof Deck Coatings */}
             <a href='/services/deck-waterproofing-coating-repair' className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/s2.webp" 
+                src="/Services/Waterproof-Deck-Coatings.jpg" 
                 alt="Person using roller to apply coating to deck" 
                 className="w-full h-48 object-cover"
               />
@@ -126,7 +126,7 @@ function Service() {
             {/* Service Card 3: FLOOR LEVELING */}
             <a href='/services/Professional-Concrete-Floor-Leveling' className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/s4.webp" 
+                src="/Services/FLOOR-LEVELING.jpg" 
                 alt="Construction worker using trowel to smooth floor" 
                 className="w-full h-48 object-cover"
               />
@@ -141,7 +141,7 @@ function Service() {
             {/* Service Card 5: Planter Waterproofing */}
             <a href='/services/planter-waterproofing-coating-repair' className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/s6.webp" 
+                src="/Services/Planter-Waterproofing.jpg" 
                 alt="Worker applying coating to concrete planter box" 
                 className="w-full h-48 object-cover"
               />
@@ -156,7 +156,7 @@ function Service() {
             {/* Service Card 2: Between Slab Waterproofing */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/s3.webp" 
+                src="/Services/Between-Slab-Waterproofing.jpg" 
                 alt="Person using squeegee to spread waterproofing material" 
                 className="w-full h-48 object-cover"
               />
@@ -173,7 +173,7 @@ function Service() {
             {/* Service Card 4: Below Grade Waterproofing */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/s5.webp" 
+                src="/Services/Below-Grade-Waterproofing.jpg" 
                 alt="Worker using spray gun on corrugated metal" 
                 className="w-full h-48 object-cover"
               />
@@ -225,7 +225,7 @@ function Service() {
             {/* Service Card 9: POOL DECK COATINGS */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/s7.webp" 
+                src="/Services/POOL-DECK-COATINGS.jpg" 
                 alt="Swimming pool with textured pool deck" 
                 className="w-full h-48 object-cover"
               />
