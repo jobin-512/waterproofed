@@ -60,7 +60,7 @@ function Contact() {
               </div>
               <div>
                 <p className="text-xs font-semibold text-gray-600 uppercase tracking-wide">Our Office Location</p>
-                <p className="text-lg font-bold text-gray-900 underline">427 Montana Ave. Santa Monica CA 90403</p>
+                <p className="text-lg font-bold text-gray-900 underline">30035 Bouquet Canyon Rd, Santa Clarita, CA 91390, United States</p>
               </div>
             </div>
 

@@ -132,8 +132,7 @@ export default function Footer() {
                   <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                 </svg>
                 <a href="https://www.google.com/maps/place/427+Montana+Ave,+Santa+Monica,+CA+90403,+USA/@36.6226253,-118.8627283,6.21z/data=!4m6!3m5!1s0x80c2a4bf2c0b15f7:0xb2e8d43a71f2a45a!8m2!3d34.0253902!4d-118.5042388!16s%2Fg%2F11c26czyjf?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D" className="text-gray-300 text-sm">
-                  <p>427 Montana Ave. Santa Monica CA 90403</p>
-                  <p>United States of America</p>
+                  <p>30035 Bouquet Canyon Rd, Santa Clarita, CA 91390, United States United States of America</p>
                 </a>
               </div>
 

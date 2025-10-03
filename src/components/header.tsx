@@ -132,7 +132,7 @@ export default function Header() {
               </div>
               <div>
                 <div className="text-sm text-gray-600">Our Office Location:</div>
-                <div className="font-semibold text-gray-800">427 Montana Ave. Santa Monica CA 90403 United States of America</div>
+                <div className="font-semibold text-gray-800">30035 Bouquet Canyon Rd, Santa Clarita, CA 91390, United States</div>
               </div>
             </div>
           </div>

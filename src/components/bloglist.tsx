@@ -2,16 +2,16 @@ import { useState } from "react";
 
 const BlogList = () => {
   const images = [
-    "blogs/b1.webp",
-    "blogs/b3.webp",
-    "blogs/b5.webp",
-    "blogs/b7.webp",
-    "blogs/b9.webp",
-    "blogs/b10.webp",
-    "blogs/b2.webp",
-    "blogs/b4.webp",
-    "blogs/b6.webp",
-    "blogs/b1.webp",
+    "blogs/b1.jpg",
+    "blogs/b2.jpg",
+    "blogs/b3.jpg",
+    "blogs/b4.jpg",
+    "blogs/b5.jpg",
+    "blogs/b6.jpg",
+    "blogs/b7.jpg",
+    "blogs/b8.jpg",
+    "blogs/b9.jpg",
+    "blogs/b10.jpg",
     "blogs/b11.webp",
     "blogs/b12.webp",
     "blogs/b13.webp",
@@ -29,7 +29,7 @@ const BlogList = () => {
     { id: 2, path: "/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane", title: "How to Fix Peeling or Cracked Waterproof Deck Coatings: Liquid Rubber vs Polyurethane", image: images[1] },
     { id: 3, path: "/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living", title: "Why Waterproof Deck Coatings Are Essential for Outdoor Living", image: images[2] },
     { id: 4, path: "/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs", title: "Why Waterproofing Balcony Decks Saves You Big Repairs", image: images[3] },
-    { id: 5, path: "/blogs//How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage", title: "How Waterproofing Services Protect Your Home from Long-Term Damage", image: images[4] },
+    { id: 5, path: "/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage", title: "How Waterproofing Services Protect Your Home from Long-Term Damage", image: images[4] },
     { id: 6, path: "/blogs/What-Is-the-Difference-Between-Interior-and-Exterior-Waterproofing-Services", title: "What Is the Difference Between Interior and Exterior Waterproofing Services", image: images[5] },
     { id: 7, path: "/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property", title: "Why Summer Is the Best Time to Waterproof Your Property", image: images[6] },
     { id: 8, path: "/blogs/When-Should-You-Reapply-or-Upgrade-Waterproofing-Solutions", title: "When Should You Reapply or Upgrade Waterproofing Solutions?", image: images[7] },
@@ -45,6 +45,9 @@ const BlogList = () => {
     { id: 18, path: "/blogs/How-to-Choose-the-Best-Deck-Stain", title: "How to Choose the Best Deck Stain", image: images[17] },
     { id: 19, path: "/blogs/What-is-Waterproofing", title: "What is Waterproofing", image: images[18] },
     { id: 20, path: "/blogs/What-is-Epoxy-Flooring", title: "What is Epoxy Flooring", image: images[19] },
+    { id: 21, path: "/blogs/Protect-Your-Home-with-Balcony-Roof-Deck-Waterproofing-in-Santa-Monica", title: "Protect Your Home with Balcony & Roof Deck Waterproofing in Santa Monica", image: images[1] },
+    { id: 22, path: "/blogs/Sant-Monica-Homeowner-Waterproof-Your-Patio-Deck-Now", title: "Sant Monica Homeowners: Waterproof Your Patio Deck Now!", image: images[2] },
+    { id: 23, path: "/blogs/Stop-Weather-Damage-with-LA-Roof-Deck-Waterproofing", title: "Stop Weather Damage with LA Roof Deck Waterproofing", image: images[3] },
   ];
 
   const [currentPage, setCurrentPage] = useState(1);
