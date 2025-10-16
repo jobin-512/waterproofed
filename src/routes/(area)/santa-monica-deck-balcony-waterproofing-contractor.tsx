@@ -2,8 +2,9 @@ import { createFileRoute } from '@tanstack/react-router'
 import { useState } from 'react'
 import Testimonial from '../../components/testimonial'
 
+
 export const Route = createFileRoute(
-  '/(area)/malibu-deck-waterproofing-contractor',
+  '/(area)/santa-monica-deck-balcony-waterproofing-contractor',
 )({
   component: RouteComponent,
 })
@@ -14,34 +15,34 @@ function RouteComponent() {
   const faqData = [
     {
       id: 0,
-      question: "How does salt air accelerate deck deterioration, and how does your process prevent it?",
-      answer: "Salt air penetrates wood and concrete, causing corrosion, rust, and decay. Our deck waterproofing system includes salt-resistant primers and sealants that block salt intrusion and protect surfaces from long-term structural damage and surface breakdown."
+      question: "How often should I waterproof my deck in Santa Monica?",
+      answer: "With our dry, hot, and sunny climate, an annual reseal or a comprehensive waterproofing every 5-10 years, depending on the system and wear, can protect your deck from weather-related issues. Consistent maintenance prevents costly damage."
     },
     {
       id: 1,
-      question: "What is the best non-slip coating for a pool deck that gets full sun all day?",
-      answer: "We use UV-stable, slip-resistant pool deck coatings that stay cool and safe in full sun. These coatings provide grip for wet feet, resist fading, and are ideal for Malibu’s bright, sunny climate."
+      question: "What is the best waterproofing material for Santa Monica?",
+      answer: "Fluid-applied waterproof coatings for concrete surfaces provide a durable, flexible, and seamless barrier that moves with the structure. This prevents cracking, delamination, and water intrusion, making it ideal for the extreme temperature fluctuations of Santa Monica’s climate."
     },
     {
       id: 2,
-      question: "Can you waterproof a balcony that is constantly exposed to ocean spray and wind?",
-      answer: "Yes. We install flexible, marine-grade roof deck waterproofing systems and reinforced membranes that withstand ocean spray, wind, and rain, preventing water intrusion and protecting interiors beneath your balcony from long-term exposure."
+      question: "Can you waterproof over existing tile on a balcony?",
+      answer: "Yes, concrete with specific sealers is designed for that purpose. We can remove your dirty old tiles, and apply an epoxy stain or paint to a flooring system. We also offer acrylic deck stains and other fluid-applied membranes that protect existing concrete or tile decks without needing full removal."
     },
     {
       id: 3,
-      question: "How do you prevent mold and mildew growth in shady, coastal areas?",
-      answer: "We apply antimicrobial coatings, improve drainage, and ensure proper airflow. These steps stop moisture accumulation, which is the root cause of mold and mildew in shaded, high-humidity coastal zones."
+      question: "My HOA requires a specific standard, can you comply?",
+      answer: "Absolutely. We're closely tied to HOAs and are well-versed in meeting specific jurisdictional guidelines and material requirements for community projects. Our team coordinates with HOAs throughout Los Angeles to ensure compliance and a smooth project."
     },
     {
       id: 4,
-      question: "Do your coatings protect against fading from intense UV exposure?",
-      answer: "Absolutely. We use premium coatings like Gaco deck coating and liquid rubber deck coating, engineered to resist UV damage, fading, chalking, and cracking—even under Malibu’s harsh, year-round sun."
+      question: "How long does a typical deck waterproofing project take?",
+      answer: "Most residential projects are completed in 3-5 days. This includes thorough preparation, application, and curing times to ensure a perfect, durable finish. We prioritize efficiency without compromising quality, keeping you informed throughout the process."
     },
     {
       id: 5,
-      question: "What is the typical lifespan of a waterproofing system in a harsh coastal environment?",
-      answer: "With high-quality materials and proper maintenance, our waterproofing systems typically last 10–20 years. Many applications include long-term or lifetime warranties, depending on location, exposure, and substrate condition."
-    }
+      question: "Do your warranties cover both materials and labor?",
+      answer: `Yes! Our comprehensive warranties cover both the manufacturer's materials and our expert workmanship, giving you complete protection and long-term peace of mind. We stand by our work, ensuring durability and your satisfaction for years to come."}]}, "query_language": "English"`, 
+    },
   ]
 
   const toggleFaq = (id: number) => {
@@ -56,7 +57,7 @@ function RouteComponent() {
       <div 
         className="absolute inset-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('/Area/Coastal Deck & Pool Deck Waterproofing in Malibu/banner.jpg')"
+          backgroundImage: "url('/Area/Expert Deck and Balcony Waterproofing in Pasadena  Waterproofed.com – 38 Yrs Experience/banner.jpg')"
         }}
       >
         {/* Dark Overlay */}
@@ -68,12 +69,12 @@ function RouteComponent() {
         <div className="text-center text-white px-4">
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Coastal Deck & Pool Deck Waterproofing in Malibu 
+            Professional Deck Waterproofing Services in Santa Monica
           </h1>
           
           {/* Paragraph Text */}
           <p className="text-lg md:text-xl max-w-2xl mx-auto leading-relaxed mb-8">
-            Malibu’s stunning ocean views come with a price—constant exposure to salt air, UV rays, and marine moisture that wreak havoc on outdoor surfaces. At Waterproofed.com, we’ve spent 38+ years developing and applying advanced deck waterproofing systems specifically for coastal environments like Malibu.
+            Santa Monica’s exceptional climate, with hot, dry summers and cooler, wetter winters, presents unique challenges for outdoor surfaces. Extreme temperature fluctuations, UV exposure, and seasonal moisture can lead to deck and balcony deterioration, including cracking, dry rot, and leaks. This makes specialized waterproofing crucial to protect your investment and maintain the beauty and safety of your home.
           </p>
         </div>
       </div>
@@ -83,33 +84,31 @@ function RouteComponent() {
     <div className="py-16 px-4">
       <div className="container mx-auto max-w-8xl">
         {/* Main Heading */}
-        <h2  className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-8">
-          Protecting Malibu Homes with Salt-Resistant Deck Waterproofing and Pool Deck Coating Systems 
+        <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-8">
+          Why Santa Monica Homes Need Specialized Waterproofing?
         </h2>
         
         {/* Introductory Paragraph */}
         <p className="text-lg text-gray-700 leading-relaxed mb-8 text-center">
-          Life in Malibu means sun, surf—and salt damage. Homes near the ocean face accelerated deterioration from salty breezes, marine fog, and intense UV exposure. These natural elements can rot wood, crack concrete, and strip coatings faster than in inland communities.
+          Santa Monica’s unique climate—with its hot, dry summers and occasional torrential rains—creates specific challenges for decks and balconies. Without proper waterproofing, sun exposure can lead to material degradation, while unexpected downpours can cause water intrusion, dry rot, and mold. Specialized solutions are crucial to protecting your outdoor living spaces in this environment.
         </p>
         
         {/* Service Description Paragraph */}
         <p className="text-lg text-gray-700 leading-relaxed mb-12 text-center">
-          That’s why our solutions go beyond aesthetics. We protect your decks, balconies, and pools with industrial-grade systems built to withstand the rigors of Malibu’s coastal climate. We don’t just offer a service—we offer protection that preserves your home’s value and functionality for the long haul.
+          Our comprehensive waterproofing services address these specific risks, safeguarding your home from costly damage. We provide customized solutions that account for Santa Monica’s environmental factors, ensuring your decks and balconies remain protected and beautiful for years to come.
         </p>
         
         {/* Call-to-Action Section */}
         <div className="bg-[#1a4a5e] rounded-lg p-8 md:p-12 text-center relative overflow-hidden">
           {/* Background Pattern Overlay */}
           <div className="absolute inset-0 opacity-90">
-            <div className="w-full h-full" style={{
-              backgroundImage: "/service/s4.webp"
-            }}></div>
+            <div className="w-full h-full" style={{ backgroundImage: "url('/service/s4.webp')" }}></div>
           </div>
           
           {/* CTA Content */}
           <div className="relative z-10">
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-6">
-              Conclusion: Every Malibu home deserves a defense system as strong as its views are beautiful. Our deck and pool deck waterproofing keeps your outdoor spaces safe, stunning, and fully protected—season after season. 
+              Our Comprehensive Santa Monica Waterproofing Services
             </h2>
             
             <a href="/contact" className="inline-block bg-white text-gray-900 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200 border border-gray-300">
@@ -128,55 +127,49 @@ function RouteComponent() {
           <div className="lg:col-span-2">
             {/* Main Heading */}
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Malibu's Premium Deck and Pool Deck Waterproofing Services for Coastal Properties 
+              Deck Waterproofing & Repair
             </h2>
             
             {/* Introductory Paragraph */}
             <p className="text-lg text-gray-700 leading-relaxed mb-12">
-            At Waterproofed.com, we deliver weatherproof, corrosion-resistant coatings that shield your investment from Malibu’s intense marine conditions. Each project is customized to suit your property’s micro-climate, materials, slope, and design.
+              We provide comprehensive deck waterproofing and repair services, from initial inspection to final application. Our experts handle everything from minor repairs to full-scale waterproofing system installations, ensuring your deck is protected against leaks, dry rot, and structural damage.
             </p>
             
             {/* Why Most Balconies Fail */}
             <div className="mb-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Salt Air-Resistant Deck Waterproofing Systems for Long-Term Coastal Protection</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Balcony Waterproofing & Repair</h3>
               <p className="text-gray-700 mb-3">
-              Salt is one of the most destructive elements in coastal regions. It seeps into porous materials and causes swelling, corrosion, and eventual breakdown. We use chemical-resistant sealants that create a hardened, breathable barrier against salt spray.
-              
-              This process prevents wood rot, deck flashing repair issues, and concrete spalling on walkways and balconies. Our seamless applications resist penetration, stop future corrosion, and keep your decks beautiful and safe in salty air.
+                We've repaired countless balconies in Santa Monica suffering from hidden leaks, often originating from failed flashing, inadequate slopes, or deteriorated membranes. Our process involves removing damaged materials, performing necessary flashing repairs, and installing new fluid-applied membranes. We meticulously seal and reinforce every seam, ensuring a dry, stable, and beautiful space. We also specialize in waterproofing balcony decks located over living areas, effectively stopping leaks and preserving underlying structures.
               </p>
             </div>
             
             {/* Water Damage Is Common */}
             <div className="mb-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Slip-Resistant Pool Deck Coatings for Malibu Pools and Outdoor Living Areas</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Planter Waterproofing & Drainage</h3>
               <p className="text-gray-700">
-              Pool areas in Malibu need more than waterproofing—they need a surface that’s comfortable underfoot, cool in the sun, and safe when wet. We offer pool deck coatings that are UV-resistant, chlorine-stable, and slip-tested for safety.
-              
-              Whether you're looking for the best pool deck coating or seeking pool deck repair companies near me, we deliver custom resurfacing solutions using liquid rubber deck coating and other advanced products.
-              
-              Our clients include modern mansions in Serra Retreat and beachside escapes along Broad Beach—each with specific needs and finishes.
+                Built-in planters enhance aesthetics but often cause water damage. We address leaking planters by removing old soil and hardscape, then installing root-resistant moisture barriers, waterproof liners, and new drainage scuppers to ensure proper slope and drainage. Our solutions protect adjacent walls and decks, transforming your planter into a resilient, long-term feature.
               </p>
             </div>
             
             {/* Weather, Wear, and Poor Drainage */}
             <div className="mb-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Oceanfront Balcony Roof Deck Waterproofing and Leak Repair Solutions</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Other Specialty Services</h3>
               <p className="text-gray-700 mb-4">
-              High winds and rain driven sideways are a normal part of Malibu’s winter storms. They can exploit even the tiniest cracks in balcony surfaces, causing leaks into the rooms below.
-              
-              We install roof deck waterproofing membranes that flex with building movement, seal seams, and protect vulnerable areas like railing posts and wall joints. If your balcony is leaking or bubbling, we offer full balcony leak detection, membrane installation, and expert deck flashing repair to keep your home’s interiors safe and dry.
+              Concrete surfaces, while durable, are prone to hairline cracks from expansion and contraction, allowing water intrusion that causes spalling and corrosion. We restore these surfaces using high-grade polyurethane crack injections and topical sealers that create a robust moisture barrier. For larger areas, we apply full roof deck waterproofing systems, protecting concrete slabs and patios while preserving their aesthetic appeal. We have successfully restored cracked concrete balconies, rooftop gathering areas, and structural supports throughout Santa Monica.
               </p>
             </div>
             
             {/* Prevent Problems */}
             <div className="mb-8">
-              <h3 className="text-xl font-bold text-gray-900 mb-4">Erosion Control and Under Deck Waterproofing Systems for Malibu Slopes and Bluffs</h3>
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Waterproofing Planter Boxes with Drainage and Moisture Barrier Systems</h3>
               <p className="text-gray-700 mb-3">
-              Malibu’s sloped lots and cliffside locations are prone to water runoff and ground shifting. We provide foundation protection systems that prevent erosion from destabilizing your home’s base.
+              Built-in planters add beauty and greenery but are notorious for causing long-term water damage. We treat leaking planters by removing old soil and hardscape layers, then installing root-resistant moisture barrier systems, waterproof liners, and new drainage scuppers.
+              From ocean-facing balconies to rooftop decks, Santa Monica properties face unique challenges from salt air, humidity, and constant sun exposure. Our specialized services protect your outdoor living spaces from water intrusion, dry rot, and structural damage, ensuring longevity and beauty.
+              Proper slope and drainage redirect water away from adjacent walls and decks. Once rebuilt, your planter will protect your home, not threaten it.
               
-              Our crew installs drainage systems, slope stabilizers, and subsurface waterproof membranes that direct water away from structures. This keeps soil in place and prevents damage from saturated ground beneath decks and patios.
+              Conclusion  
               
-              Conclusion: From salt-resistant coatings to non-slip pool deck finishes and slope stabilization, our services are designed to handle every coastal challenge your Malibu property can throw at them.
+              From balcony deck repair to waterproof coatings, our complete service offerings mean you get one trusted team for every component. We solve root problems—not just surface symptoms.
               </p>
             </div>
           </div>
@@ -186,7 +179,7 @@ function RouteComponent() {
             <div className=" top-8">
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <img 
-                  src="/Area/Coastal Deck & Pool Deck Waterproofing in Malibu/1.jpg" 
+                  src="/Area/Expert Deck and Balcony Waterproofing in Pasadena  Waterproofed.com – 38 Yrs Experience/1.jpg" 
                   alt="Worker applying balcony coating with roller"
                   className="w-full h-auto object-cover"
                   style={{ minHeight: '600px' }}
@@ -206,7 +199,7 @@ function RouteComponent() {
           <div className="order-2 lg:order-1">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/Area/Coastal Deck & Pool Deck Waterproofing in Malibu/2.jpg" 
+                src="/Area/Expert Deck and Balcony Waterproofing in Pasadena  Waterproofed.com – 38 Yrs Experience/2.jpg" 
                 alt="Workers performing balcony repair work on concrete floor"
                 className="w-full h-auto object-cover"
                 style={{ minHeight: '500px' }}
@@ -218,45 +211,45 @@ function RouteComponent() {
           <div className="order-1 lg:order-2">
             {/* Main Heading */}
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-            Marine-Grade Deck and Pool Deck Waterproofing Process for Malibu Properties 
+            Our Proven Waterproofing Process for Pasadena Decks and Balconies 
             </h2>
             
             {/* Introduction */}
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-            Decades of experience have taught us that you can’t treat coastal properties like inland homes. Our marine-grade waterproofing protocol is engineered for resilience in Malibu’s harshest conditions. It’s a thorough, methodical process designed for maximum adhesion, longevity, and peace of mind.
+            With decades of experience, we’ve refined a reliable, multi-step process that ensures maximum protection, longevity, and value. Our method focuses on correct material selection, preparation, and installation—nothing is rushed or overlooked.
             </p>
             
             {/* Waterproof Coating */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Step 1: Site Assessment for Deck and Pool Deck Coating in Malibu’s Coastal Climate </h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Step 1: Moisture Mapping and Deck Waterproofing Inspection in Santa Monica </h3>
               <p className="text-gray-700">
-              We start with a detailed site visit and environmental analysis. We evaluate salt exposure, sun angle, stormwater flow, and building materials to determine the best deck waterproofing system for your exact location. Homes in Las Flores face different challenges than those near Point Dume, and we tailor our solutions accordingly.
+              We begin with a detailed evaluation using moisture detection tools, thermal imaging, and visual inspection. We map moisture paths and identify damage to create a targeted repair plan for your home’s vulnerabilities.
               </p>
             </div>
             
             {/* We Only Use the Best */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Step 2: Corrosion Control and Surface Prep for Deck Waterproofing and Pool Deck Repair </h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Step 2: Repairing Damage and Preparing for a Waterproof Patio Deck Flooring System </h3>
               <p className="text-gray-700 mb-4">
-              Our prep phase includes rust removal on metal elements, degreasing, power washing, and concrete etching to eliminate salt residue and open pores. This ensures that primers and coatings achieve maximum bond strength. Proper preparation is key to preventing bubbling, peeling, and adhesion failure in pool deck coatings and balcony membranes.
+              We remove old coatings, grind rough patches, re-level concrete, replace rotted or soft wood, and correct slope so water runs off—ensuring adhesion and durability for our coatings.
               </p>
             </div>
             
             {/* Built from the Base Up */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Step 3: Application of UV-Resistant Gaco Deck Coating and Liquid Rubber Systems </h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Step 3: Expert Flashing and Joint Sealing for Deck Waterproofing and Leak Prevention </h3>
               <p className="text-gray-700 mb-4">
-              We apply flexible, industrial-grade membranes like Gaco deck coating or liquid rubber deck coating, designed to reflect UV rays and withstand expansion and contraction cycles without cracking. These coatings offer a “cool touch” feel, resist fading, and are among the best concrete pool deck coatings available today.
+              We install new metal flashing at all critical junctions and seal expansion joints and seams with high‑performance polyurethane sealants that remain flexible in changing weather.
               </p>
             </div>
 
             {/* Built from the Base Up */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Step 4: Final Testing for Slip Resistance and Safety on All Waterproofed Surfaces </h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Step 4: Applying Liquid Rubber Deck Coating and Slip-Resistant Waterproof Finishes </h3>
               <p className="text-gray-700 mb-4">
-              Before we sign off, we test all surfaces for slip resistance, drainage, and curing integrity. We ensure that your pool deck coating in Malibu meets national safety standards for traction and water resistance—especially critical for homes with children, guests, or aging residents. 
+              We apply multi-layer waterproof membranes like Gaco or high‑build liquid rubber systems, then finish with a textured, slip‑resistant topcoat that resists UV and provides safe traction.
               
-              Conclusion: Our process delivers long-lasting results engineered specifically for Malibu’s intense sun, salty winds, and seismic conditions. When you choose Waterproofed.com, you get craftsmanship built for the coast.
+              Conclusion: Our methodical process ensures long-lasting performance. When applied with our expertise, your patio deck flooring waterproof solution will protect and impress for years to come.
               </p>
             </div>
             
@@ -282,39 +275,39 @@ function RouteComponent() {
       <div className="container mx-auto max-w-8xl">
         {/* Main Heading */}
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-8">
-        Why Malibu Chooses Us for Deck Waterproofing and Pool Deck Repair Services? 
+        Why Homeowners Choose Waterproofed.com for Deck and Balcony Waterproofing in Santa Monica? 
         </h2>
         
         {/* Introductory Paragraphs */}
         <div className="mb-8">
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-          Not all contractors understand what it takes to waterproof a Malibu property. We’ve specialized in coastal deck waterproofing for nearly four decades. Our crews are trained to address the exact conditions you face—from salt mist to soil slippage.
+          Choosing the right contractor means trusting someone with your home’s safety, beauty, and long-term value. Our clients return to us because we combine deep technical skill with a client-first philosophy—and results that last.
           </p>
         </div>
         
         {/* Small Cracks Can Lead to Big Problems */}
         <div className="mb-8">
-          <h3 className="text-xl font-semibold text-gray-900 mb-4">Specialists in Marine Construction and Under-Deck Waterproofing for Malibu Homes</h3>
+          <h3 className="text-xl font-semibold text-gray-900 mb-4">Specialized Waterproofing Contractors for Historic and Modern Santa Monica Homes</h3>
           <p className="text-gray-700 mb-4">
-          Our installers are trained specifically for marine-grade materials and complex, weather-exposed architecture. We know how to install flashing, membranes, and coatings that last—whether your home sits on stilts or stone.
+          Santa Monica's diverse architectural landscape, from historic homes in the North of Montana Avenue neighborhood to modern beachfront properties, requires a nuanced approach to waterproofing. We specialize in tailoring solutions that protect and preserve, respecting the unique character of your property while ensuring long-lasting defense against the coastal climate.
           </p>
         </div>
         
         {/* Unsafe Railings */}
         <div className="mb-8">
-          <h3 className="text-xl font-semibold text-gray-900 mb-4">Premium Coastal-Grade Sealants and the Best Pool Deck Coating Systems</h3>
+          <h3 className="text-xl font-semibold text-gray-900 mb-4">Deck Waterproofing and Under-Deck Waterproofing Systems That Protect Foundations</h3>
           <p className="text-gray-700 mb-4">
-          We don’t cut corners with generic products. We only use premium sealants, membranes, and finishes approved for high-salt, high-UV environments. Products like Gaco deck coating and top-tier liquid rubber deck coatings are part of our standard toolkit. These materials don’t just coat—they protect against chalking, breakdown, and moisture penetration over time.
+          The persistent moisture from Santa Monica's coastal environment can lead to significant water intrusion, threatening not just your deck or balcony, but also subfloors, insulation, and even your home’s foundation. Our advanced waterproofing systems create an impenetrable barrier at the surface, safeguarding your entire structure from the relentless corrosive effects of moisture.
           </p>
         </div>
         
         {/* Complete Integration */}
         <div className="mb-8">
-          <h3 className="text-xl font-semibold text-gray-900 mb-4">Bluffside and Beachfront Expertise in Deck Flashing Repair and Erosion Prevention</h3>
+          <h3 className="text-xl font-semibold text-gray-900 mb-4">Craftsmanship, Communication, and Guaranteed Balcony Deck Repair Services</h3>
           <p className="text-gray-700 mb-4">
-          From steep cliffs in Encinal Canyon to beachfront bungalows in Malibu Colony, we’ve waterproofed some of the region’s most complex properties. We work seamlessly with landscape architects and engineers to prevent erosion and manage stormwater—all while protecting the aesthetics of your space.
+          Our team comprises highly skilled, certified waterproofing specialists who are experts in Santa Monica's unique climate and building codes. We pride ourselves on meticulous craftsmanship, transparent communication, and a commitment to completing every project to the highest standards. From initial inspection to final touches, we ensure a seamless and stress-free experience, treating your home with the respect and care it deserves.
           
-          Conclusion: Our team’s depth of knowledge in coastal construction, materials science, and design integration sets us apart from general contractors. We’re Malibu’s waterproofing experts for a reason.
+          Conclusion: Homeowners choose Waterproofed.com for our unparalleled expertise, dedication to quality, and a client-first approach that ensures lasting protection and peace of mind.
           </p>
         </div>
       </div>
@@ -328,31 +321,23 @@ function RouteComponent() {
           <div>
             {/* Main Heading */}
             <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-6">
-            Serving All Areas of Malibu with Custom Deck Waterproofing and Pool Deck Coating 
+            Santa Monica’s Local Experts in Roof Deck and Balcony Waterproofing Systems 
             </h2>
             
             {/* Introductory Paragraph */}
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-            We’re proud to serve the full Malibu coastline, from seaside estates to hillside retreats. We understand the unique microclimates of each area—and how to build for them.
+            With decades of experience serving Santa Monica, we possess an intimate understanding of the city’s unique coastal climate, architectural styles, and stringent building regulations. This local expertise allows us to provide tailored, highly effective, and compliant waterproofing solutions that stand the test of time.
             </p>
 
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-            Malibu Areas We Serve for Pool Deck Coatings, Repairs, and Waterproofing 
-            
-            Zuma Beach, Broad Beach, Point Dume, Malibu Colony, Serra Retreat, Encinal Canyon, Las Flores, Carbon Beach, and all parts of the 90265. 
-            
-            Conclusion: We live and work in Malibu. That means we’re always nearby, always available, and always prepared to meet the specific needs of your property and location. 
+            Areas We Serve for Deck and Balcony Waterproofing in Santa Monica: North of Montana, Ocean Park, Sunset Park, Wilshire Montana, Pico Neighborhood, Mid-City, and surrounding coastal communities.
             </p>
             
             {/* Flashing Installation Done Right */}
             <div className="mb-8">
-              <h3 className="text-xl font-semibold text-gray-900 mb-4">Get a Free Consultation for Pool Deck Repair and Deck Waterproofing in Malibu</h3>
+              <h3 className="text-xl font-semibold text-gray-900 mb-4">Get a Free Deck Waterproofing or Balcony Repair Inspection in Santa Monica Today</h3>
               <p className="text-gray-700 mb-4">
-              Your Malibu home deserves more than generic waterproofing. It deserves a marine-grade protection plan, tailored to your home’s exposure, slope, materials, and architecture. We offer free site inspections and quotes, expert evaluation of drainage, slope, and materials, recommendations for the best pool deck coating and deck waterproofing system, flexible scheduling, and white-glove service. Call now or click below to secure your inspection. 
-              
-              Request Your Free Estimate Now 
-              
-              Conclusion:  Don’t let salt air, UV rays, or moisture erode your peace of mind. We’ll protect your home—beautifully and permanently.
+              Don’t let minor leaks evolve into major structural damage. Our complimentary, no-obligation inspections provide a thorough assessment of your deck, balcony, or planter’s waterproofing needs. We’ll provide a detailed report, answer all your questions, and present a customized, transparent plan to protect your investment. Contact us today to schedule your free inspection and experience why we are the leading waterproofing contractors in Santa Monica.
               </p>
             </div>
             
@@ -363,7 +348,7 @@ function RouteComponent() {
           <div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/Area/Coastal Deck & Pool Deck Waterproofing in Malibu/3.jpg" 
+                src="/Area/Expert Deck and Balcony Waterproofing in Santa Monica Waterproofed.com - 38 Yrs Experience/3.jpg" 
                 alt="Three construction workers applying bright light blue waterproof coating on outdoor balcony"
                 className="w-full h-auto object-cover"
                 style={{ minHeight: '600px' }}
@@ -476,7 +461,7 @@ function RouteComponent() {
           <div>
             <p className="text-lg text-[#00A7E8] font-semibold mb-2">Frequently Asked Have Any Question?</p>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-              Best Balcony Waterproofing, Coating & Repair Services
+              Santa Monica's Premier Deck, Balcony & Planter Waterproofing Experts
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
               
@@ -523,5 +508,4 @@ function RouteComponent() {
 
     <Testimonial />
   </>
-  )
-}
+  )}

@@ -45,8 +45,12 @@ import { Route as BlogsHowToChooseTheBestDeckStainRouteImport } from './routes/b
 import { Route as BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRouteImport } from './routes/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
 import { Route as BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRouteImport } from './routes/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
 import { Route as BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRouteImport } from './routes/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
+import { Route as areaShermanOaksDeckBalconyWaterproofingContractorRouteImport } from './routes/(area)/sherman-oaks-deck-balcony-waterproofing-contractor'
+import { Route as areaSantaMonicaDeckBalconyWaterproofingContractorRouteImport } from './routes/(area)/santa-monica-deck-balcony-waterproofing-contractor'
+import { Route as areaSantaClaritaDeckBalconyWaterproofingContractorRouteImport } from './routes/(area)/santa-clarita-deck-balcony-waterproofing-contractor'
 import { Route as areaMalibuDeckWaterproofingContractorRouteImport } from './routes/(area)/malibu-deck-waterproofing-contractor'
 import { Route as areaLosAngelesDeckWaterproofingContractorRouteImport } from './routes/(area)/los-angeles-deck-waterproofing-contractor'
+import { Route as areaHollywoodDeckBalconyWaterproofingContractorRouteImport } from './routes/(area)/hollywood-deck-balcony-waterproofing-contractor'
 import { Route as areaBeverlyHillsDeckWaterproofingContractorRouteImport } from './routes/(area)/beverly-hills-deck-waterproofing-contractor'
 import { Route as areaPasadenaDeckWaterproofingContractorRouteImport } from './routes/(area)/Pasadena-deck-waterproofing-contractor'
 
@@ -276,6 +280,24 @@ const BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute =
     path: '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair',
     getParentRoute: () => rootRouteImport,
   } as any)
+const areaShermanOaksDeckBalconyWaterproofingContractorRoute =
+  areaShermanOaksDeckBalconyWaterproofingContractorRouteImport.update({
+    id: '/(area)/sherman-oaks-deck-balcony-waterproofing-contractor',
+    path: '/sherman-oaks-deck-balcony-waterproofing-contractor',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const areaSantaMonicaDeckBalconyWaterproofingContractorRoute =
+  areaSantaMonicaDeckBalconyWaterproofingContractorRouteImport.update({
+    id: '/(area)/santa-monica-deck-balcony-waterproofing-contractor',
+    path: '/santa-monica-deck-balcony-waterproofing-contractor',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const areaSantaClaritaDeckBalconyWaterproofingContractorRoute =
+  areaSantaClaritaDeckBalconyWaterproofingContractorRouteImport.update({
+    id: '/(area)/santa-clarita-deck-balcony-waterproofing-contractor',
+    path: '/santa-clarita-deck-balcony-waterproofing-contractor',
+    getParentRoute: () => rootRouteImport,
+  } as any)
 const areaMalibuDeckWaterproofingContractorRoute =
   areaMalibuDeckWaterproofingContractorRouteImport.update({
     id: '/(area)/malibu-deck-waterproofing-contractor',
@@ -286,6 +308,12 @@ const areaLosAngelesDeckWaterproofingContractorRoute =
   areaLosAngelesDeckWaterproofingContractorRouteImport.update({
     id: '/(area)/los-angeles-deck-waterproofing-contractor',
     path: '/los-angeles-deck-waterproofing-contractor',
+    getParentRoute: () => rootRouteImport,
+  } as any)
+const areaHollywoodDeckBalconyWaterproofingContractorRoute =
+  areaHollywoodDeckBalconyWaterproofingContractorRouteImport.update({
+    id: '/(area)/hollywood-deck-balcony-waterproofing-contractor',
+    path: '/hollywood-deck-balcony-waterproofing-contractor',
     getParentRoute: () => rootRouteImport,
   } as any)
 const areaBeverlyHillsDeckWaterproofingContractorRoute =
@@ -313,8 +341,12 @@ export interface FileRoutesByFullPath {
   '/testimonials': typeof TestimonialsRoute
   '/Pasadena-deck-waterproofing-contractor': typeof areaPasadenaDeckWaterproofingContractorRoute
   '/beverly-hills-deck-waterproofing-contractor': typeof areaBeverlyHillsDeckWaterproofingContractorRoute
+  '/hollywood-deck-balcony-waterproofing-contractor': typeof areaHollywoodDeckBalconyWaterproofingContractorRoute
   '/los-angeles-deck-waterproofing-contractor': typeof areaLosAngelesDeckWaterproofingContractorRoute
   '/malibu-deck-waterproofing-contractor': typeof areaMalibuDeckWaterproofingContractorRoute
+  '/santa-clarita-deck-balcony-waterproofing-contractor': typeof areaSantaClaritaDeckBalconyWaterproofingContractorRoute
+  '/santa-monica-deck-balcony-waterproofing-contractor': typeof areaSantaMonicaDeckBalconyWaterproofingContractorRoute
+  '/sherman-oaks-deck-balcony-waterproofing-contractor': typeof areaShermanOaksDeckBalconyWaterproofingContractorRoute
   '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair': typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute
   '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners': typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute
   '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage': typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute
@@ -355,8 +387,12 @@ export interface FileRoutesByTo {
   '/testimonials': typeof TestimonialsRoute
   '/Pasadena-deck-waterproofing-contractor': typeof areaPasadenaDeckWaterproofingContractorRoute
   '/beverly-hills-deck-waterproofing-contractor': typeof areaBeverlyHillsDeckWaterproofingContractorRoute
+  '/hollywood-deck-balcony-waterproofing-contractor': typeof areaHollywoodDeckBalconyWaterproofingContractorRoute
   '/los-angeles-deck-waterproofing-contractor': typeof areaLosAngelesDeckWaterproofingContractorRoute
   '/malibu-deck-waterproofing-contractor': typeof areaMalibuDeckWaterproofingContractorRoute
+  '/santa-clarita-deck-balcony-waterproofing-contractor': typeof areaSantaClaritaDeckBalconyWaterproofingContractorRoute
+  '/santa-monica-deck-balcony-waterproofing-contractor': typeof areaSantaMonicaDeckBalconyWaterproofingContractorRoute
+  '/sherman-oaks-deck-balcony-waterproofing-contractor': typeof areaShermanOaksDeckBalconyWaterproofingContractorRoute
   '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair': typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute
   '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners': typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute
   '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage': typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute
@@ -398,8 +434,12 @@ export interface FileRoutesById {
   '/testimonials': typeof TestimonialsRoute
   '/(area)/Pasadena-deck-waterproofing-contractor': typeof areaPasadenaDeckWaterproofingContractorRoute
   '/(area)/beverly-hills-deck-waterproofing-contractor': typeof areaBeverlyHillsDeckWaterproofingContractorRoute
+  '/(area)/hollywood-deck-balcony-waterproofing-contractor': typeof areaHollywoodDeckBalconyWaterproofingContractorRoute
   '/(area)/los-angeles-deck-waterproofing-contractor': typeof areaLosAngelesDeckWaterproofingContractorRoute
   '/(area)/malibu-deck-waterproofing-contractor': typeof areaMalibuDeckWaterproofingContractorRoute
+  '/(area)/santa-clarita-deck-balcony-waterproofing-contractor': typeof areaSantaClaritaDeckBalconyWaterproofingContractorRoute
+  '/(area)/santa-monica-deck-balcony-waterproofing-contractor': typeof areaSantaMonicaDeckBalconyWaterproofingContractorRoute
+  '/(area)/sherman-oaks-deck-balcony-waterproofing-contractor': typeof areaShermanOaksDeckBalconyWaterproofingContractorRoute
   '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair': typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute
   '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners': typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute
   '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage': typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute
@@ -442,8 +482,12 @@ export interface FileRouteTypes {
     | '/testimonials'
     | '/Pasadena-deck-waterproofing-contractor'
     | '/beverly-hills-deck-waterproofing-contractor'
+    | '/hollywood-deck-balcony-waterproofing-contractor'
     | '/los-angeles-deck-waterproofing-contractor'
     | '/malibu-deck-waterproofing-contractor'
+    | '/santa-clarita-deck-balcony-waterproofing-contractor'
+    | '/santa-monica-deck-balcony-waterproofing-contractor'
+    | '/sherman-oaks-deck-balcony-waterproofing-contractor'
     | '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
     | '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
     | '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
@@ -484,8 +528,12 @@ export interface FileRouteTypes {
     | '/testimonials'
     | '/Pasadena-deck-waterproofing-contractor'
     | '/beverly-hills-deck-waterproofing-contractor'
+    | '/hollywood-deck-balcony-waterproofing-contractor'
     | '/los-angeles-deck-waterproofing-contractor'
     | '/malibu-deck-waterproofing-contractor'
+    | '/santa-clarita-deck-balcony-waterproofing-contractor'
+    | '/santa-monica-deck-balcony-waterproofing-contractor'
+    | '/sherman-oaks-deck-balcony-waterproofing-contractor'
     | '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
     | '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
     | '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
@@ -526,8 +574,12 @@ export interface FileRouteTypes {
     | '/testimonials'
     | '/(area)/Pasadena-deck-waterproofing-contractor'
     | '/(area)/beverly-hills-deck-waterproofing-contractor'
+    | '/(area)/hollywood-deck-balcony-waterproofing-contractor'
     | '/(area)/los-angeles-deck-waterproofing-contractor'
     | '/(area)/malibu-deck-waterproofing-contractor'
+    | '/(area)/santa-clarita-deck-balcony-waterproofing-contractor'
+    | '/(area)/santa-monica-deck-balcony-waterproofing-contractor'
+    | '/(area)/sherman-oaks-deck-balcony-waterproofing-contractor'
     | '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
     | '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
     | '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
@@ -569,8 +621,12 @@ export interface RootRouteChildren {
   TestimonialsRoute: typeof TestimonialsRoute
   areaPasadenaDeckWaterproofingContractorRoute: typeof areaPasadenaDeckWaterproofingContractorRoute
   areaBeverlyHillsDeckWaterproofingContractorRoute: typeof areaBeverlyHillsDeckWaterproofingContractorRoute
+  areaHollywoodDeckBalconyWaterproofingContractorRoute: typeof areaHollywoodDeckBalconyWaterproofingContractorRoute
   areaLosAngelesDeckWaterproofingContractorRoute: typeof areaLosAngelesDeckWaterproofingContractorRoute
   areaMalibuDeckWaterproofingContractorRoute: typeof areaMalibuDeckWaterproofingContractorRoute
+  areaSantaClaritaDeckBalconyWaterproofingContractorRoute: typeof areaSantaClaritaDeckBalconyWaterproofingContractorRoute
+  areaSantaMonicaDeckBalconyWaterproofingContractorRoute: typeof areaSantaMonicaDeckBalconyWaterproofingContractorRoute
+  areaShermanOaksDeckBalconyWaterproofingContractorRoute: typeof areaShermanOaksDeckBalconyWaterproofingContractorRoute
   BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute: typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute
   BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute: typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute
   BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute: typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute
@@ -854,6 +910,27 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/(area)/sherman-oaks-deck-balcony-waterproofing-contractor': {
+      id: '/(area)/sherman-oaks-deck-balcony-waterproofing-contractor'
+      path: '/sherman-oaks-deck-balcony-waterproofing-contractor'
+      fullPath: '/sherman-oaks-deck-balcony-waterproofing-contractor'
+      preLoaderRoute: typeof areaShermanOaksDeckBalconyWaterproofingContractorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/(area)/santa-monica-deck-balcony-waterproofing-contractor': {
+      id: '/(area)/santa-monica-deck-balcony-waterproofing-contractor'
+      path: '/santa-monica-deck-balcony-waterproofing-contractor'
+      fullPath: '/santa-monica-deck-balcony-waterproofing-contractor'
+      preLoaderRoute: typeof areaSantaMonicaDeckBalconyWaterproofingContractorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/(area)/santa-clarita-deck-balcony-waterproofing-contractor': {
+      id: '/(area)/santa-clarita-deck-balcony-waterproofing-contractor'
+      path: '/santa-clarita-deck-balcony-waterproofing-contractor'
+      fullPath: '/santa-clarita-deck-balcony-waterproofing-contractor'
+      preLoaderRoute: typeof areaSantaClaritaDeckBalconyWaterproofingContractorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/(area)/malibu-deck-waterproofing-contractor': {
       id: '/(area)/malibu-deck-waterproofing-contractor'
       path: '/malibu-deck-waterproofing-contractor'
@@ -866,6 +943,13 @@ declare module '@tanstack/react-router' {
       path: '/los-angeles-deck-waterproofing-contractor'
       fullPath: '/los-angeles-deck-waterproofing-contractor'
       preLoaderRoute: typeof areaLosAngelesDeckWaterproofingContractorRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/(area)/hollywood-deck-balcony-waterproofing-contractor': {
+      id: '/(area)/hollywood-deck-balcony-waterproofing-contractor'
+      path: '/hollywood-deck-balcony-waterproofing-contractor'
+      fullPath: '/hollywood-deck-balcony-waterproofing-contractor'
+      preLoaderRoute: typeof areaHollywoodDeckBalconyWaterproofingContractorRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/(area)/beverly-hills-deck-waterproofing-contractor': {
@@ -899,10 +983,18 @@ const rootRouteChildren: RootRouteChildren = {
     areaPasadenaDeckWaterproofingContractorRoute,
   areaBeverlyHillsDeckWaterproofingContractorRoute:
     areaBeverlyHillsDeckWaterproofingContractorRoute,
+  areaHollywoodDeckBalconyWaterproofingContractorRoute:
+    areaHollywoodDeckBalconyWaterproofingContractorRoute,
   areaLosAngelesDeckWaterproofingContractorRoute:
     areaLosAngelesDeckWaterproofingContractorRoute,
   areaMalibuDeckWaterproofingContractorRoute:
     areaMalibuDeckWaterproofingContractorRoute,
+  areaSantaClaritaDeckBalconyWaterproofingContractorRoute:
+    areaSantaClaritaDeckBalconyWaterproofingContractorRoute,
+  areaSantaMonicaDeckBalconyWaterproofingContractorRoute:
+    areaSantaMonicaDeckBalconyWaterproofingContractorRoute,
+  areaShermanOaksDeckBalconyWaterproofingContractorRoute:
+    areaShermanOaksDeckBalconyWaterproofingContractorRoute,
   BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute:
     BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute,
   BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute:
