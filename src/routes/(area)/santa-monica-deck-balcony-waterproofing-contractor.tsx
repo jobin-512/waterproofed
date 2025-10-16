@@ -348,7 +348,7 @@ function RouteComponent() {
           <div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <img 
-                src="/Area/Expert Deck and Balcony Waterproofing in Santa Monica Waterproofed.com - 38 Yrs Experience/3.jpg" 
+                src="/Area/Expert Deck and Balcony Waterproofing in Pasadena  Waterproofed.com – 38 Yrs Experience/3.jpg" 
                 alt="Three construction workers applying bright light blue waterproof coating on outdoor balcony"
                 className="w-full h-auto object-cover"
                 style={{ minHeight: '600px' }}

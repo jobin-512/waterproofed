@@ -312,6 +312,42 @@ export default function Header() {
                         <div className="font-semibold text-gray-800">Pasadena</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
                       </a>
+
+                      <a 
+                        href="/sherman-oaks-deck-balcony-waterproofing-contractor"
+                        className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsAreaDropdownOpen(false)}
+                      >
+                        <div className="font-semibold text-gray-800">Sherman Oaks</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+
+                      <a 
+                        href="/hollywood-deck-balcony-waterproofing-contractor"
+                        className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsAreaDropdownOpen(false)}
+                      >
+                        <div className="font-semibold text-gray-800">Hollywood</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+
+                      <a 
+                        href="/santa-monica-deck-balcony-waterproofing-contractor"
+                        className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsAreaDropdownOpen(false)}
+                      >
+                        <div className="font-semibold text-gray-800">Santa Monica</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+
+                      <a 
+                        href="/santa-clarita-deck-balcony-waterproofing-contractor"
+                        className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsAreaDropdownOpen(false)}
+                      >
+                        <div className="font-semibold text-gray-800">Santa Clarita</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
                     </div>
                   </div>
                 )}
@@ -520,6 +556,42 @@ export default function Header() {
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         <div className="font-medium text-gray-800">Pasadena</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+
+                      <a 
+                        href="/sherman-oaks-deck-balcony-waterproofing-contractor"
+                        className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        <div className="font-medium text-gray-800">Sherman Oaks</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+
+                      <a 
+                        href="/hollywood-deck-balcony-waterproofing-contractor"
+                        className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        <div className="font-medium text-gray-800">Hollywood</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+
+                      <a 
+                        href="/santa-monica-deck-balcony-waterproofing-contractor"
+                        className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        <div className="font-medium text-gray-800">Santa Monica</div>
+                        <div className="text-sm text-gray-600">Waterproofing & Repair</div>
+                      </a>
+
+                      <a 
+                        href="/santa-clarita-deck-balcony-waterproofing-contractor"
+                        className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        <div className="font-medium text-gray-800">Santa Clarita</div>
                         <div className="text-sm text-gray-600">Waterproofing & Repair</div>
                       </a>
                     </div>
