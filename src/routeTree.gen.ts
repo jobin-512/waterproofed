@@ -42,6 +42,7 @@ import { Route as BlogsProtectYourHomeWithBalconyRoofDeckWaterproofingInSantaMon
 import { Route as BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRouteImport } from './routes/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection'
 import { Route as BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRouteImport } from './routes/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane'
 import { Route as BlogsHowToChooseTheBestDeckStainRouteImport } from './routes/blogs/How-to-Choose-the-Best-Deck-Stain'
+import { Route as BlogsHowAnUnderDeckWaterproofingSystemProtectsYourHomeInHollywoodRouteImport } from './routes/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood'
 import { Route as BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRouteImport } from './routes/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
 import { Route as BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRouteImport } from './routes/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
 import { Route as BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRouteImport } from './routes/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
@@ -258,6 +259,14 @@ const BlogsHowToChooseTheBestDeckStainRoute =
     path: '/blogs/How-to-Choose-the-Best-Deck-Stain',
     getParentRoute: () => rootRouteImport,
   } as any)
+const BlogsHowAnUnderDeckWaterproofingSystemProtectsYourHomeInHollywoodRoute =
+  BlogsHowAnUnderDeckWaterproofingSystemProtectsYourHomeInHollywoodRouteImport.update(
+    {
+      id: '/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood',
+      path: '/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood',
+      getParentRoute: () => rootRouteImport,
+    } as any,
+  )
 const BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute =
   BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRouteImport.update(
     {
@@ -350,6 +359,7 @@ export interface FileRoutesByFullPath {
   '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair': typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute
   '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners': typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute
   '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage': typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute
+  '/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood': typeof BlogsHowAnUnderDeckWaterproofingSystemProtectsYourHomeInHollywoodRoute
   '/blogs/How-to-Choose-the-Best-Deck-Stain': typeof BlogsHowToChooseTheBestDeckStainRoute
   '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane': typeof BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute
   '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection': typeof BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute
@@ -396,6 +406,7 @@ export interface FileRoutesByTo {
   '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair': typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute
   '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners': typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute
   '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage': typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute
+  '/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood': typeof BlogsHowAnUnderDeckWaterproofingSystemProtectsYourHomeInHollywoodRoute
   '/blogs/How-to-Choose-the-Best-Deck-Stain': typeof BlogsHowToChooseTheBestDeckStainRoute
   '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane': typeof BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute
   '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection': typeof BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute
@@ -443,6 +454,7 @@ export interface FileRoutesById {
   '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair': typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute
   '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners': typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute
   '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage': typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute
+  '/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood': typeof BlogsHowAnUnderDeckWaterproofingSystemProtectsYourHomeInHollywoodRoute
   '/blogs/How-to-Choose-the-Best-Deck-Stain': typeof BlogsHowToChooseTheBestDeckStainRoute
   '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane': typeof BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute
   '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection': typeof BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute
@@ -491,6 +503,7 @@ export interface FileRouteTypes {
     | '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
     | '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
     | '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
+    | '/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood'
     | '/blogs/How-to-Choose-the-Best-Deck-Stain'
     | '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane'
     | '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection'
@@ -537,6 +550,7 @@ export interface FileRouteTypes {
     | '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
     | '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
     | '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
+    | '/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood'
     | '/blogs/How-to-Choose-the-Best-Deck-Stain'
     | '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane'
     | '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection'
@@ -583,6 +597,7 @@ export interface FileRouteTypes {
     | '/blogs/DIY-vs-Professional-Help-Understanding-Balcony-Deck-Repair'
     | '/blogs/Enjoy-Your-Deck-Rain-or-Shine-Waterproofing-Tips-for-Los-Angeles-Homeowners'
     | '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
+    | '/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood'
     | '/blogs/How-to-Choose-the-Best-Deck-Stain'
     | '/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane'
     | '/blogs/Preventing-Water-Intrusion-The-Importance-of-Balcony-Leak-Detection'
@@ -630,6 +645,7 @@ export interface RootRouteChildren {
   BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute: typeof BlogsDIYVsProfessionalHelpUnderstandingBalconyDeckRepairRoute
   BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute: typeof BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute
   BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute: typeof BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute
+  BlogsHowAnUnderDeckWaterproofingSystemProtectsYourHomeInHollywoodRoute: typeof BlogsHowAnUnderDeckWaterproofingSystemProtectsYourHomeInHollywoodRoute
   BlogsHowToChooseTheBestDeckStainRoute: typeof BlogsHowToChooseTheBestDeckStainRoute
   BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute: typeof BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute
   BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute: typeof BlogsPreventingWaterIntrusionTheImportanceOfBalconyLeakDetectionRoute
@@ -889,6 +905,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof BlogsHowToChooseTheBestDeckStainRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood': {
+      id: '/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood'
+      path: '/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood'
+      fullPath: '/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood'
+      preLoaderRoute: typeof BlogsHowAnUnderDeckWaterproofingSystemProtectsYourHomeInHollywoodRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage': {
       id: '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
       path: '/blogs/How-Waterproofing-Services-Protect-Your-Home-from-Long-Term-Damage'
@@ -1001,6 +1024,8 @@ const rootRouteChildren: RootRouteChildren = {
     BlogsEnjoyYourDeckRainOrShineWaterproofingTipsForLosAngelesHomeownersRoute,
   BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute:
     BlogsHowWaterproofingServicesProtectYourHomeFromLongTermDamageRoute,
+  BlogsHowAnUnderDeckWaterproofingSystemProtectsYourHomeInHollywoodRoute:
+    BlogsHowAnUnderDeckWaterproofingSystemProtectsYourHomeInHollywoodRoute,
   BlogsHowToChooseTheBestDeckStainRoute: BlogsHowToChooseTheBestDeckStainRoute,
   BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute:
     BlogsHowToFixPeelingOrCrackedWaterproofDeckCoatingsLiquidRubberVsPolyurethaneRoute,

@@ -25,6 +25,10 @@ const BlogList = () => {
   ];
 
   const BLOGS = [
+    { id: 24, path: "/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood", title: "How an Under-Deck Waterproofing System Protects Your Home in Hollywood", image: images[4] },
+    { id: 23, path: "/blogs/Stop-Weather-Damage-with-LA-Roof-Deck-Waterproofing", title: "Stop Weather Damage with LA Roof Deck Waterproofing", image: images[3] },
+    { id: 22, path: "/blogs/Sant-Monica-Homeowner-Waterproof-Your-Patio-Deck-Now", title: "Sant Monica Homeowners: Waterproof Your Patio Deck Now!", image: images[2] },
+    { id: 21, path: "/blogs/Protect-Your-Home-with-Balcony-Roof-Deck-Waterproofing-in-Santa-Monica", title: "Protect Your Home with Balcony & Roof Deck Waterproofing in Santa Monica", image: images[1] },
     { id: 1, path: "/blogs/Which-Waterproofing-Deck-Coating-Wins", title: "Which Waterproofing Deck Coating Wins?", image: images[0] },
     { id: 2, path: "/blogs/How-to-Fix-Peeling-or-Cracked-Waterproof-Deck-Coatings-Liquid-Rubber-vs-Polyurethane", title: "How to Fix Peeling or Cracked Waterproof Deck Coatings: Liquid Rubber vs Polyurethane", image: images[1] },
     { id: 3, path: "/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living", title: "Why Waterproof Deck Coatings Are Essential for Outdoor Living", image: images[2] },
@@ -45,9 +49,6 @@ const BlogList = () => {
     { id: 18, path: "/blogs/How-to-Choose-the-Best-Deck-Stain", title: "How to Choose the Best Deck Stain", image: images[17] },
     { id: 19, path: "/blogs/What-is-Waterproofing", title: "What is Waterproofing", image: images[18] },
     { id: 20, path: "/blogs/What-is-Epoxy-Flooring", title: "What is Epoxy Flooring", image: images[19] },
-    { id: 21, path: "/blogs/Protect-Your-Home-with-Balcony-Roof-Deck-Waterproofing-in-Santa-Monica", title: "Protect Your Home with Balcony & Roof Deck Waterproofing in Santa Monica", image: images[1] },
-    { id: 22, path: "/blogs/Sant-Monica-Homeowner-Waterproof-Your-Patio-Deck-Now", title: "Sant Monica Homeowners: Waterproof Your Patio Deck Now!", image: images[2] },
-    { id: 23, path: "/blogs/Stop-Weather-Damage-with-LA-Roof-Deck-Waterproofing", title: "Stop Weather Damage with LA Roof Deck Waterproofing", image: images[3] },
   ];
 
   const [currentPage, setCurrentPage] = useState(1);
