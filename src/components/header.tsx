@@ -105,7 +105,7 @@ export default function Header() {
               </div>
               <div>
                 <div className="text-sm text-gray-600">Call Us Any Time:</div>
-                <a href="tel:+13105693129" className="font-semibold text-gray-800 truncate">+1 (310) 569-3129</a>
+                <a href="tel:+13105693129" onClick={() => { (window as any).gtag_report_conversion('tel:+13105693129'); }} className="font-semibold text-gray-800 truncate">+1 (310) 569-3129</a>
               </div>
             </div>
 
@@ -145,6 +145,7 @@ export default function Header() {
             {/* Mobile-only quick action: Call */}
             <a
               href="tel:+13105693129"
+              onClick={() => { (window as any).gtag_report_conversion('tel:+13105693129'); }}
               aria-label="Call us"
               className=" inline-flex items-center justify-center w-11 h-11 rounded-full bg-gray-200 text-gray-800 hover:bg-gray-300 transition-colors"
             >
