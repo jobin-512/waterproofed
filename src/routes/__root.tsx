@@ -1,5 +1,6 @@
 import { createRootRoute, Outlet, HeadContent } from '@tanstack/react-router'
 import { lazy, Suspense, type ComponentType } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import Header from '../components/header'
 import Footer from '../components/footer'
 
@@ -15,6 +16,7 @@ export const Route = createRootRoute({
     </head>
       <Header />
       <Outlet />
+      <Analytics />
       {TanStackRouterDevtoolsLazy ? (
         <Suspense fallback={null}>
           <TanStackRouterDevtoolsLazy />
