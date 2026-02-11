@@ -17,7 +17,7 @@ interface CarouselSlide {
 const carouselData: CarouselSlide[] = [
   {
     id: 1,
-    title: "Shield Your Deck with Expert Wateproofing Solutions",
+    title: "Shield Your Deck with Expert Watersproofing Solutions",
     subtitle: "",
     description: "Transform your deck into a fortress against leaks and wear. Our expert waterproofing solutions ensure long-lasting protection, preserving your outdoor space's beauty and integrity.",
     image: hero1,
