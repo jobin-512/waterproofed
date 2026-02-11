@@ -1,6 +1,5 @@
 import { createRootRoute, Outlet, HeadContent } from '@tanstack/react-router'
 import { lazy, Suspense, type ComponentType } from 'react'
-import { SpeedInsights } from '@vercel/speed-insights/next';  
 import Header from '../components/header'
 import Footer from '../components/footer'
 
@@ -22,7 +21,6 @@ export const Route = createRootRoute({
         </Suspense>
       ) : null}
       <Footer/>
-      <SpeedInsights />
     </>
   ),
 })
