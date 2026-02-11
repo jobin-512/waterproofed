@@ -73,7 +73,6 @@ function Index() {
               </div>
               
             </div>
-            
             {/* Right Column - Text Content */}
             <div className="lg:w-1/2 space-y-6">
               <div>
@@ -466,7 +465,7 @@ function Index() {
                 {/* Bottom Image with Video Play Button */}
                 <div className="relative">
                   <img 
-                    src="/Home/3.jpg" 
+                    src="/Home/3.webp" 
                     alt="Waterproofing application process" 
                     className="w-full h-auto object-cover rounded-lg"
                     loading="lazy"
@@ -531,7 +530,7 @@ function Index() {
               {/* Image */}
               <div className="w-auto h-[20rem] p-10 rounded-full  overflow-hidden mb-4">
                 <img 
-                  src="/Home/Free-Inspection-&-Assessment.jpg" 
+                  src="/Home/Free-Inspection-&-Assessment.webp" 
                   alt="Free inspection and waterproofing assessment" 
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -558,7 +557,7 @@ function Index() {
               {/* Image */}
               <div className="w-auto h-[20rem] p-10 rounded-full overflow-hidden mb-4">
                 <img 
-                  src="/Home/Clear,-Upfront-Estimate.jpg" 
+                  src="/Home/Clear,-Upfront-Estimate.webp" 
                   alt="Clear and upfront waterproofing estimate" 
                   className="w-full h-full object-cover"
                   loading="lazy"
@@ -585,7 +584,7 @@ function Index() {
               {/* Image */}
               <div className="w-auto h-[20rem] p-10 rounded-full  overflow-hidden mb-4">
                 <img 
-                  src="/Home/Expert-Installation.jpg" 
+                  src="/Home/Expert-Installation.webp" 
                   alt="Expert installation of deck waterproofing systems" 
                   className="w-full h-full object-cover"
                   loading="lazy"

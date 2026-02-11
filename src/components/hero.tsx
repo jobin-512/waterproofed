@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react"
-import hero1 from "/hero-1.jpg"
-import hero2 from "/hero-2.jpg"
+import hero1 from "/hero-1.webp"
+import hero2 from "/hero-2.webp"
 
 
 interface CarouselSlide {
