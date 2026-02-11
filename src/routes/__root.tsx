@@ -16,9 +16,7 @@ export const Route = createRootRoute({
       <Header />
       <Outlet />
       {TanStackRouterDevtoolsLazy ? (
-        <Suspense fallback={null}>
           <TanStackRouterDevtoolsLazy />
-        </Suspense>
       ) : null}
       <Footer/>
     </>
