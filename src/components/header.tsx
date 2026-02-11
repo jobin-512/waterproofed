@@ -53,7 +53,7 @@ export default function Header() {
   return (
     <header className="w-full sticky top-0 z-50">
       {/* Top Bar - Dark Blue/Black Background */}
-      <div className="bg-gray-900 text-white py-2">
+      <div className="bg-gray-900 text-white py-2 ">
         <div className="container mx-auto px-4 flex flex-col md:flex-row justify-between items-center text-sm">
           <div className="mb-2 md:mb-0">Welcome to Waterproofed</div>
           <div className="flex items-center gap-2 mb-2 md:mb-0">
@@ -138,7 +138,7 @@ export default function Header() {
           </div>
 
           {/* Get a Quote + Mobile Quick Actions */}
-          <div className="w-full md:w-auto flex items-center justify-end gap-2">
+          <div className="w-full md:w-auto flex items-center justify-center gap-2">
             <a href="/contact" className="bg-gray-800 text-white px-6 py-3 rounded hover:bg-gray-700 transition-colors font-semibold inline-flex items-center justify-center whitespace-nowrap">
               GET A QUOTE
             </a>

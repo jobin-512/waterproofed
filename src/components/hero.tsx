@@ -1,4 +1,7 @@
 import { useState, useEffect } from "react"
+import hero1 from "/hero-1.jpg"
+import hero2 from "/hero-2.jpg"
+
 
 interface CarouselSlide {
   id: number
@@ -17,7 +20,7 @@ const carouselData: CarouselSlide[] = [
     title: "Shield Your Deck with Expert Wateproofing Solutions",
     subtitle: "",
     description: "Transform your deck into a fortress against leaks and wear. Our expert waterproofing solutions ensure long-lasting protection, preserving your outdoor space's beauty and integrity.",
-    image: "/hero-1.jpg",
+    image: hero1,
     ctaPrimary: "CONTACT US",
     ctaSecondary: "OUR SERVICES",
     alt:"Balcony waterproofing and coating services in Los Angeles"
@@ -27,7 +30,7 @@ const carouselData: CarouselSlide[] = [
     title: "Protect Your Home with ",
     subtitle: "Trusted Waterproofing Solutions",
     description: "For over three decades, homeowners and property managers across Southern California have trusted us to solve their toughest water damage challenges.  ",
-    image: "/hero-2.jpg",
+    image: hero2,
     ctaPrimary: "GET QUOTE",
     ctaSecondary: "VIEW PROJECTS",
     alt:"Los Angeles deck waterproofing experts Southern California Decking"
@@ -76,18 +79,17 @@ export default function Hero() {
             }`}
           >
             {/* Background Image */}
-            <div 
-              className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-              style={{
-                backgroundImage: `url(${slide.image})`,
-                backgroundPosition: 'center',
-                backgroundSize: 'cover'
-              }}
-            >
-              {/* Overlay for better text readability */}
+            <div className="absolute inset-0">
+              <img
+                src={slide.image}
+                alt={slide.alt}
+                loading={index === 0 ? "eager" : "lazy"}
+                className="w-full h-full object-cover"
+              />
+
+              {/* Overlay */}
               <div className="absolute inset-0 bg-black opacity-30"></div>
             </div>
-
             {/* Content */}
             <div className="relative z-10 flex items-center justify-center h-full">
               <div className="text-center text-white px-4 max-w-5xl mx-auto">
