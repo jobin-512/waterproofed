@@ -1,10 +1,22 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
-import tailwindcss from '@tailwindcss/vite'
 import { tanstackRouter } from '@tanstack/router-plugin/vite'
+import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
 export default defineConfig({
-  // TanStack Router plugin must come BEFORE React plugin
-  plugins: [tanstackRouter(), react(), tailwindcss()],
+  plugins: [
+    react(),
+    tanstackRouter({}),
+    tailwindcss()
+  ],
+  build: {
+    outDir: 'dist/client',
+    ssrManifest: true,
+  },
+  ssr: {
+    noExternal: [
+      '@tanstack/react-router',
+      '@tanstack/router-core',
+    ],
+  },
 })
