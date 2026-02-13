@@ -1,4 +1,4 @@
-// api/ssr.js
+// api/ssr.js - DEBUG VERSION
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -6,58 +6,93 @@ import { fileURLToPath } from 'url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 export default async function handler(req, res) {
-  console.log('SSR Function called:', req.url)
+  console.log('=== REQUEST START ===')
+  console.log('URL:', req.url)
+  console.log('Method:', req.method)
   
+  const url = req.url || '/'
+  
+  // Handle sitemap.xml
+  if (url === '/sitemap.xml' || url.startsWith('/sitemap.xml')) {
+    console.log('Sitemap request detected')
+    try {
+      const sitemapPath = path.join(process.cwd(), 'dist/client/sitemap.xml')
+      console.log('Sitemap path:', sitemapPath)
+      console.log('File exists?', fs.existsSync(sitemapPath))
+      
+      if (!fs.existsSync(sitemapPath)) {
+        console.log('Sitemap file not found!')
+        console.log('Working directory:', process.cwd())
+        console.log('Directory contents:', fs.readdirSync(path.join(process.cwd(), 'dist/client')))
+        return res.status(404).send('Sitemap not found at: ' + sitemapPath)
+      }
+      
+      const sitemap = fs.readFileSync(sitemapPath, 'utf-8')
+      console.log('Sitemap content length:', sitemap.length)
+      console.log('First 100 chars:', sitemap.substring(0, 100))
+      
+      res.setHeader('Content-Type', 'application/xml; charset=utf-8')
+      res.setHeader('Content-Length', Buffer.byteLength(sitemap, 'utf-8'))
+      res.status(200).send(sitemap)
+      console.log('Sitemap sent successfully')
+      return
+    } catch (error) {
+      console.error('Sitemap error:', error)
+      return res.status(500).send('Error loading sitemap: ' + error.message)
+    }
+  }
+  
+  // Handle robots.txt
+  if (url === '/robots.txt' || url.startsWith('/robots.txt')) {
+    console.log('Robots.txt request detected')
+    try {
+      const robotsPath = path.join(process.cwd(), 'dist/client/robots.txt')
+      console.log('Robots path:', robotsPath)
+      console.log('File exists?', fs.existsSync(robotsPath))
+      
+      if (!fs.existsSync(robotsPath)) {
+        return res.status(404).send('Robots.txt not found')
+      }
+      
+      const robots = fs.readFileSync(robotsPath, 'utf-8')
+      console.log('Robots content:', robots)
+      
+      res.setHeader('Content-Type', 'text/plain; charset=utf-8')
+      res.status(200).send(robots)
+      console.log('Robots.txt sent successfully')
+      return
+    } catch (error) {
+      console.error('Robots.txt error:', error)
+      return res.status(500).send('Error loading robots.txt: ' + error.message)
+    }
+  }
+  
+  // Regular SSR
+  console.log('Regular SSR request')
   try {
-    const url = req.url || '/'
-    
-    // Load template
     const templatePath = path.join(process.cwd(), 'dist/client/index.html')
-    
-    if (!fs.existsSync(templatePath)) {
-      throw new Error(`Template not found at: ${templatePath}`)
-    }
-    
     const template = fs.readFileSync(templatePath, 'utf-8')
-
-    // Load SSR module
+    
     const serverPath = path.join(process.cwd(), 'dist/server/entry-server.js')
-    
-    if (!fs.existsSync(serverPath)) {
-      throw new Error(`Server bundle not found at: ${serverPath}`)
-    }
-
     const { render } = await import(serverPath)
-    
-    if (!render) {
-      throw new Error('render function not found')
-    }
-    
     const { appHtml } = await render(url)
-
-    if (!appHtml) {
-      throw new Error('render() returned no appHtml')
-    }
-
-    // Insert HTML
+    
     const html = template.replace(
       '<div id="root"></div>',
       `<div id="root">${appHtml}</div>`
     )
-
-    res.setHeader('Content-Type', 'text/html; charset=utf-8')
-    res.setHeader('Cache-Control', 's-maxage=60, stale-while-revalidate')
-    res.status(200).send(html)
     
+    res.setHeader('Content-Type', 'text/html; charset=utf-8')
+    res.status(200).send(html)
+    console.log('SSR sent successfully')
   } catch (error) {
     console.error('SSR Error:', error)
-    
     res.status(500).send(`
       <!DOCTYPE html>
       <html>
-        <head><title>SSR Error</title></head>
+        <head><title>Error</title></head>
         <body>
-          <h1>Server Error</h1>
+          <h1>SSR Error</h1>
           <pre>${error.message}</pre>
           <pre>${error.stack}</pre>
         </body>
