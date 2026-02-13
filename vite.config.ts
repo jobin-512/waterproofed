@@ -17,6 +17,8 @@ export default defineConfig({
     noExternal: [
       '@tanstack/react-router',
       '@tanstack/router-core',
+      '@splidejs/react-splide',  
+      '@splidejs/splide',  
     ],
   },
 })
