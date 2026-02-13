@@ -1,0 +1,26 @@
+{
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist/client",
+  "installCommand": "pnpm install",
+  "framework": null,
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/(.*\\.(ico|png|jpg|jpeg|gif|svg|webp|js|css|json|woff|woff2|ttf|eot))",
+      "dest": "/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/api/ssr"
+    }
+  ],
+  "functions": {
+    "api/ssr.js": {
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  }
+}

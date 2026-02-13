@@ -1,17 +1,23 @@
+// src/entry-server.tsx
 import { renderToString } from 'react-dom/server'
 import { RouterProvider } from '@tanstack/react-router'
-import { createRouter } from './router'
+import { createMemoryHistory } from '@tanstack/react-router'
+import { createRouter as createTanStackRouter } from '@tanstack/react-router'
+import { routeTree } from './routeTree.gen'
 
+export async function render(url: string) {
+  const history = createMemoryHistory({
+    initialEntries: [url],
+  })
 
+  const router = createTanStackRouter({
+    routeTree,
+    history,
+  })
 
-  export async function render(url: string) {
-  const router = createRouter(url)
-
-  // Load the router
   await router.load()
 
-  // Render to string (NOT stream)
-  const appHtml = renderToString(<RouterProvider router={router} />)
+  const html = renderToString(<RouterProvider router={router} />)
 
-  return { appHtml }
-}   
+  return { appHtml: html }
+}
