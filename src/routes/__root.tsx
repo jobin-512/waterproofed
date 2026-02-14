@@ -6,8 +6,8 @@ export const Route = createRootRoute({
     <>
     <head>
       <HeadContent />
-    </head>
+    </head>   
       <Outlet />
     </>
-  ),
+  ),    
 })
