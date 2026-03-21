@@ -22,9 +22,11 @@ const BlogList = () => {
     "blogs/b18.webp",
     "blogs/b19.webp",
     "blogs/b20.webp",
+    "blogs/b21.jpg",
   ];
 
   const BLOGS = [
+    { id: 25, path: "/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California", title: "Why Waterproofing Is Your Best Defense Against Mold in Southern California", image: images[20] },
     { id: 24, path: "/blogs/How-an-Under-Deck-Waterproofing-System-Protects-Your-Home-in-Hollywood", title: "How an Under-Deck Waterproofing System Protects Your Home in Hollywood", image: images[4] },
     { id: 23, path: "/blogs/Stop-Weather-Damage-with-LA-Roof-Deck-Waterproofing", title: "Stop Weather Damage with LA Roof Deck Waterproofing", image: images[3] },
     { id: 22, path: "/blogs/Sant-Monica-Homeowner-Waterproof-Your-Patio-Deck-Now", title: "Sant Monica Homeowners: Waterproof Your Patio Deck Now!", image: images[2] },

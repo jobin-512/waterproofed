@@ -1,0 +1,16 @@
+import { createFileRoute } from '@tanstack/react-router'
+
+export const Route = createFileRoute(
+  '/_layout/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California',
+)({
+  component: RouteComponent,
+})
+
+function RouteComponent() {
+  return (
+    <div>
+      Hello
+      "/_layout/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California"!
+    </div>
+  )
+}

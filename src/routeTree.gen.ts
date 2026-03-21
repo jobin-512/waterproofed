@@ -20,9 +20,11 @@ import { Route as LayoutContactRouteImport } from './routes/_layout/contact'
 import { Route as LayoutBlogRouteImport } from './routes/_layout/blog'
 import { Route as LayoutAboutUsRouteImport } from './routes/_layout/about-us'
 import { Route as LayoutServicesPlanterWaterproofingCoatingRepairRouteImport } from './routes/_layout/services/planter-waterproofing-coating-repair'
+import { Route as LayoutServicesMoldRemediationChar38DetectionRouteImport } from './routes/_layout/services/mold-remediation-&-detection'
 import { Route as LayoutServicesDeckWaterproofingCoatingRepairRouteImport } from './routes/_layout/services/deck-waterproofing-coating-repair'
 import { Route as LayoutServicesBalconyWaterproofingCoatingRepairRouteImport } from './routes/_layout/services/balcony-waterproofing-coating-repair'
 import { Route as LayoutServicesProfessionalConcreteFloorLevelingRouteImport } from './routes/_layout/services/Professional-Concrete-Floor-Leveling'
+import { Route as LayoutBlogsWhyWaterproofingIsYourBestDefenseAgainstMoldInSouthernCaliforniaRouteImport } from './routes/_layout/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California'
 import { Route as LayoutBlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRouteImport } from './routes/_layout/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs'
 import { Route as LayoutBlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRouteImport } from './routes/_layout/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living'
 import { Route as LayoutBlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRouteImport } from './routes/_layout/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property'
@@ -111,6 +113,12 @@ const LayoutServicesPlanterWaterproofingCoatingRepairRoute =
     path: '/services/planter-waterproofing-coating-repair',
     getParentRoute: () => LayoutRoute,
   } as any)
+const LayoutServicesMoldRemediationChar38DetectionRoute =
+  LayoutServicesMoldRemediationChar38DetectionRouteImport.update({
+    id: '/services/mold-remediation-&-detection',
+    path: '/services/mold-remediation-&-detection',
+    getParentRoute: () => LayoutRoute,
+  } as any)
 const LayoutServicesDeckWaterproofingCoatingRepairRoute =
   LayoutServicesDeckWaterproofingCoatingRepairRouteImport.update({
     id: '/services/deck-waterproofing-coating-repair',
@@ -129,6 +137,14 @@ const LayoutServicesProfessionalConcreteFloorLevelingRoute =
     path: '/services/Professional-Concrete-Floor-Leveling',
     getParentRoute: () => LayoutRoute,
   } as any)
+const LayoutBlogsWhyWaterproofingIsYourBestDefenseAgainstMoldInSouthernCaliforniaRoute =
+  LayoutBlogsWhyWaterproofingIsYourBestDefenseAgainstMoldInSouthernCaliforniaRouteImport.update(
+    {
+      id: '/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California',
+      path: '/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California',
+      getParentRoute: () => LayoutRoute,
+    } as any,
+  )
 const LayoutBlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute =
   LayoutBlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRouteImport.update({
     id: '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs',
@@ -392,9 +408,11 @@ export interface FileRoutesByFullPath {
   '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property': typeof LayoutBlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute
   '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living': typeof LayoutBlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute
   '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs': typeof LayoutBlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute
+  '/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California': typeof LayoutBlogsWhyWaterproofingIsYourBestDefenseAgainstMoldInSouthernCaliforniaRoute
   '/services/Professional-Concrete-Floor-Leveling': typeof LayoutServicesProfessionalConcreteFloorLevelingRoute
   '/services/balcony-waterproofing-coating-repair': typeof LayoutServicesBalconyWaterproofingCoatingRepairRoute
   '/services/deck-waterproofing-coating-repair': typeof LayoutServicesDeckWaterproofingCoatingRepairRoute
+  '/services/mold-remediation-&-detection': typeof LayoutServicesMoldRemediationChar38DetectionRoute
   '/services/planter-waterproofing-coating-repair': typeof LayoutServicesPlanterWaterproofingCoatingRepairRoute
 }
 export interface FileRoutesByTo {
@@ -439,9 +457,11 @@ export interface FileRoutesByTo {
   '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property': typeof LayoutBlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute
   '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living': typeof LayoutBlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute
   '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs': typeof LayoutBlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute
+  '/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California': typeof LayoutBlogsWhyWaterproofingIsYourBestDefenseAgainstMoldInSouthernCaliforniaRoute
   '/services/Professional-Concrete-Floor-Leveling': typeof LayoutServicesProfessionalConcreteFloorLevelingRoute
   '/services/balcony-waterproofing-coating-repair': typeof LayoutServicesBalconyWaterproofingCoatingRepairRoute
   '/services/deck-waterproofing-coating-repair': typeof LayoutServicesDeckWaterproofingCoatingRepairRoute
+  '/services/mold-remediation-&-detection': typeof LayoutServicesMoldRemediationChar38DetectionRoute
   '/services/planter-waterproofing-coating-repair': typeof LayoutServicesPlanterWaterproofingCoatingRepairRoute
 }
 export interface FileRoutesById {
@@ -488,9 +508,11 @@ export interface FileRoutesById {
   '/_layout/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property': typeof LayoutBlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute
   '/_layout/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living': typeof LayoutBlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute
   '/_layout/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs': typeof LayoutBlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute
+  '/_layout/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California': typeof LayoutBlogsWhyWaterproofingIsYourBestDefenseAgainstMoldInSouthernCaliforniaRoute
   '/_layout/services/Professional-Concrete-Floor-Leveling': typeof LayoutServicesProfessionalConcreteFloorLevelingRoute
   '/_layout/services/balcony-waterproofing-coating-repair': typeof LayoutServicesBalconyWaterproofingCoatingRepairRoute
   '/_layout/services/deck-waterproofing-coating-repair': typeof LayoutServicesDeckWaterproofingCoatingRepairRoute
+  '/_layout/services/mold-remediation-&-detection': typeof LayoutServicesMoldRemediationChar38DetectionRoute
   '/_layout/services/planter-waterproofing-coating-repair': typeof LayoutServicesPlanterWaterproofingCoatingRepairRoute
 }
 export interface FileRouteTypes {
@@ -537,9 +559,11 @@ export interface FileRouteTypes {
     | '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property'
     | '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living'
     | '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs'
+    | '/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California'
     | '/services/Professional-Concrete-Floor-Leveling'
     | '/services/balcony-waterproofing-coating-repair'
     | '/services/deck-waterproofing-coating-repair'
+    | '/services/mold-remediation-&-detection'
     | '/services/planter-waterproofing-coating-repair'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -584,9 +608,11 @@ export interface FileRouteTypes {
     | '/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property'
     | '/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living'
     | '/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs'
+    | '/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California'
     | '/services/Professional-Concrete-Floor-Leveling'
     | '/services/balcony-waterproofing-coating-repair'
     | '/services/deck-waterproofing-coating-repair'
+    | '/services/mold-remediation-&-detection'
     | '/services/planter-waterproofing-coating-repair'
   id:
     | '__root__'
@@ -632,9 +658,11 @@ export interface FileRouteTypes {
     | '/_layout/blogs/Why-Summer-Is-the-Best-Time-to-Waterproof-Your-Property'
     | '/_layout/blogs/Why-Waterproof-Deck-Coatings-Are-Essential-for-Outdoor-Living'
     | '/_layout/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs'
+    | '/_layout/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California'
     | '/_layout/services/Professional-Concrete-Floor-Leveling'
     | '/_layout/services/balcony-waterproofing-coating-repair'
     | '/_layout/services/deck-waterproofing-coating-repair'
+    | '/_layout/services/mold-remediation-&-detection'
     | '/_layout/services/planter-waterproofing-coating-repair'
   fileRoutesById: FileRoutesById
 }
@@ -722,6 +750,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof LayoutServicesPlanterWaterproofingCoatingRepairRouteImport
       parentRoute: typeof LayoutRoute
     }
+    '/_layout/services/mold-remediation-&-detection': {
+      id: '/_layout/services/mold-remediation-&-detection'
+      path: '/services/mold-remediation-&-detection'
+      fullPath: '/services/mold-remediation-&-detection'
+      preLoaderRoute: typeof LayoutServicesMoldRemediationChar38DetectionRouteImport
+      parentRoute: typeof LayoutRoute
+    }
     '/_layout/services/deck-waterproofing-coating-repair': {
       id: '/_layout/services/deck-waterproofing-coating-repair'
       path: '/services/deck-waterproofing-coating-repair'
@@ -741,6 +776,13 @@ declare module '@tanstack/react-router' {
       path: '/services/Professional-Concrete-Floor-Leveling'
       fullPath: '/services/Professional-Concrete-Floor-Leveling'
       preLoaderRoute: typeof LayoutServicesProfessionalConcreteFloorLevelingRouteImport
+      parentRoute: typeof LayoutRoute
+    }
+    '/_layout/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California': {
+      id: '/_layout/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California'
+      path: '/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California'
+      fullPath: '/blogs/Why-Waterproofing-Is-Your-Best-DefenseAgainst-Mold-in-Southern-California'
+      preLoaderRoute: typeof LayoutBlogsWhyWaterproofingIsYourBestDefenseAgainstMoldInSouthernCaliforniaRouteImport
       parentRoute: typeof LayoutRoute
     }
     '/_layout/blogs/Why-Waterproofing-Balcony-Decks-Saves-You-Big-Repairs': {
@@ -1011,9 +1053,11 @@ interface LayoutRouteChildren {
   LayoutBlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute: typeof LayoutBlogsWhySummerIsTheBestTimeToWaterproofYourPropertyRoute
   LayoutBlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute: typeof LayoutBlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute
   LayoutBlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute: typeof LayoutBlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute
+  LayoutBlogsWhyWaterproofingIsYourBestDefenseAgainstMoldInSouthernCaliforniaRoute: typeof LayoutBlogsWhyWaterproofingIsYourBestDefenseAgainstMoldInSouthernCaliforniaRoute
   LayoutServicesProfessionalConcreteFloorLevelingRoute: typeof LayoutServicesProfessionalConcreteFloorLevelingRoute
   LayoutServicesBalconyWaterproofingCoatingRepairRoute: typeof LayoutServicesBalconyWaterproofingCoatingRepairRoute
   LayoutServicesDeckWaterproofingCoatingRepairRoute: typeof LayoutServicesDeckWaterproofingCoatingRepairRoute
+  LayoutServicesMoldRemediationChar38DetectionRoute: typeof LayoutServicesMoldRemediationChar38DetectionRoute
   LayoutServicesPlanterWaterproofingCoatingRepairRoute: typeof LayoutServicesPlanterWaterproofingCoatingRepairRoute
 }
 
@@ -1087,12 +1131,16 @@ const LayoutRouteChildren: LayoutRouteChildren = {
     LayoutBlogsWhyWaterproofDeckCoatingsAreEssentialForOutdoorLivingRoute,
   LayoutBlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute:
     LayoutBlogsWhyWaterproofingBalconyDecksSavesYouBigRepairsRoute,
+  LayoutBlogsWhyWaterproofingIsYourBestDefenseAgainstMoldInSouthernCaliforniaRoute:
+    LayoutBlogsWhyWaterproofingIsYourBestDefenseAgainstMoldInSouthernCaliforniaRoute,
   LayoutServicesProfessionalConcreteFloorLevelingRoute:
     LayoutServicesProfessionalConcreteFloorLevelingRoute,
   LayoutServicesBalconyWaterproofingCoatingRepairRoute:
     LayoutServicesBalconyWaterproofingCoatingRepairRoute,
   LayoutServicesDeckWaterproofingCoatingRepairRoute:
     LayoutServicesDeckWaterproofingCoatingRepairRoute,
+  LayoutServicesMoldRemediationChar38DetectionRoute:
+    LayoutServicesMoldRemediationChar38DetectionRoute,
   LayoutServicesPlanterWaterproofingCoatingRepairRoute:
     LayoutServicesPlanterWaterproofingCoatingRepairRoute,
 }

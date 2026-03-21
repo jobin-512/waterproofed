@@ -250,6 +250,14 @@ export default function Header() {
                         <div className="font-semibold text-gray-800">Concrete Floor Leveling</div>
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
                       </a>
+                      <a 
+                        href="/services/mold-remediation-&-detection"
+                        className="block px-4 py-3 text-gray-700 hover:bg-gray-50 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsServicesDropdownOpen(false)}
+                      >
+                        <div className="font-semibold text-gray-800">Mold Remediation</div>
+                        <div className="text-sm text-gray-600">Mold Remediation & Detection Servicces</div>
+                      </a>
                     </div>
                   </div>
                 )}
@@ -417,7 +425,7 @@ export default function Header() {
 
             {/* Mobile Menu Dropdown */}
             {isMobileMenuOpen && (
-              <div className="mt-4 bg-white border rounded-lg shadow-lg max-h-[70vh] overflow-y-auto">
+              <div className="mt-4 bg-white border rounded-lg shadow-lg max-h-[60vh] overflow-y-auto">
                 <nav className="flex flex-col">
                   <a 
                     href="/" 
@@ -509,6 +517,14 @@ export default function Header() {
                       >
                         <div className="font-medium text-gray-800">Concrete Floor Leveling</div>
                         <div className="text-sm text-gray-600">Coating & Repair Services</div>
+                      </a>
+                      <a 
+                        href="/services/mold-remediation-&-detection"
+                        className="block px-6 py-3 text-gray-700 hover:bg-gray-100 hover:text-[#00A7E8] transition-colors duration-200"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        <div className="font-medium text-gray-800">Mold Remediation</div>
+                        <div className="text-sm text-gray-600">Mold Remediation & Detection Services</div>
                       </a>
                     </div>
                     )}
