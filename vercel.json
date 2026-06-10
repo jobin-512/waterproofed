@@ -5,6 +5,21 @@
   "framework": null,
   "routes": [
     {
+      "src": "/sitemap.xml",
+      "headers": { "Content-Type": "application/xml" },
+      "dest": "/sitemap.xml"
+    },
+    {
+      "src": "/llms.txt",
+      "headers": { "Content-Type": "text/plain; charset=utf-8" },
+      "dest": "/llms.txt"
+    },
+    {
+      "src": "/robots.txt",
+      "headers": { "Content-Type": "text/plain" },
+      "dest": "/robots.txt"
+    },
+    {
       "src": "/assets/(.*)",
       "dest": "/assets/$1"
     },
@@ -15,26 +30,6 @@
     {
       "src": "/(.*)",
       "dest": "/api/ssr"
-    },{
-      "src": "/sitemap.xml",
-      "headers": { "Content-Type": "application/xml" },
-      "dest": "/sitemap.xml"
-    },
-    {
-      "src": "/llms.txt",
-      "headers": { "Content-Type": "text/plain" },
-      "dest": "/llms.txt"
-    },
-    {
-      "src": "/robots.txt",
-      "headers": { "Content-Type": "text/plain" },
-      "dest": "/robots.txt"
     }
-  ],
-  "functions": {
-    "api/ssr.js": {
-      "memory": 1024,
-      "maxDuration": 30
-    }
-  }
+  ]
 }
