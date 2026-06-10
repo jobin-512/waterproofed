@@ -21,6 +21,11 @@
       "dest": "/sitemap.xml"
     },
     {
+      "src": "/llms.txt",
+      "headers": { "Content-Type": "text/plain" },
+      "dest": "/llms.txt"
+    },
+    {
       "src": "/robots.txt",
       "headers": { "Content-Type": "text/plain" },
       "dest": "/robots.txt"
